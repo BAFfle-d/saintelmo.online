@@ -2,10 +2,11 @@ import { useState, useRef, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Music, Heart, ExternalLink, Info, Mail, StickyNote, FlaskConical, Play, Youtube, Video, ChevronRight, Share2, Check } from 'lucide-react';
 import { Modal, BauhausButton } from './components/BauhausUI';
+import { scripts } from './data/scripts';
 
 interface Scene {
   id: string;
-  title: string;
+  title: string;h
   summary: string;
   characters?: string;
   song?: string;
@@ -226,9 +227,10 @@ export default function App() {
   };
 
   const openSceneText = (scene: Scene) => {
-    // For now, we'll use the summary as the text content, split by sentences or lines
-    // In a real app, this would be the actual script text
-    const content = scene.summary;
+    const sceneLines = scripts[scene.id] || [];
+    const content = sceneLines.length > 0
+      ? sceneLines.map(l => l.speaker + ': ' + l.text).join('\n')
+      : scene.summary;
     setCurrentSceneText({ title: scene.title, id: scene.id, content });
     setCurrentLineIndex(0);
     setActiveModal('sceneText');
