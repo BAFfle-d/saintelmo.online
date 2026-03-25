@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Music, Heart, ExternalLink, Info, Mail, StickyNote, FlaskConical, Play, Youtube, Video, ChevronRight, Share2, Check } from 'lucide-react';
 import { Modal, BauhausButton } from './components/BauhausUI';
+import { ScriptViewer, ScriptLine } from './components/ScriptViewer';
 
 interface Scene {
   id: string;
@@ -11,6 +12,7 @@ interface Scene {
   song?: string;
   lyric?: string;
   dialogue?: string;
+  lines?: ScriptLine[];
   hasMusic?: boolean;
 }
 
@@ -120,6 +122,7 @@ export default function App() {
   const [currentSceneText, setCurrentSceneText] = useState<{title: string, id: string, content: string} | null>(null);
   const [currentLineIndex, setCurrentLineIndex] = useState(0);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const [scriptViewerScene, setScriptViewerScene] = useState<Scene | null>(null);
 
   const currentTheme = themes[currentThemeIndex];
   const currentQuote = quotes[currentQuoteIndex];
@@ -983,6 +986,14 @@ export default function App() {
           </div>
         </div>
       </Modal>
+          {/* Script Viewer Modal - password protected */}
+                <ScriptViewer
+                        isOpen={scriptViewerScene !== null}
+                                onClose={() => setScriptViewerScene(null)}
+                                        sceneId={scriptViewerScene?.id ?? ''}
+                                                sceneTitle={scriptViewerScene?.title ?? ''}
+                                                        lines={scriptViewerScene?.lines}
+                                                              />
     </div>
   );
 }
