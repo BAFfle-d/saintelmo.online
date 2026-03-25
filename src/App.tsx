@@ -3,6 +3,7 @@ import { motion } from 'motion/react';
 import { Music, Heart, ExternalLink, Info, Mail, StickyNote, FlaskConical, Play, Youtube, Video, ChevronRight, Share2, Check } from 'lucide-react';
 import { Modal, BauhausButton } from './components/BauhausUI';
 import { ScriptViewer, ScriptLine } from './components/ScriptViewer';
+import { scripts } from './data/scripts';
 
 interface Scene {
   id: string;
@@ -992,7 +993,7 @@ export default function App() {
                                 onClose={() => setScriptViewerScene(null)}
                                         sceneId={scriptViewerScene?.id ?? ''}
                                                 sceneTitle={scriptViewerScene?.title ?? ''}
-                                                        lines={scriptViewerScene?.lines}
+                                                        lines={scriptViewerScene ? scripts[scriptViewerScene.id] : undefined}
                                                               />
     </div>
   );
