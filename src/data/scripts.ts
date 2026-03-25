@@ -1,7 +1,7 @@
 export type ScriptLine = { speaker: string; text: string };
 
 export const scripts: Record<string, ScriptLine[]> = {
-  "000-INTRO": [
+  "01-00": [
     { speaker: `SONG`, text: `[ALLEGEDLY - Full cast number]` },
   ],
   "01-01": [
@@ -25,7 +25,7 @@ export const scripts: Record<string, ScriptLine[]> = {
   "01-08": [
     { speaker: `SONG`, text: `[ALLEGEDLY - Full cast number]` },
   ],
-  "01-09": [
+  "01-09a": [
     { speaker: `SONG`, text: `[ALLEGEDLY - Full cast number]` },
   ],
   "01-10": [
