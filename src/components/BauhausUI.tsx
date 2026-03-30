@@ -25,9 +25,9 @@ export const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, children }
             initial={{ scale: 0.9, opacity: 0, y: 20 }}
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0.9, opacity: 0, y: 20 }}
-            className="relative w-full max-w-4xl bg-bauhaus-white border-4 border-bauhaus-black shadow-[12px_12px_0px_0px_var(--bauhaus-black)] overflow-hidden"
+            className="relative w-full max-w-4xl bg-bauhaus-white border-4 border-bauhaus-black shadow-[12px_12px_0px_0px_var(--bauhaus-black)] overflow-hidden text-bauhaus-black"
           >
-            <div className="flex items-center justify-between p-6 border-b-4 border-bauhaus-black bg-bauhaus-yellow">
+            <div className="flex items-center justify-between p-6 border-b-4 border-bauhaus-black bg-bauhaus-yellow text-bauhaus-black">
               <h2 className="text-3xl font-display uppercase tracking-widest">{title}</h2>
               <button 
                 onClick={onClose}
@@ -75,5 +75,29 @@ export const BauhausButton: React.FC<{
     >
       {children}
     </button>
+  );
+};
+
+export const BauhausInput: React.FC<{
+  value: string;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  placeholder?: string;
+  type?: string;
+  className?: string;
+}> = ({ value, onChange, placeholder, type = 'text', className = '' }) => {
+  return (
+    <input
+      type={type}
+      value={value}
+      onChange={onChange}
+      placeholder={placeholder}
+      className={`
+        w-full px-6 py-4 text-lg font-sans border-4 border-bauhaus-black
+        bg-bauhaus-white text-bauhaus-black placeholder:text-bauhaus-black/40
+        focus:outline-none focus:ring-4 focus:ring-bauhaus-yellow/30
+        transition-all duration-300
+        ${className}
+      `}
+    />
   );
 };
