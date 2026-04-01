@@ -205,9 +205,9 @@ export default function App() {
   };
 
   const youtubeTracks = [
-    { id: 'ETAlIfgJZKY', act: 'Act 1', scene: 'Intro', title: 'Allegedly', versions: { '1.0': 'ETAlIfgJZKY', '1.5': 'BpXg1siK0Gk5VrXl' } },
-    { id: 'ysue5dEzxjI', act: 'Act 1', scene: 'Scene 1', title: 'Sweetheart Deal', versions: { '1.0': 'ysue5dEzxjI' } },
-    { id: '_lhwSoj4ilk', act: 'Act 1', scene: 'Scene 2', title: 'Who Was That (PrePrise 1)', versions: { '1.0': '_lhwSoj4ilk' } },
+    { id: 'ETAIIfgJZKY', act: 'Act 1', scene: 'Intro', title: 'Allegedly', versions: { '1.0': 'ETAIIfgJZKY', '1.5': 'BpXg1siK0Gk5VrXl' } },
+    { id: 'ysue5dEzxjl', act: 'Act 1', scene: 'Scene 1', title: 'Sweetheart Deal', versions: { '1.0': 'ysue5dEzxjl' } },
+    { id: '_lhwSoj4Ilk', act: 'Act 1', scene: 'Scene 2', title: 'Who Was That (PrePrise 1)', versions: { '1.0': '_lhwSoj4Ilk' } },
     { id: 'BThrcKexGvA', act: 'Act 1', scene: 'Scene 3', title: 'They Were Only Boys', versions: { '1.0': 'BThrcKexGvA', '2.0': 'RhZ3OAIIJk2IiK88' } },
     { id: 'Qg-SA255BA4', act: 'Act 1', scene: 'Scene 4', title: 'Reasonable Man', versions: { '1.0': 'Qg-SA255BA4', '2.0': 'RhZ3OAIIJk2IiK88' } },
     { id: 'RcVaEHwWUyo', act: 'Act 1', scene: 'Scene 5', title: 'Questions & Answers', versions: { '1.0': 'RcVaEHwWUyo' } },
@@ -218,11 +218,12 @@ export default function App() {
     { id: 'qIVQvbwPohQ', act: 'Act 1', scene: 'Scene 14', title: 'The Arrest', versions: { '1.0': 'qIVQvbwPohQ' } },
     { id: 'YBeARM-lNeo', act: 'Act 1', scene: 'Finale', title: 'Standard Procedure', versions: { '1.0': 'YBeARM-lNeo' } },
     { id: 'YmZRKBgGhaw', act: 'Act 2', scene: 'Intro', title: 'Who Was That? (Part 3)', versions: { '1.0': 'YmZRKBgGhaw' } },
+    { id: 'bdb6xQDCGZU', act: 'Act 2', scene: 'Scene 4', title: 'Scene 4 Moving', versions: { '1.0': 'bdb6xQDCGZU' } },
     { id: 'iJNhZs7p_2Y', act: 'Act 2', scene: 'Scene 5', title: 'Witch Hunt & Snowstorm', versions: { '1.0': 'iJNhZs7p_2Y', '2.0': 'eTmFxsTFifeHgvdd' } },
-    { id: '08OeZli8uf8', act: 'Act 2', scene: 'Scene 8', title: 'What Did You Do', versions: { '1.0': '08OeZli8uf8' } },
+    { id: '08OeZlI8uf8', act: 'Act 2', scene: 'Scene 8', title: 'What Did You Do', versions: { '1.0': '08OeZlI8uf8' } },
     { id: 'wdesqA9Er9c', act: 'Act 2', scene: 'Scene 9', title: 'Just Like Them, Just Like Me', versions: { '1.0': 'wdesqA9Er9c' } },
     { id: 'Jk3R5NF6eqs', act: 'Act 2', scene: 'Scene 12', title: 'I Need to Walk', versions: { '1.0': 'Jk3R5NF6eqs' } },
-    { id: 'j1lVwTeycPQ', act: 'Act 2', scene: 'Scene 13', title: 'Not Unreasonable, Man', versions: { '1.0': 'j1lVwTeycPQ' } },
+    { id: 'bdb6xQDCGZU', act: 'Act 2', scene: 'Scene 13', title: 'Not Unreasonable, Man', versions: { '1.0': 'bdb6xQDCGZU' } },
     { id: 'cSVe6MhYpC0', act: 'Act 2', scene: 'Scene 14', title: 'We the People', versions: { '1.0': 'cSVe6MhYpC0' } },
   ];
 
@@ -377,7 +378,7 @@ export default function App() {
       summary: "The opening number establishing the media circus and the 'alleged' nature of the crimes.", 
       characters: "Reporters, Geoff, Maxie, Ensemble",
       hasMusic: true,
-      youtubeId: "niNLu3u8Fps",
+      youtubeId: "ETAIIfgJZKY",
       lyric: "ALLEGEDLY! ALLEGEDLY!\nWe must use the word 'allegedly' until the final gavel falls.\nGeoffrey Aaron Goldstein. Convicted. Continental. Charismatic.\nThe world is a stage, and I've simply bought the best seats.",
       script: [
         { type: 'musical-number', speaker: `SONG`, text: `[ALLEGEDLY - Full cast number]` }
@@ -389,7 +390,7 @@ export default function App() {
       summary: "Geoff secures a lenient house arrest deal while his empire continues to grow.", 
       characters: "Geoff, Maxie, Buck Jr, Stacey, Officer",
       hasMusic: true,
-      youtubeId: "niNLu3u8Fps",
+      youtubeId: "ysue5dEzxjl",
       script: [
         { type: 'dialogue', speaker: `BUCK JR.`, text: `We pushed as far as we could.` },
         { type: 'dialogue', speaker: `BUCK JR.`, text: `You’re well above the curve on this.` },
@@ -553,7 +554,7 @@ export default function App() {
       summary: "Gus, a homeless man, catches a glimpse of the island's inner workings.", 
       characters: "Gus, Maxie",
       hasMusic: true,
-      youtubeId: "niNLu3u8Fps",
+      youtubeId: "_lhwSoj4Ilk",
       lyric: "WHO WAS THAT?\nIn the shadows of the pier.\nWHO WAS THAT?\nA face I shouldn't fear.\nBut the eyes, they tell a story\nOf a power and a glory\nThat I'll never, ever know.",
       script: [
         { type: 'stage-direction', text: `Exterior terrace / sidewalk.` },
@@ -704,7 +705,7 @@ export default function App() {
       summary: "A haunting number about the vulnerability of those caught in the web.", 
       characters: "Survivor, Ensemble",
       hasMusic: true,
-      youtubeId: "niNLu3u8Fps",
+      youtubeId: "BThrcKexGvA",
       lyric: "THEY WERE JUST BOYS\nWith dreams of a life they'd never see.\nTHEY WERE JUST BOYS\nCaught in a web of luxury.\nNow the silence is the only sound\nIn a world where justice can't be found.",
       script: [
         { type: 'dialogue', speaker: `MAXIE`, text: `I had doubts.` },
@@ -814,7 +815,7 @@ export default function App() {
       summary: "The Solicitor General struggles with the pressure to look the other way.", 
       characters: "Solicitor General, Assistant",
       hasMusic: true,
-      youtubeId: "niNLu3u8Fps",
+      youtubeId: "Qg-SA255BA4",
       lyric: "I'M A REASONABLE MAN\nI follow the law, I follow the plan.\nBut when the truth is a jagged pill\nAnd the powerful have the will to kill\nCan I still be a reasonable man?",
       script: [
         { type: 'dialogue', speaker: `RONNIE`, text: `Thirteen months already. Time flies when you’re governing at a very high level. Very high. People don’t understand the pace. It’s exhausting being right this often.` },
@@ -924,7 +925,6 @@ export default function App() {
       summary: "The currency of the island is exposed.", 
       characters: "Geoff, Maxie, Ensemble",
       hasMusic: true,
-      youtubeId: "niNLu3u8Fps",
       lyric: "A BILLION HERE, A FAVOR THERE\nThat's how you build a world that's fair.\nFair for us, and fair for them\nAs long as we can keep the gem\nOf silence in the air.",
       script: [
         { type: 'stage-direction', text: `**New York Mansion – Offices**` },
@@ -1045,7 +1045,7 @@ export default function App() {
       summary: "A tense interrogation scene.", 
       characters: "Tammy, Maxie",
       hasMusic: true,
-      youtubeId: "niNLu3u8Fps",
+      youtubeId: "RcVaEHwWUyo",
       lyric: "QUESTIONS AND ANSWERS\nA dance for the chancers.\nI ask the truth, you tell a lie\nAnd we both wait for the day to die\nIn this game of questions and answers.",
       script: [
         { type: 'stage-direction', text: `Washington, D.C. – Department of Justice` },
@@ -1129,7 +1129,7 @@ export default function App() {
       summary: "Maxie's solo about the power of knowing what others hide.", 
       characters: "Maxie",
       hasMusic: true,
-      youtubeId: "niNLu3u8Fps",
+      youtubeId: "8yOpukgj600",
       lyric: "LITTLE SECRETS\nI keep them in a jar.\nLITTLE SECRETS\nI know exactly who you are.\nAnd when the time is right\nI'll bring them to the light\nAnd watch you fall from afar.",
       script: [
         { type: 'stage-direction', text: `**New York – Geoff's Office**` },
@@ -1247,261 +1247,255 @@ export default function App() {
       summary: "Geoff meets Gus on the sidewalk and offers him a job as his personal assistant.", 
       characters: "Geoff, Gus, Officer Watson",
       hasMusic: true,
-      youtubeId: "niNLu3u8Fps",
+      youtubeId: "zT0aXnfWyIM",
       script: [
-        { type: 'stage-direction', text: "Exterior terrace / sidewalk." },
-        { type: 'stage-direction', text: "GUS sits on a milk crate. Cardboard sign. Doesn’t look up." },
-        { type: 'dialogue', speaker: "GUS", text: "Hey — you got a dollar?" },
-        { type: 'stage-direction', text: "Geoff steps down." },
-        { type: 'musical-number', text: "[Musical Number]" },
-        { type: 'dialogue', speaker: "GEOFF", text: "Stay right here. I'll be right back." },
-        { type: 'stage-direction', text: "GEOFF goes inside to a drink cart, ignoring the OFFICER who has been watching. GEOFF begins to pour. One cup. Then, without breaking rhythm, a second." },
-        { type: 'dialogue', speaker: "OFFICER", text: "Two cups. How nice. I prefer mine black." },
-        { type: 'stage-direction', text: "Geoff takes a breath in, a little startled but not sweating." },
-        { type: 'dialogue', speaker: "GEOFF", text: "Of course. Please — mi casa es—" },
-        { type: 'dialogue', speaker: "OFFICER", text: "Su casa?" },
-        { type: 'stage-direction', text: "He brings it to his nose. A genuine moment of curiosity." },
-        { type: 'dialogue', speaker: "OFFICER", text: "Good roast. Strong. Hints of — cinnamon? Cacao?" },
-        { type: 'dialogue', speaker: "GEOFF", text: "You know coffee." },
-        { type: 'dialogue', speaker: "OFFICER", text: "I know a lot of things." },
-        { type: 'stage-direction', text: "Beat." },
-        { type: 'dialogue', speaker: "GEOFF", text: "Single-origin cooperative. High elevation. Volcanic soil. Direct trade. Very clean finish. Patagonia." },
-        { type: 'dialogue', speaker: "OFFICER", text: "Mm. Never heard of any of that. I'll look it up on my break." },
-        { type: 'dialogue', speaker: "GEOFF", text: "Your job must be killer." },
-        { type: 'dialogue', speaker: "OFFICER", text: "Sure beats working the corner, right?" },
-        { type: 'stage-direction', text: "Silence." },
-        { type: 'dialogue', speaker: "GEOFF", text: "Staff is cleared to come and go?" },
-        { type: 'dialogue', speaker: "OFFICER", text: "Yes. Why?" },
-        { type: 'dialogue', speaker: "GEOFF", text: "My personal assistant is here. New guy — started during the trial. He's essential, runs all over the city. I wasn't sure if he could come play, with all the commotion and everything—" },
-        { type: 'stage-direction', text: "A glance at his cup." },
-        { type: 'dialogue', speaker: "GEOFF", text: "coffee beans." },
-        { type: 'stage-direction', text: "He moves past the Officer before another question can form." },
-        { type: 'dialogue', speaker: "OFFICER", text: "I wasn't made aware of one. Who is that?" },
-        { type: 'stage-direction', text: "Geoff is already at the terrace door." },
-        { type: 'dialogue', speaker: "GEOFF", text: "I'll grab him. Great guy. You'll love him." },
-        { type: 'stage-direction', text: "Exterior terrace. Geoff steps out with the second cup of coffee for Gus." },
-        { type: 'dialogue', speaker: "GEOFF", text: "Coffee." },
-        { type: 'dialogue', speaker: "GUS", text: "Thanks." },
-        { type: 'dialogue', speaker: "GEOFF", text: "Couldn't bring the dry outside." },
-        { type: 'dialogue', speaker: "GEOFF", text: "Gus smells it. Makes a face." },
-        { type: 'dialogue', speaker: "GUS", text: "Did you put chocolate syrup in this?" },
-        { type: 'dialogue', speaker: "GEOFF", text: "Don't tell Sherlock. To him it's Eritrea's finest." },
-        { type: 'dialogue', speaker: "GUS", text: "Eritrea?" },
-        { type: 'dialogue', speaker: "GEOFF", text: "Ethiopia. Maybe Chile. I said something - expensive sounding. (leaning in) It's from the convenience store down the block. I add cocoa powder." },
-        { type: 'stage-direction', text: "Gus laughs." },
-        { type: 'dialogue', speaker: "GEOFF", text: "Lucky for you, I have a proposition you'd be foolish not to consider. You need a job. You need a bed. I need assistance." },
-        { type: 'dialogue', speaker: "GUS", text: "I'm not—" },
-        { type: 'stage-direction', text: "He stops himself. Looks around. Feels the cold." },
-        { type: 'dialogue', speaker: "GUS", text: "I mean. It is getting cold." },
-        { type: 'stage-direction', text: "A beat. Then, carefully:" },
-        { type: 'dialogue', speaker: "GUS", text: "I'm not the punk, though. Deal?" },
-        { type: 'stage-direction', text: "Geoff freezes. Then laughs — genuinely, which is rare." },
-        { type: 'dialogue', speaker: "GEOFF", text: "You won't be anyone's punk standing next to me. (grinning) And you're not my type either. Relax. But just in case it gets lonely, I'll take your preference under advisement." },
-        { type: 'stage-direction', text: "Gus smirks." },
-        { type: 'dialogue', speaker: "GEOFF", text: "Come on in. Let's get you set up." },
-        { type: 'dialogue', speaker: "GUS", text: "I'm allowed?" },
-        { type: 'dialogue', speaker: "GEOFF", text: "It's my house." },
-        { type: 'dialogue', speaker: "GUS", text: "The cop." },
-        { type: 'stage-direction', text: "Geoff knocks on the glass. The Officer opens the door just enough." },
-        { type: 'dialogue', speaker: "GEOFF", text: "Sherlock — this is—" },
-        { type: 'dialogue', speaker: "GUS", text: "Gus." },
-        { type: 'dialogue', speaker: "OFFICER", text: "Gus." },
-        { type: 'stage-direction', text: "He looks Gus over like he's reading a document." },
-        { type: 'dialogue', speaker: "OFFICER", text: "He's staff?" },
-        { type: 'dialogue', speaker: "GEOFF", text: "Personal assistant. He assists me. Personally." },
-        { type: 'dialogue', speaker: "OFFICER", text: "He checks in when he leaves and when he returns. Will he be here at night when you're up the street?" },
-        { type: 'dialogue', speaker: "GEOFF", text: "He's a grown man. He sleeps where he likes. He will be taking the guest apartment around back. But Gus - (approving) Gus - here will be absolutely necessary while I'm on site." },
-        { type: 'stage-direction', text: "A beat. Geoff tilts his head, almost charmed by his own situation. He walks by OFFICER, GUS follows hesitantly, excusing himself and offering a hand." },
-        { type: 'dialogue', speaker: "GUS", text: "Nice to meet you." },
-        { type: 'stage-direction', text: "The OFFICER looks at him, then at GEOFF, then back at GUS." },
-        { type: 'dialogue', speaker: "OFFICER", text: "Gus" },
-        { type: 'dialogue', speaker: "GUS", text: "Gus." },
-        { type: 'dialogue', speaker: "GEOFF", text: "Geoff! Gus?" },
-        { type: 'dialogue', speaker: "OFFICER", text: "We'll make sure we have all the paperwork arranged for you tomorrow, Mr. Gus." },
-        { type: 'dialogue', speaker: "GEOFF", text: "You know, this whole incarceration arrangement — very nice of the State of New York to provide a doorman and security. But HR is my business, Sherlock. I'll call Scotland Yard myself." },
-        { type: 'dialogue', speaker: "OFFICER", text: "Watson." },
-        { type: 'dialogue', speaker: "GEOFF", text: "I'm sorry." },
-        { type: 'dialogue', speaker: "OFFICER", text: "Officer Watson - that's my name, Gee-off." },
-        { type: 'stage-direction', text: "Stunned Silence." },
-        { type: 'dialogue', speaker: "GEOFF", text: "Of course, Watson, Gus?" },
-        { type: 'dialogue', speaker: "GUS", text: "I'm right behind you." },
-        { type: 'dialogue', speaker: "OFFICER", text: "I'll be here." },
-        { type: 'dialogue', speaker: "GEOFF", text: "He's very good at his job. And what a sweetheart, isn't he?" }
+        { type: 'stage-direction', text: "[SECTION: 9a: Goodbye Watson]" },
+        { type: 'dialogue', speaker: "WATSON", text: "Wallet." },
+        { type: 'dialogue', speaker: "WATSON", text: "Phone." },
+        { type: 'dialogue', speaker: "WATSON", text: "Watch." },
+        { type: 'dialogue', speaker: "WATSON", text: "You're free to go." },
+        { type: 'dialogue', speaker: "GEOFF", text: "Thank you, officer." },
+        { type: 'stage-direction', text: "Watson reaches under the desk and produces a **small bag of coffee beans**." },
+        { type: 'dialogue', speaker: "GEOFF", text: "He slides it across." },
+        { type: 'dialogue', speaker: "WATSON", text: "For you." },
+        { type: 'dialogue', speaker: "GEOFF", text: "Coffee?" },
+        { type: 'dialogue', speaker: "WATSON", text: "From that place you mentioned." },
+        { type: 'dialogue', speaker: "WATSON", text: "The one with cacao." },
+        { type: 'dialogue', speaker: "WATSON", text: "Turns out it's pretty good." },
+        { type: 'dialogue', speaker: "WATSON", text: "Real cacao." },
+        { type: 'dialogue', speaker: "WATSON", text: "Not chocolate syrup." },
+        { type: 'stage-direction', text: "Geoff pauses." },
+        { type: 'dialogue', speaker: "WATSON", text: "Just because someone doesn't correct you" },
+        { type: 'dialogue', speaker: "WATSON", text: "doesn't mean they didn't know you were full of shit the whole time." },
+        { type: 'stage-direction', text: "Geoff picks up the bag." },
+        { type: 'dialogue', speaker: "GEOFF", text: "I'll treasure it." },
+        { type: 'dialogue', speaker: "WATSON", text: "Give Gus my best." },
+        { type: 'dialogue', speaker: "WATSON", text: "Don't ruin him." },
+        { type: 'dialogue', speaker: "WATSON", text: "He's too good for you." },
+        { type: 'stage-direction', text: "Geoff turns to leave, then pauses." },
+        { type: 'dialogue', speaker: "GEOFF", text: "What happens now?" },
+        { type: 'dialogue', speaker: "GEOFF", text: "Retirement?" },
+        { type: 'dialogue', speaker: "WATSON", text: "That's the plan." },
+        { type: 'dialogue', speaker: "WATSON", text: "Thought this would be a nice easy assignment to end on." },
+        { type: 'dialogue', speaker: "WATSON", text: "Protect and serve." },
+        { type: 'dialogue', speaker: "GEOFF", text: "Well." },
+        { type: 'dialogue', speaker: "GEOFF", text: "You did an admirable job protecting me." },
+        { type: 'dialogue', speaker: "WATSON", text: "I wasn't protecting you, sir." },
+        { type: 'dialogue', speaker: "WATSON", text: "I was protecting people from you." },
+        { type: 'stage-direction', text: "A beat." },
+        { type: 'stage-direction', text: "Geoff studies him." },
+        { type: 'dialogue', speaker: "GEOFF", text: "Before you go…" },
+        { type: 'dialogue', speaker: "GEOFF", text: "I never did get your first name." },
+        { type: 'dialogue', speaker: "WATSON", text: "Jeffrey." },
+        { type: 'stage-direction', text: "Geoff blinks." },
+        { type: 'dialogue', speaker: "WATSON", text: "The American spelling." },
+        { type: 'dialogue', speaker: "WATSON", text: "I know." },
+        { type: 'dialogue', speaker: "WATSON", text: "A little honky-tonk." },
+        { type: 'dialogue', speaker: "WATSON", text: "But it's still who I am." },
+        { type: 'stage-direction', text: "Watson returns to his paperwork." },
+        { type: 'dialogue', speaker: "WATSON", text: "You have a nice day, sir." },
+        { type: 'stage-direction', text: "Geoff exits." },
+        { type: 'stage-direction', text: "Watson watches him go." },
+        { type: 'stage-direction', text: "Lights fade." }
       ]
     },
     { 
       id: "01-09b", 
-      title: "Courthouse Gossip", 
-      summary: "Tammy, Lila, and Stacey discuss the 'sweetheart deal' in the courthouse hallway.", 
-      characters: "Lila, Stacey, Tammy",
+      title: "Friends, Old and New", 
+      summary: "Two old friends (Lila and Stacey) reunite in a DOJ corridor, leading to an impromptu first meeting between Buck Jr. and Tammy before her confirmation hearing.", 
+      characters: "Lila, Stacey, Buck Jr., Tammy",
       hasMusic: false,
       script: [
-        { type: 'stage-direction', text: "Interior – Federal courthouse hallway. Midday." },
-        { type: 'stage-direction', text: "LILA exits her office with her bag. STACEY waits near the elevators, scrolling her phone." },
-        { type: 'dialogue', speaker: "LILA", text: "Ready?" },
-        { type: 'dialogue', speaker: "STACEY", text: "Starving." },
-        { type: 'dialogue', speaker: "STACEY", text: "They start walking." },
-        { type: 'stage-direction', text: "TAMMY steps out of her office behind them, holding a folder." },
-        { type: 'dialogue', speaker: "TAMMY", text: "Lila — the sentencing memo from—" },
-        { type: 'stage-direction', text: "She stops when she sees Stacey." },
-        { type: 'dialogue', speaker: "TAMMY", text: "Do you work here too?" },
-        { type: 'dialogue', speaker: "STACEY", text: "Oh — no — next building. Corporate defense." },
-        { type: 'dialogue', speaker: "STACEY", text: "We’re neighbors, basically." },
-        { type: 'dialogue', speaker: "LILA", text: "Stacey was on that case a few months ago — before you came in." },
-        { type: 'dialogue', speaker: "TAMMY", text: "Which case?" },
-        { type: 'dialogue', speaker: "STACEY", text: "Eager." },
-        { type: 'dialogue', speaker: "STACEY", text: "The one with the—" },
-        { type: 'stage-direction', text: "Tammy keeps looking at her." },
-        { type: 'stage-direction', text: "Stacey falters." },
-        { type: 'dialogue', speaker: "STACEY", text: "— you know." },
-        { type: 'dialogue', speaker: "STACEY", text: "The very generous plea deal." },
-        { type: 'dialogue', speaker: "STACEY", text: "About the girls." },
-        { type: 'stage-direction', text: "A small silence." },
-        { type: 'dialogue', speaker: "LILA", text: "The one everyone said was… unusual." },
-        { type: 'dialogue', speaker: "LILA", text: "Right before your predecessor’s appointment." },
-        { type: 'stage-direction', text: "Small silence" },
-        { type: 'dialogue', speaker: "LILA", text: "People thought maybe he did someone a favor—" },
-        { type: 'dialogue', speaker: "LILA", text: "STACEY elbows LILA too late." },
-        { type: 'dialogue', speaker: "LILA", text: "— they gave him a sweetheart deal." },
-        { type: 'stage-direction', text: "Silence." },
-        { type: 'dialogue', speaker: "TAMMY", text: "My office prosecuted it." },
-        { type: 'dialogue', speaker: "TAMMY", text: "And her office defended it." },
-        { type: 'dialogue', speaker: "TAMMY", text: "STACEY and LILA nod." },
-        { type: 'dialogue', speaker: "TAMMY", text: "I didn’t catch your name." },
-        { type: 'dialogue', speaker: "STACEY", text: "Stacey." },
-        { type: 'dialogue', speaker: "TAMMY", text: "Stacey." },
-        { type: 'dialogue', speaker: "TAMMY", text: "Would you understand if I asked my legal secretary to have lunch at her desk?" },
-        { type: 'dialogue', speaker: "STACEY", text: "Yes, ma’am. Completely." },
-        { type: 'stage-direction', text: "STACEY backs toward the elevator." },
-        { type: 'dialogue', speaker: "STACEY", text: "We’ll— talk sometime." },
-        { type: 'stage-direction', text: "She exits." },
-        { type: 'dialogue', speaker: "TAMMY", text: "TAMMY turns to LILA." },
-        { type: 'dialogue', speaker: "LILA", text: "What did I do?" },
-        { type: 'dialogue', speaker: "TAMMY", text: "You speculated about a prosecution in a hallway." },
-        { type: 'dialogue', speaker: "TAMMY", text: "In front of opposing counsel." },
+        { type: 'stage-direction', text: "[SECTION: 9b: Friends, Old and New]" },
+        { type: 'stage-direction', text: "## Summary" },
+        { type: 'stage-direction', text: "**Narrative Beats:** Two old friends (Lila and Stacey) reunite in a DOJ corridor, leading to an impromptu first meeting between Buck Jr. and Tammy before her confirmation hearing." },
+        { type: 'stage-direction', text: "**Thematic Beats:** Professional intimidation vs. competence; the weight of reputation; power dynamics in legal/political circles." },
+        { type: 'stage-direction', text: "**Characters:**" },
+        { type: 'stage-direction', text: "- **Lila:** Junior DOJ staffer, simultaneously terrified of and impressed by her boss Tammy; earnest, slightly overwhelmed" },
+        { type: 'stage-direction', text: "- **Stacey:** Works with Buck Jr.; old friend of Lila's; mediator/witness to the Buck-Tammy encounter" },
+        { type: 'stage-direction', text: "- **Buck Jr.:** Attorney; confident, strategic, deliberately informal; tests boundaries through \"hallway conversations\"" },
+        { type: 'stage-direction', text: "- **Tammy:** DOJ official awaiting confirmation; formidable, exacting, controlled; commands respect through precision and stillness" },
+        { type: 'stage-direction', text: "Mini Scene – DOJ Corridor (Tammy / Buck Jr.)" },
+        { type: 'stage-direction', text: "Washington – DOJ Corridor Outside a Hearing Room" },
+        { type: 'stage-direction', text: "Staff moving quickly. Press noise somewhere nearby." },
+        { type: 'stage-direction', text: "LILA waits with a stack of folders." },
+        { type: 'stage-direction', text: "STACEY approaches." },
+        { type: 'dialogue', speaker: "STACEY", text: "Lila?" },
+        { type: 'dialogue', speaker: "LILA", text: "Stacey?!" },
+        { type: 'stage-direction', text: "They hug." },
+        { type: 'dialogue', speaker: "LILA", text: "Oh my god, I haven't seen you in forever." },
+        { type: 'dialogue', speaker: "STACEY", text: "You disappeared." },
+        { type: 'dialogue', speaker: "LILA", text: "I didn't disappear." },
+        { type: 'dialogue', speaker: "LILA", text: "I got kidnapped by the Department of Justice." },
+        { type: 'dialogue', speaker: "STACEY", text: "Working for Tammy now, right?" },
+        { type: 'dialogue', speaker: "LILA", text: "Yes." },
+        { type: 'stage-direction', text: "(excited whisper)" },
+        { type: 'dialogue', speaker: "LILA", text: "She's terrifying." },
+        { type: 'dialogue', speaker: "STACEY", text: "I've heard." },
+        { type: 'dialogue', speaker: "LILA", text: "No you haven't." },
+        { type: 'dialogue', speaker: "LILA", text: "You've heard rumors." },
+        { type: 'dialogue', speaker: "LILA", text: "She reads everything." },
+        { type: 'dialogue', speaker: "LILA", text: "Footnotes." },
+        { type: 'dialogue', speaker: "LILA", text: "Appendices." },
+        { type: 'dialogue', speaker: "LILA", text: "One time I cited the wrong subsection and she just looked at me like—" },
+        { type: 'stage-direction', text: "(demonstrates Tammy's stare)" },
+        { type: 'dialogue', speaker: "LILA", text: "—and I thought my organs were shutting down." },
+        { type: 'dialogue', speaker: "STACEY", text: "Lila—" },
+        { type: 'dialogue', speaker: "LILA", text: "And she never raises her voice." },
+        { type: 'dialogue', speaker: "LILA", text: "That's the worst part." },
+        { type: 'dialogue', speaker: "LILA", text: "You just feel stupid all the time." },
+        { type: 'dialogue', speaker: "LILA", text: "A voice from behind them." },
+        { type: 'dialogue', speaker: "BUCK JR", text: "I imagine it's educational." },
+        { type: 'dialogue', speaker: "BUCK JR", text: "They turn." },
+        { type: 'dialogue', speaker: "BUCK JR", text: "Buck Jr stands there." },
+        { type: 'dialogue', speaker: "STACEY", text: "Buck." },
+        { type: 'dialogue', speaker: "STACEY", text: "This is Lila." },
+        { type: 'dialogue', speaker: "BUCK JR", text: "Pleasure." },
+        { type: 'dialogue', speaker: "LILA", text: "Oh!" },
+        { type: 'dialogue', speaker: "LILA", text: "You're the attorney." },
+        { type: 'dialogue', speaker: "BUCK JR", text: "One of them." },
+        { type: 'dialogue', speaker: "LILA", text: "Do you have any openings?" },
+        { type: 'dialogue', speaker: "LILA", text: "Because honestly if Tammy fires me I'm going to need somewhere to go." },
+        { type: 'dialogue', speaker: "STACEY", text: "Lila—" },
+        { type: 'dialogue', speaker: "LILA", text: "I'm serious." },
+        { type: 'dialogue', speaker: "LILA", text: "She's impossible." },
+        { type: 'dialogue', speaker: "LILA", text: "A calm voice behind them." },
+        { type: 'dialogue', speaker: "TAMMY", text: "Is something happening here?" },
+        { type: 'dialogue', speaker: "TAMMY", text: "They turn." },
+        { type: 'stage-direction', text: "Tammy stands there holding a folder." },
+        { type: 'dialogue', speaker: "TAMMY", text: "Still. Watching." },
+        { type: 'dialogue', speaker: "LILA", text: "Ms. Tammy—" },
+        { type: 'dialogue', speaker: "STACEY", text: "We were just—" },
+        { type: 'dialogue', speaker: "BUCK JR", text: "Introducing ourselves." },
+        { type: 'dialogue', speaker: "BUCK JR", text: "Buck Jr." },
+        { type: 'dialogue', speaker: "TAMMY", text: "I know who you are." },
+        { type: 'dialogue', speaker: "BUCK JR", text: "I thought it might be polite to say hello before your confirmation." },
+        { type: 'dialogue', speaker: "TAMMY", text: "Professional courtesy would have been scheduling a meeting." },
+        { type: 'dialogue', speaker: "BUCK JR", text: "I find hallway conversations more honest." },
+        { type: 'dialogue', speaker: "TAMMY", text: "They're usually more careless." },
         { type: 'stage-direction', text: "Beat." },
-        { type: 'dialogue', speaker: "TAMMY", text: "Find the memo I asked for this morning." },
-        { type: 'dialogue', speaker: "LILA", text: "Yes." },
-        { type: 'dialogue', speaker: "TAMMY", text: "If you can’t, we’ll discuss whether this office is the right place for you." },
-        { type: 'stage-direction', text: "A long beat." },
-        { type: 'dialogue', speaker: "TAMMY", text: "Do you understand?" },
-        { type: 'dialogue', speaker: "LILA", text: "Yes." },
-        { type: 'stage-direction', text: "TAMMY nods once. Enters her office." },
-        { type: 'stage-direction', text: "Door closes." },
-        { type: 'stage-direction', text: "Lights shift." }
+        { type: 'stage-direction', text: "Buck smiles." },
+        { type: 'dialogue', speaker: "BUCK JR", text: "Congratulations, by the way." },
+        { type: 'dialogue', speaker: "TAMMY", text: "Nothing has happened yet." },
+        { type: 'dialogue', speaker: "BUCK JR", text: "It will." },
+        { type: 'dialogue', speaker: "TAMMY", text: "We'll see." },
+        { type: 'stage-direction', text: "She turns to Lila." },
+        { type: 'dialogue', speaker: "TAMMY", text: "We should go." },
+        { type: 'dialogue', speaker: "TAMMY", text: "Lila quickly gathers her folders." },
+        { type: 'dialogue', speaker: "BUCK JR", text: "I look forward to working with you." },
+        { type: 'dialogue', speaker: "TAMMY", text: "You may not." },
+        { type: 'stage-direction', text: "Tammy walks away." },
+        { type: 'dialogue', speaker: "TAMMY", text: "Lila hurries after her." },
+        { type: 'stage-direction', text: "Buck watches them go." },
+        { type: 'dialogue', speaker: "STACEY", text: "Well." },
+        { type: 'dialogue', speaker: "STACEY", text: "You got your meeting." },
+        { type: 'dialogue', speaker: "BUCK JR", text: "I did." },
+        { type: 'stage-direction', text: "(beat)" },
+        { type: 'dialogue', speaker: "BUCK JR", text: "She's good." },
+        { type: 'stage-direction', text: "Lights fade." }
       ]
     },
     { 
       id: "01-09c", 
-      title: "The Departure", 
-      summary: "Maxie leaves for a trip, entrusting the household to Geoff and Gus.", 
-      characters: "Maxie, Geoff, Gus, Officer Watson",
+      title: "From Cuba to the Dock", 
+      summary: "Gus meets Ginnie at the dock while waiting for the ferry to the island.", 
+      characters: "Ginnie, Gus",
       hasMusic: true,
-      youtubeId: "niNLu3u8Fps",
       script: [
-        { type: 'dialogue', speaker: "MAXIE", text: "I had doubts." },
-        { type: 'dialogue', speaker: "GEOFF", text: "You still do." },
-        { type: 'dialogue', speaker: "MAXIE", text: "Moving someone in after one conversation?" },
-        { type: 'dialogue', speaker: "GEOFF", text: "It wasn’t one conversation." },
-        { type: 'dialogue', speaker: "MAXIE", text: "It was a song." },
-        { type: 'dialogue', speaker: "GEOFF", text: "It was a good one." },
-        { type: 'stage-direction', text: "(She studies him.)" },
-        { type: 'dialogue', speaker: "MAXIE", text: "You don’t know his history." },
-        { type: 'dialogue', speaker: "GEOFF", text: "Yes, I do." },
-        { type: 'stage-direction', text: "(Silence. She waits.)" },
-        { type: 'dialogue', speaker: "GEOFF", text: "His background check cleared. He’s not CIA - he’s not even KGB." },
-        { type: 'dialogue', speaker: "MAXIE", text: "Putin or non-Putin KGB?" },
-        { type: 'dialogue', speaker: "GEOFF", text: "Was there a non-Putin KGB?" },
-        { type: 'dialogue', speaker: "MAXIE", text: "There was a non-Hoover CIA." },
-        { type: 'dialogue', speaker: "GEOFF", text: "NEver mind - I read it all - the court case, his foreclosure, the divorse." },
-        { type: 'dialogue', speaker: "MAXIE", text: "You said you thought he was - like us? Or shared - interests?" },
-        { type: 'dialogue', speaker: "GEOFF", text: "I thought so, but I don’t know. He’s smart - honest - proficient - funny -" },
-        { type: 'dialogue', speaker: "MAXIE", text: "And?" },
-        { type: 'dialogue', speaker: "GEOFF", text: "He doesn’t ask questions. Logistics and the way I like my coffee." },
-        { type: 'dialogue', speaker: "MAXIE", text: "That’s what worries me." },
-        { type: 'dialogue', speaker: "GEOFF", text: "That’s why I trust him." },
-        { type: 'stage-direction', text: "Gus enters from the back hall carrying groceries and dry cleaning. Comfortable. Not timid." },
-        { type: 'dialogue', speaker: "GUS", text: "They were out of oat milk. I got almond." },
-        { type: 'stage-direction', text: "Maxie glances at Geoff automatically." },
-        { type: 'dialogue', speaker: "MAXIE", text: "That’s fine." },
-        { type: 'dialogue', speaker: "GEOFF", text: "On principle." },
-        { type: 'dialogue', speaker: "GUS", text: "You have milk principles?" },
-        { type: 'dialogue', speaker: "GEOFF", text: "I hate cows. And I hate soybeans." },
-        { type: 'dialogue', speaker: "MAXIE", text: "Ask him about it after I go. I don’t need to hear this story again." },
-        { type: 'stage-direction', text: "She zips the suitcase." },
-        { type: 'dialogue', speaker: "MAXIE", text: "I’m leaving tonight. Three weeks. Maybe four." },
-        { type: 'dialogue', speaker: "GUS", text: "Fundraisers?" },
-        { type: 'dialogue', speaker: "MAXIE", text: "Conferences. Golfing with Ronnie." },
-        { type: 'stage-direction', text: "Imitates." },
-        { type: 'dialogue', speaker: "GEOFF", text: "He thinks you’re great - the most great - the greatest woman the world has -" },
-        { type: 'dialogue', speaker: "MAXIE", text: "Shut up. He’s a handsy old creep." },
-        { type: 'dialogue', speaker: "GUS", text: "Wait - Ronnie? The President?" },
-        { type: 'stage-direction', text: "Sighs*." },
-        { type: 'dialogue', speaker: "MAXIE", text: "Yes." },
-        { type: 'dialogue', speaker: "GEOFF", text: "Maxie loves Ronnie, and Ronnie loves Maxie." },
-        { type: 'dialogue', speaker: "MAXIE", text: "He insists on hugging me - just me. A little extra squeeze." },
-        { type: 'dialogue', speaker: "GEOFF", text: "He’s touchy feely, and just a little leacherous." },
-        { type: 'dialogue', speaker: "MAXIE", text: "He’s adhesive. I smell him after for days." },
-        { type: 'dialogue', speaker: "GEOFF", text: "The proximity is vital." },
-        { type: 'dialogue', speaker: "MAXIE", text: "The proximity is torture." },
-        { type: 'stage-direction', text: "Beat." },
-        { type: 'dialogue', speaker: "MAXIE", text: "But I do like to destroy him in golf. Nothing brings me greater joy than seeing his little bottom lip out about to cry when I get a hole in one" },
-        { type: 'stage-direction', text: "Imitates." },
-        { type: 'dialogue', speaker: "GUS", text: "A good golfer - the best. Better than the best woman any other country has." },
-        { type: 'stage-direction', text: "Beat." },
-        { type: 'stage-direction', text: "GEOFF breaks out in laughter and claps his hands." },
-        { type: 'stage-direction', text: "Smiling warmly" },
-        { type: 'dialogue', speaker: "MAXIE", text: "Exactly. I’m off to the money." },
-        { type: 'dialogue', speaker: "GEOFF", text: "You’re more interested in the office, darling, now run along - the Emerald City awaits." },
-        { type: 'stage-direction', text: "Officer Watson appears quietly in the doorway." },
-        { type: 'dialogue', speaker: "WATSON", text: "Afternoon." },
-        { type: 'dialogue', speaker: "GUS", text: "Afternoon, sir." },
-        { type: 'stage-direction', text: "A familiar nod passes between them. Watson does not acknowledge Geoff." },
-        { type: 'stage-direction', text: "GEOFF looks hurt" },
-        { type: 'dialogue', speaker: "GEOFF", text: "Attorney-client privilege extend to golf invitations?" },
-        { type: 'dialogue', speaker: "WATSON", text: "I file who comes and goes. Why. And anything illegal I hear discussed." },
-        { type: 'stage-direction', text: "(Beat.)" },
-        { type: 'dialogue', speaker: "WATSON", text: "That’s the legally required minimum." },
-        { type: 'stage-direction', text: "Watson remains at ease, leaning in shadow." },
-        { type: 'dialogue', speaker: "MAXIE", text: "Are you a maximalist, Officer Watson?" },
-        { type: 'dialogue', speaker: "WATSON", text: "I do my job, I go home. It’s a tough job, this." },
-        { type: 'dialogue', speaker: "MAXIE", text: "Keep a close eye on the two of them. This mid-afternoon boy’s club I’ve not been invited to in here sounds dangerous if unattended to." },
-        { type: 'stage-direction', text: "OFFICER nods*. *MAXIE puts her hand on her luggage." },
-        { type: 'dialogue', speaker: "MAXIE", text: "Car’s waiting." },
-        { type: 'stage-direction', text: "Gus steps forward." },
-        { type: 'dialogue', speaker: "GUS", text: "I’ll carry it." },
-        { type: 'dialogue', speaker: "MAXIE", text: "How positively genteel - thank you, but I can get it." },
-        { type: 'dialogue', speaker: "GUS", text: "Never said you couldn’t. Just helping out." },
-        { type: 'stage-direction', text: "He takes the suitcase anyway." },
-        { type: 'stage-direction', text: "Maxie watches him a moment, follows him outside." },
-        { type: 'dialogue', speaker: "MAXIE", text: "He likes you." },
-        { type: 'dialogue', speaker: "GUS", text: "I’m sorry?" },
-        { type: 'dialogue', speaker: "MAXIE", text: "Geoff. He doesn’t like many people." },
-        { type: 'stage-direction', text: "Beat." },
-        { type: 'dialogue', speaker: "GEOFF", text: "He’s awfully likable, though." },
-        { type: 'dialogue', speaker: "MAXIE", text: "He is. We run in different circles where likability is-" },
-        { type: 'stage-direction', text: "She waves her hand vaguely. Silence." },
-        { type: 'dialogue', speaker: "MAXIE", text: "The older you get, it seems, the more time you spend surrounded by people you’re required to be around, not who you want to be around." },
-        { type: 'stage-direction', text: "She watches for a response." },
-        { type: 'dialogue', speaker: "MAXIE", text: "Donors. Voters. Advisors. Old friends you can’t quite shake." },
-        { type: 'stage-direction', text: "Very few you’d choose." },
-        { type: 'dialogue', speaker: "MAXIE", text: "And very few you’d actually choose." },
-        { type: 'stage-direction', text: "Gus holds steady." },
-        { type: 'dialogue', speaker: "MAXIE", text: "You two will get along fine, I think." },
-        { type: 'dialogue', speaker: "GUS", text: "I try not to be difficult." },
-        { type: 'dialogue', speaker: "MAXIE", text: "Don’t get into the whisky." },
-        { type: 'dialogue', speaker: "GEOFF", text: "If I do - and I won’t - you’ll be my first and only call." },
-        { type: 'dialogue', speaker: "MAXIE", text: "Why?" },
-        { type: 'dialogue', speaker: "GEOFF", text: "Bail money." },
-        { type: 'stage-direction', text: "She laughs*." },
-        { type: 'dialogue', speaker: "GEOFF", text: "Have a good trip. The President awaits." },
-        { type: 'dialogue', speaker: "MAXIE", text: "The President and all the other boys who were kingdoms without any idea of what to do with them." },
-        { type: 'stage-direction', text: "Lights shift." },
-        { type: 'musical-number', text: "[Musical Number]" }
+        { type: 'stage-direction', text: "[SECTION: 9c: From Cuba to the Dock]" },
+        { type: 'dialogue', speaker: "GINNIE", text: "You here for the island?" },
+        { type: 'dialogue', speaker: "GUS", text: "Yeah." },
+        { type: 'dialogue', speaker: "GINNIE", text: "Housekeeping." },
+        { type: 'dialogue', speaker: "GINNIE", text: "You?" },
+        { type: 'dialogue', speaker: "GUS", text: "Something like that." },
+        { type: 'dialogue', speaker: "GUS", text: "She studies his outfit." },
+        { type: 'dialogue', speaker: "GINNIE", text: "You working for the guy?" },
+        { type: 'dialogue', speaker: "GUS", text: "Geoff?" },
+        { type: 'dialogue', speaker: "GINNIE", text: "Yeah." },
+        { type: 'dialogue', speaker: "GUS", text: "We've met." },
+        { type: 'dialogue', speaker: "GINNIE", text: "Good luck with that." },
+        { type: 'dialogue', speaker: "GUS", text: "That bad?" },
+        { type: 'dialogue', speaker: "GINNIE", text: "Depends what you're there for." },
+        { type: 'dialogue', speaker: "GINNIE", text: "It's good money though." },
+        { type: 'dialogue', speaker: "GINNIE", text: "Just gotta get on, do what I came to do, and get out." },
+        { type: 'dialogue', speaker: "GUS", text: "Temporary?" },
+        { type: 'dialogue', speaker: "GINNIE", text: "Forty-eight hours." },
+        { type: 'dialogue', speaker: "GINNIE", text: "Set-up crew." },
+        { type: 'dialogue', speaker: "GINNIE", text: "Weekend crew." },
+        { type: 'dialogue', speaker: "GINNIE", text: "Clean-up crew." },
+        { type: 'dialogue', speaker: "GINNIE", text: "Nobody stays longer than they have to." },
+        { type: 'dialogue', speaker: "GINNIE", text: "Good thing we're set-up." },
+        { type: 'dialogue', speaker: "GINNIE", text: "We'll be gone before the crazy folk arrive." },
+        { type: 'dialogue', speaker: "GUS", text: "Crazy folk?" },
+        { type: 'dialogue', speaker: "GINNIE", text: "You'll see." },
+        { type: 'stage-direction', text: "(lower voice)" },
+        { type: 'dialogue', speaker: "GINNIE", text: "Do you know how much this guy is spending on this weekend?" },
+        { type: 'dialogue', speaker: "GINNIE", text: "Buying the island." },
+        { type: 'dialogue', speaker: "GINNIE", text: "Renovating everything." },
+        { type: 'dialogue', speaker: "GINNIE", text: "The boats." },
+        { type: 'dialogue', speaker: "GINNIE", text: "All that equipment in his office." },
+        { type: 'dialogue', speaker: "GINNIE", text: "And the helicopter the new supervisor's coming in on." },
+        { type: 'dialogue', speaker: "GINNIE", text: "Meanwhile we're taking the ferry." },
+        { type: 'dialogue', speaker: "GINNIE", text: "Must be nice." },
+        { type: 'stage-direction', text: "Ferry horn." },
+        { type: 'stage-direction', text: "Workers begin boarding." },
+        { type: 'dialogue', speaker: "GINNIE", text: "Maintenance ferry's next." },
+        { type: 'dialogue', speaker: "GINNIE", text: "All the guys are on that one." },
+        { type: 'dialogue', speaker: "GINNIE", text: "I'm housekeeping." },
+        { type: 'dialogue', speaker: "GINNIE", text: "See you over there." },
+        { type: 'dialogue', speaker: "GINNIE", text: "She boards." },
+        { type: 'dialogue', speaker: "GINNIE", text: "The ferry pulls away." },
+        { type: 'stage-direction', text: "GUS watches it go." },
+        { type: 'stage-direction', text: "Helicopter rotors begin faintly in the distance." },
+        { type: 'stage-direction', text: "Lights shift." }
       ]
     },
-    { id: "01-09d", title: "Scene 9d", summary: "TBA", hasMusic: false },
-    { id: "01-10", title: "I Know What Happened On That Island", summary: "Gus finally speaks out.", hasMusic: true, youtubeId: "niNLu3u8Fps", script: [
+    { 
+      id: "01-09d", 
+      title: "Jean-Baptiste de La Cruz", 
+      summary: "Gus meets JB, the island's supervisor, and sees Ginnie again.", 
+      characters: "Gus, JB, Ginnie",
+      hasMusic: false,
+      script: [
+        { type: 'stage-direction', text: "[SECTION: 9d: Jean-Baptiste de La Cruz]" },
+        { type: 'dialogue', speaker: "GUS", text: "Nice to meet you, Mr. de la Cruz." },
+        { type: 'dialogue', speaker: "JB", text: "Please, call me JB. Everyone does, even my wife and I would rather her not call me at all!" },
+        { type: 'dialogue', speaker: "GUS", text: "And call me Gus." },
+        { type: 'dialogue', speaker: "GUS", text: "They shake hands." },
+        { type: 'dialogue', speaker: "JB", text: "You're here two days ahead of the weekend." },
+        { type: 'dialogue', speaker: "JB", text: "Set-up crew is already working." },
+        { type: 'dialogue', speaker: "JB", text: "Weekend staff arrive tomorrow." },
+        { type: 'dialogue', speaker: "JB", text: "Clean-up crew follows after." },
+        { type: 'dialogue', speaker: "JB", text: "Nobody stays longer than necessary." },
+        { type: 'dialogue', speaker: "GUS", text: "Right." },
+        { type: 'dialogue', speaker: "JB", text: "I'll be with you as much as I can." },
+        { type: 'dialogue', speaker: "JB", text: "But we both have priorities." },
+        { type: 'stage-direction', text: "(checking clipboard)" },
+        { type: 'dialogue', speaker: "JB", text: "There's a schedule for the teams." },
+        { type: 'dialogue', speaker: "JB", text: "Maintenance." },
+        { type: 'dialogue', speaker: "JB", text: "Dock crew." },
+        { type: 'dialogue', speaker: "JB", text: "Kitchen rotation." },
+        { type: 'dialogue', speaker: "JB", text: "Housekeeping." },
+        { type: 'dialogue', speaker: "JB", text: "Their supervisor is over there." },
+        { type: 'stage-direction', text: "Workers pass. Ginnie struggles behind." },
+        { type: 'dialogue', speaker: "JB", text: "And this is Ginnie." },
+        { type: 'dialogue', speaker: "JB", text: "She's new to the staff." },
+        { type: 'dialogue', speaker: "JB", text: "But she's… familiar with the island." },
+        { type: 'dialogue', speaker: "JB", text: "If you know what I mean." },
+        { type: 'stage-direction', text: "GUS turns." },
+        { type: 'stage-direction', text: "GINNIE freezes for a moment when she recognizes him." },
+        { type: 'dialogue', speaker: "GINNIE", text: "Oh." },
+        { type: 'dialogue', speaker: "GINNIE", text: "Hi." },
+        { type: 'dialogue', speaker: "GINNIE", text: "She moves off quickly." },
+        { type: 'dialogue', speaker: "JB", text: "People come and go quickly here." },
+        { type: 'dialogue', speaker: "JB", text: "Best not to get attached." },
+        { type: 'dialogue', speaker: "JB", text: "He gestures toward the island." },
+        { type: 'dialogue', speaker: "JB", text: "Shall we begin?" },
+        { type: 'dialogue', speaker: "JB", text: "They walk into the island." },
+        { type: 'stage-direction', text: "Lights shift toward the next sequence" }
+      ]
+    },
+    { id: "01-10", title: "I Know What Happened On That Island", summary: "Gus finally speaks out.", hasMusic: true, youtubeId: "wnLDgj_xywo", script: [
         { type: 'stage-direction', text: `Scene: Outside Geoff’s Office` },
         { type: 'stage-direction', text: `Dim corridor on the island. Late evening. Quiet.` },
         { type: 'stage-direction', text: `A heavy door marked **PRIVATE**. This is Geoff’s office.` },
@@ -1638,7 +1632,7 @@ export default function App() {
         { type: 'stage-direction', text: `He opens the door and steps inside.` },
         { type: 'dialogue', speaker: `GUS`, text: `The door closes behind him.` }
       ] },
-    { id: "01-11", title: "Who Was That? (Preprise 2)", summary: "The mystery deepens.", hasMusic: true, youtubeId: "niNLu3u8Fps", script: [
+    { id: "01-11", title: "Who Was That? (Preprise 2)", summary: "The mystery deepens.", hasMusic: true, youtubeId: "Y35kzg4vQBQ", script: [
         { type: 'stage-direction', text: `Morning.` },
         { type: 'stage-direction', text: `The office door opens.` },
         { type: 'stage-direction', text: `GEOFF enters casually, loosening his tie.` },
@@ -1768,8 +1762,90 @@ export default function App() {
         { type: 'dialogue', speaker: `GEOFF`, text: `Just the same in the wrong direction than I thought.` },
         { type: 'dialogue', speaker: `GEOFF`, text: `Scene.` }
       ] },
-    { id: "01-12", title: "Scene 12", summary: "TBA", hasMusic: false },
-    { id: "01-13", title: "The Arrest Waltz", summary: "The law finally catches up, but with a rhythmic twist.", hasMusic: true, youtubeId: "niNLu3u8Fps", script: [
+    { 
+      id: "01-12", 
+      title: "The Appointment", 
+      summary: "Ronnie announces Tammy as Solicitor General, but the ceremony is interrupted by urgent news.", 
+      characters: "Ronnie, Tammy, Ash, Cammy",
+      hasMusic: false, 
+      script: [
+        { type: 'stage-direction', text: "Podium. Flags. Cameras." },
+        { type: 'stage-direction', text: "RONNIE steps to the podium. Applause from staffers and press." },
+        { type: 'stage-direction', text: "TAMMY stands slightly behind and to the side." },
+        { type: 'stage-direction', text: "RONNIE smiles broadly." },
+        { type: 'dialogue', speaker: "RONNIE", text: "Thank you. Thank you very much." },
+        { type: 'dialogue', speaker: "RONNIE", text: "Today we're making an important announcement for the administration and for the country." },
+        { type: 'dialogue', speaker: "RONNIE", text: "As you know, the Department of Justice has been working very hard — tremendous pressure, tremendous attacks, frankly — from people who don't like the work we're doing and don't like the results we're getting." },
+        { type: 'dialogue', speaker: "RONNIE", text: "But we keep winning." },
+        { type: 'dialogue', speaker: "RONNIE", text: "And when you keep winning, you need very good lawyers." },
+        { type: 'dialogue', speaker: "RONNIE", text: "The best lawyers." },
+        { type: 'dialogue', speaker: "RONNIE", text: "And today I'm pleased to announce the appointment of Tam- Tamuh - Tameeluh- Caldwell as Solicitor General of the United States." },
+        { type: 'stage-direction', text: "Whispered" },
+        { type: 'dialogue', speaker: "TAMMY", text: "Tamela." },
+        { type: 'dialogue', speaker: "RONNIE", text: "Tamela? That's a name, is it? Tamela? Can't be having a name no one can pronounce." },
+        { type: 'dialogue', speaker: "TAMMY", text: "Tammy is fine sir." },
+        { type: 'dialogue', speaker: "RONNIE", text: "Tammy. That's a good down home American name. I like it." },
+        { type: 'dialogue', speaker: "RONNIE", text: "Tammy Caldwell. I'm appointing her the Solicitor General of the United States." },
+        { type: 'stage-direction', text: "Applause." },
+        { type: 'dialogue', speaker: "RONNIE", text: "RONNIE gestures toward Tammy." },
+        { type: 'dialogue', speaker: "RONNIE", text: "Tammy comes to us from the Southern District of New York, where she has served with distinction after earlier work in Alabama. A tremendous record. Very tough. Very sharp." },
+        { type: 'dialogue', speaker: "RONNIE", text: "A lot of people in Washington like to talk about legal theory and constitutional interpretation and all of these big words." },
+        { type: 'dialogue', speaker: "RONNIE", text: "Tammy actually understands them." },
+        { type: 'dialogue', speaker: "RONNIE", text: "And more importantly — she understands what this administration is trying to do for the American people." },
+        { type: 'dialogue', speaker: "RONNIE", text: "That's not always easy to find." },
+        { type: 'dialogue', speaker: "RONNIE", text: "Some lawyers, they want to fight the government." },
+        { type: 'dialogue', speaker: "RONNIE", text: "Some lawyers want to fight the president." },
+        { type: 'dialogue', speaker: "RONNIE", text: "Some lawyers wake up in the morning and say, \"How do I stop the administration today?\"" },
+        { type: 'dialogue', speaker: "RONNIE", text: "We've seen a lot of that." },
+        { type: 'dialogue', speaker: "RONNIE", text: "But Tammy has shown something very rare in Washington." },
+        { type: 'dialogue', speaker: "RONNIE", text: "Alignment." },
+        { type: 'dialogue', speaker: "RONNIE", text: "She understands the legal vision of this administration and the direction we're taking the country." },
+        { type: 'dialogue', speaker: "RONNIE", text: "And frankly — it's nice to have someone on our side for a change." },
+        { type: 'stage-direction', text: "Some laughter in the room." },
+        { type: 'dialogue', speaker: "RONNIE", text: "Now people say, \"Why Tammy?\"" },
+        { type: 'dialogue', speaker: "RONNIE", text: "And there are a lot of reasons." },
+        { type: 'dialogue', speaker: "RONNIE", text: "First of all, she's very talented." },
+        { type: 'dialogue', speaker: "RONNIE", text: "Very talented." },
+        { type: 'dialogue', speaker: "RONNIE", text: "Second — we need more women in positions like this." },
+        { type: 'dialogue', speaker: "RONNIE", text: "We really do." },
+        { type: 'dialogue', speaker: "RONNIE", text: "I looked around the room the other day and I said, \"Where are the women lawyers?\"" },
+        { type: 'dialogue', speaker: "RONNIE", text: "And somebody said, \"Well, sir, we have Tammy.\"" },
+        { type: 'dialogue', speaker: "RONNIE", text: "And I said, \"Good. Let's get Tammy up here.\"" },
+        { type: 'dialogue', speaker: "RONNIE", text: "But in all seriousness, she's earned it." },
+        { type: 'dialogue', speaker: "RONNIE", text: "She's tough, she's loyal, and she understands that when this administration sets a legal strategy, the job is to carry it forward." },
+        { type: 'dialogue', speaker: "RONNIE", text: "That's the job." },
+        { type: 'dialogue', speaker: "RONNIE", text: "And she'll do it very well." },
+        { type: 'dialogue', speaker: "RONNIE", text: "We've had some people in government who think their job is to question leadership." },
+        { type: 'dialogue', speaker: "RONNIE", text: "To slow things down." },
+        { type: 'dialogue', speaker: "RONNIE", text: "To ask whether the president is right." },
+        { type: 'dialogue', speaker: "RONNIE", text: "That's not the job." },
+        { type: 'dialogue', speaker: "RONNIE", text: "The job is to win." },
+        { type: 'dialogue', speaker: "RONNIE", text: "And Tammy understands winning." },
+        { type: 'dialogue', speaker: "RONNIE", text: "So we're very excited about this appointment." },
+        { type: 'dialogue', speaker: "RONNIE", text: "I think she's going to be tremendous." },
+        { type: 'dialogue', speaker: "RONNIE", text: "Just tremendous." },
+        { type: 'dialogue', speaker: "RONNIE", text: "He gestures toward her." },
+        { type: 'stage-direction', text: "ASH and CAMMY, speaking almost simultaneously." },
+        { type: 'dialogue', speaker: "ASH", text: "Sir—" },
+        { type: 'dialogue', speaker: "CAMMY", text: "Mr. President—" },
+        { type: 'dialogue', speaker: "ASH", text: "We need to speak with you—" },
+        { type: 'dialogue', speaker: "CAMMY", text: "Immediately." },
+        { type: 'stage-direction', text: "RONNIE pauses, annoyed." },
+        { type: 'dialogue', speaker: "RONNIE", text: "Now?" },
+        { type: 'dialogue', speaker: "ASH", text: "Yes, sir." },
+        { type: 'dialogue', speaker: "CAMMY", text: "It's urgent." },
+        { type: 'dialogue', speaker: "ASH", text: "It can't wait." },
+        { type: 'dialogue', speaker: "CAMMY", text: "We need a moment." },
+        { type: 'stage-direction', text: "A beat." },
+        { type: 'stage-direction', text: "The room goes quiet." },
+        { type: 'stage-direction', text: "RONNIE looks from them to the cameras." },
+        { type: 'stage-direction', text: "Then back to them." },
+        { type: 'stage-direction', text: "RONNIE forces a smile." },
+        { type: 'dialogue', speaker: "RONNIE", text: "Excuse me for just a moment." },
+        { type: 'stage-direction', text: "Lights shift." }
+      ] 
+    },
+    { id: "01-13", title: "The Arrest Waltz", summary: "The law finally catches up, but with a rhythmic twist.", hasMusic: true, youtubeId: "qIVQvbwPohQ", script: [
         { type: 'stage-direction', text: `Podium. Flags. Cameras.` },
         { type: 'stage-direction', text: `RONNIE steps to the podium. Applause from staffers and press.` },
         { type: 'stage-direction', text: `TAMMY stands slightly behind and to the side.` },
@@ -1845,7 +1921,7 @@ export default function App() {
         { type: 'stage-direction', text: `Lights shift.` },
         { type: 'dialogue', speaker: `RONNIE`, text: `End scene.` }
       ] },
-    { id: "01-Finale", title: "Finale Standard Procedure", summary: "The first act ends with the chilling realization of how the system works.", hasMusic: true, youtubeId: "niNLu3u8Fps", script: [{ type: 'musical-number', text: "[Musical Number]" }] },
+    { id: "01-Finale", title: "Finale Standard Procedure", summary: "The first act ends with the chilling realization of how the system works.", hasMusic: true, youtubeId: "YBeARM-lNeo", script: [{ type: 'musical-number', text: "[Musical Number]" }] },
   ];
 
   const act2Scenes: Scene[] = [
@@ -1855,16 +1931,326 @@ export default function App() {
       summary: "The fallout begins. Maxie is in custody, but Geoff is nowhere to be found.", 
       characters: "Maxie, Tammy",
       hasMusic: true,
-      youtubeId: "niNLu3u8Fps",
+      youtubeId: "YmZRKBgGhaw",
       lyric: "WHO WAS THAT?\nThe one who let him go.\nWHO WAS THAT?\nThe one who didn't know.\nOr the one who knew too much\nAnd had the power and the touch\nTo make the truth a show.",
       script: [
         { type: 'musical-number', speaker: `SONG`, text: `[WHO WAS THAT - Act 2 Opener - Full cast]` }
       ]
     },
-    { id: "02-02", title: "Scene 2", summary: "TBA", hasMusic: false },
-    { id: "02-03", title: "Scene 3", summary: "TBA", hasMusic: false },
-    { id: "02-04", title: "Scene 4", summary: "TBA", hasMusic: false },
-    { id: "02-05", title: "Witch Hunt & Snowstorm", summary: "The media frenzy and the cover-up collide.", hasMusic: true, youtubeId: "niNLu3u8Fps", script: [
+    { 
+      id: "02-02", 
+      title: "The Bar", 
+      summary: "Gus visits a quiet bar and sees Ginnie on the news, prompting a realization.", 
+      characters: "Gus, Bartender",
+      hasMusic: false, 
+      script: [
+        { type: 'stage-direction', text: "ACT TWO, SCENE 1 — THE BAR" },
+        { type: 'stage-direction', text: "A quiet bar. Sports on television. Low light. GUS enters and sits at the bar." },
+        { type: 'dialogue', speaker: "BARTENDER", text: "What can I get you?" },
+        { type: 'dialogue', speaker: "GUS", text: "Whiskey—" },
+        { type: 'stage-direction', text: "He stops. A beat. Something internal." },
+        { type: 'dialogue', speaker: "GUS", text: "Can I just get a Coke and a menu?" },
+        { type: 'stage-direction', text: "BARTENDER" },
+        { type: 'dialogue', speaker: "GUS", text: "Sure." },
+        { type: 'stage-direction', text: "The bartender pours the Coke and slides a menu across without ceremony. He turns up the TV. Sports wrapping up. Then the news." },
+        { type: 'stage-direction', text: "BARTENDER" },
+        { type: 'dialogue', speaker: "GUS", text: "You got a team?" },
+        { type: 'dialogue', speaker: "GUS", text: "Used to. You?" },
+        { type: 'stage-direction', text: "BARTENDER" },
+        { type: 'dialogue', speaker: "GUS", text: "Yankees. And — oh, what's the hockey team." },
+        { type: 'dialogue', speaker: "GUS", text: "Doesn't matter, they're all millionaires anyway." },
+        { type: 'dialogue', speaker: "BARTENDER", text: "They don't care who's rooting for them. Why should I care to cheer?" },
+        { type: 'stage-direction', text: "A comfortable beat. Two people who understand each other without explanation." },
+        { type: 'stage-direction', text: "BARTENDER" },
+        { type: 'dialogue', speaker: "GUS", text: "Burger's our specialty." },
+        { type: 'dialogue', speaker: "GUS", text: "What's special about it?" },
+        { type: 'stage-direction', text: "BARTENDER" },
+        { type: 'dialogue', speaker: "GUS", text: "I make it." },
+        { type: 'dialogue', speaker: "GUS", text: "I'll let you know." },
+        { type: 'stage-direction', text: "The news comes on. GINNIE appears on screen — composed, standing with her lawyers, mid-statement. The bartender glances up. Something shifts in his face. Not dramatic. Just recognition." },
+        { type: 'stage-direction', text: "BARTENDER" },
+        { type: 'dialogue', speaker: "GUS", text: "Bless her heart." },
+        { type: 'stage-direction', text: "Gus looks up. Looks away. Looks back." },
+        { type: 'dialogue', speaker: "GUS", text: "You know her?" },
+        { type: 'stage-direction', text: "BARTENDER" },
+        { type: 'dialogue', speaker: "GUS", text: "Know her? She's on the news all the time. She's one of those girls — from that guy with the island. Goldberg or something." },
+        { type: 'dialogue', speaker: "GUS", text: "Gee-off. Geoffrey Aaron Goldstein." },
+        { type: 'stage-direction', text: "BARTENDER" },
+        { type: 'dialogue', speaker: "GUS", text: "That's it! Gee-off? Funny way to say Jeff." },
+        { type: 'dialogue', speaker: "GUS", text: "It is." },
+        { type: 'stage-direction', text: "A beat. Gus is watching the screen." },
+        { type: 'stage-direction', text: "BARTENDER" },
+        { type: 'dialogue', speaker: "GUS", text: "Ever since that Gee-off guy went missing she's on every talk show. Standing there by herself and her lawyers, talking about what a monster he was." },
+        { type: 'dialogue', speaker: "GUS", text: "Brave woman." },
+        { type: 'stage-direction', text: "BARTENDER" },
+        { type: 'dialogue', speaker: "GUS", text: "Brave? That's one word. She's been at this a full decade. Nobody believed her. They threatened her. Someone attacked her once. She keeps going anyway. She's still standing." },
+        { type: 'stage-direction', text: "Beat." },
+        { type: 'dialogue', speaker: "BARTENDER", text: "She's a goddamn hero, you ask me." },
+        { type: 'dialogue', speaker: "GUS", text: "Yeah. She's pretty amazing." },
+        { type: 'stage-direction', text: "He looks at the screen more carefully now." },
+        { type: 'dialogue', speaker: "GUS", text: "Wait — this is here? Is she speaking nearby?" },
+        { type: 'stage-direction', text: "BARTENDER" },
+        { type: 'dialogue', speaker: "GUS", text: "Nah. DC. They're releasing some of this Goldstein guy's personal effects this week. She's up there for it. Brave, sure — but what can she do? They didn't listen for years." },
+        { type: 'stage-direction', text: "quietly, almost to himself" },
+        { type: 'dialogue', speaker: "GUS", text: "Why would they listen now." },
+        { type: 'stage-direction', text: "He stands. Places a bill on the bar. Doesn't pick up the menu." },
+        { type: 'stage-direction', text: "BARTENDER" },
+        { type: 'dialogue', speaker: "GUS", text: "Not hungry anymore?" },
+        { type: 'dialogue', speaker: "GUS", text: "Nah. I got somewhere I need to be. Completely slipped my mind." },
+        { type: 'stage-direction', text: "He exits. The news keeps playing. The bartender watches the door for a moment, then goes back to his work." },
+        { type: 'stage-direction', text: "Lights shift." }
+      ]
+    },
+    { 
+      id: "02-03", 
+      title: "Ginnie's Office", 
+      summary: "Ginnie and her team discuss the lack of progress and the upcoming data dump, until an unexpected note from Gus arrives.", 
+      characters: "Ginnie, Marcus, Assistant",
+      hasMusic: false,
+      script: [
+        { type: 'stage-direction', text: "Lights shift toward Ginnie's office. A working office. Not inspiring. Whiteboards with too much on them. Files in stacks that have developed their own logic. Coffee cups in various states of abandonment." },
+        { type: 'stage-direction', text: "GINNIE stands at the board. Two ADVOCATES — MARCUS and one other — sit with laptops. It's morning. It feels like late." },
+        { type: 'stage-direction', text: "[NOTE: Ginnie is not Joan of Arc. She's someone who had a life before this and can barely remember what it looked like. She's still standing because stopping feels like losing, not because she's fearless.]" },
+        { type: 'dialogue', speaker: "GINNIE", text: "Let's make this quick if we can. I was up late with a call-in show in Hawaii." },
+        { type: 'dialogue', speaker: "MARCUS", text: "Hawaii? That's thousands of miles away." },
+        { type: 'dialogue', speaker: "GINNIE", text: "Right. But they send representation here. They vote for the president." },
+        { type: 'dialogue', speaker: "MARCUS", text: "And?" },
+        { type: 'dialogue', speaker: "GINNIE", text: "And they sympathize. According to polls. The island angle — they live on several. They understand how isolating it can be. I had calls with both coasts and Chicago yesterday. Another one tonight." },
+        { type: 'dialogue', speaker: "MARCUS", text: "But are these actually going to—" },
+        { type: 'dialogue', speaker: "GINNIE", text: "What? What haven't we done, Marcus? Sued? Sued who? Geoff is missing. Maxie is pleading the fifth from her comfortable cell on her iPad. And the President is—" },
+        { type: 'stage-direction', text: "(doing a voice)" },
+        { type: 'stage-direction', text: "The best. The best president ever. Nobody has been more presidential." },
+        { type: 'stage-direction', text: "(back to himself)" },
+        { type: 'dialogue', speaker: "MARCUS", text: "How does Maxie have an iPad? You mean one of the prison tablets?" },
+        { type: 'dialogue', speaker: "GINNIE", text: "iPad." },
+        { type: 'stage-direction', text: "(She finds a list on her desk and reads from it flatly. This is not a new list.)" },
+        { type: 'dialogue', speaker: "GINNIE", text: "Egyptian cotton sheets. An iPad with WiFi — locked up at night, unrestricted during the day. Unlimited computer and library privileges. A medical exemption from work requirements. A small radio, not from commissary. Personal utensils. A large cup with a handle. An extra down pillow." },
+        { type: 'dialogue', speaker: "MARCUS", text: "When did minimum security get a hotel program?" },
+        { type: 'dialogue', speaker: "GINNIE", text: "It didn't. Most of that isn't available through any program. The minimum security facility she was transferred to almost immediately is owned by an associate — hers and Geoff's. The warden is a former sheriff. Same party, same neighborhood, same dinners and country clubs. The only reason she didn't get work release as a first offender is probably because Geoff got away." },
+        { type: 'dialogue', speaker: "MARCUS", text: "How in the hell did he escape custody?" },
+        { type: 'stage-direction', text: "He didn't escape. He was never documented en route. They have him on camera getting in the vehicle and nothing after. Footage from inside the vehicle is missing. The logs have gone missing." },
+        { type: 'stage-direction', text: "(Beat. Let this land before Marcus responds.)" },
+        { type: 'stage-direction', text: "[NOTE: This information is extraordinary. Geoff didn't slip through a crack — the crack was manufactured.]" },
+        { type: 'dialogue', speaker: "GINNIE", text: "No one is being punished." },
+        { type: 'stage-direction', text: "(A beat.)" },
+        { type: 'dialogue', speaker: "MARCUS", text: "Every time something like this happens — I can't believe this is the world I live in. They fall through every crack. But the good cracks. Not the bad ones." },
+        { type: 'stage-direction', text: "The worst usually do. I believe that." },
+        { type: 'stage-direction', text: "(She turns to the board.)" },
+        { type: 'dialogue', speaker: "GINNIE", text: "So. We keep going. The data dump. What do we know?" },
+        { type: 'dialogue', speaker: "MARCUS", text: "Still coming. They keep moving it, but this far past the deadline — it's practically rubbing it in Congress's face not to have released something." },
+        { type: 'dialogue', speaker: "GINNIE", text: "Keep our network active. Make sure we have people ready to speak when it drops." },
+        { type: 'stage-direction', text: "A lot of people are shaken by Geoff's disappearance. Even the most committed ones are rattled. The letters, the calls, people following them—" },
+        { type: 'stage-direction', text: "They're our sisters and brothers. We are bonded by this. I know what they feel. If they want to stay quiet — that's okay. People cope in their own ways. Some had it worse than me." },
+        { type: 'stage-direction', text: "(Beat.)" },
+        { type: 'dialogue', speaker: "GINNIE", text: "Just keep them informed." },
+        { type: 'dialogue', speaker: "MARCUS", text: "When this thing lands — hundreds of thousands of pages. Travel logs. Financial records. Correspondence. Someone has to listen this time." },
+        { type: 'dialogue', speaker: "GINNIE", text: "That puts money in a room. I need a person in a room." },
+        { type: 'dialogue', speaker: "MARCUS", text: "What about the island staff?" },
+        { type: 'dialogue', speaker: "GINNIE", text: "Island folk. He built them an airport. A marina. A school. He didn't bother them for anything else. They're grateful. Disgusted — yes. JB helped get law enforcement there eventually. But they're grateful to the man even if they think he was little Satan." },
+        { type: 'dialogue', speaker: "MARCUS", text: "So we've got nobody. Everyone's insulated." },
+        { type: 'stage-direction', text: "(Beat.)" },
+        { type: 'dialogue', speaker: "MARCUS", text: "Weather says blizzard this weekend." },
+        { type: 'dialogue', speaker: "GINNIE", text: "Good for it." },
+        { type: 'dialogue', speaker: "MARCUS", text: "Slow news cycle. People stuck inside. Nothing else to read about." },
+        { type: 'stage-direction', text: "(Beat.)" },
+        { type: 'dialogue', speaker: "GINNIE", text: "This is our strategy. A snowstorm." },
+        { type: 'dialogue', speaker: "MARCUS", text: "It's not — I mean — you're right. It's a snowstorm. I wish I had something more." },
+        { type: 'stage-direction', text: "(A tired laugh from the room. Ginnie almost smiles.)" },
+        { type: 'dialogue', speaker: "GINNIE", text: "Go home." },
+        { type: 'dialogue', speaker: "MARCUS", text: "I don't mind—" },
+        { type: 'dialogue', speaker: "GINNIE", text: "I know. Go anyway. Come back tomorrow." },
+        { type: 'stage-direction', text: "(They start to gather things.)" },
+        { type: 'stage-direction', text: "The problem isn't the documents. The documents aren't the solution either." },
+        { type: 'stage-direction', text: "(Beat. She's working this out as she says it, not delivering a prepared speech.)" },
+        { type: 'stage-direction', text: "[NOTE: This is not a rousing speech. She's tired and thinking out loud.]" },
+        { type: 'dialogue', speaker: "GINNIE", text: "Cases like these fall apart because of neighbors. Friends. Someone who says — that story doesn't match what I saw. Nobody in this case can say that without being compromised. We need someone who was just there. Not a victim. Not a lawyer. Just — there. Ordinary enough that nobody thought to watch what he saw." },
+        { type: 'stage-direction', text: "(She looks at the board.)" },
+        { type: 'dialogue', speaker: "GINNIE", text: "Go home." },
+        { type: 'stage-direction', text: "(They exit. Ginnie stands alone. She uncaps the marker. Looks at the board. Caps it again.)" },
+        { type: 'stage-direction', text: "[NOTE: Uncap, look, cap. She knows exactly what needs to be written. She doesn't have what she needs to write it.]" },
+        { type: 'stage-direction', text: "(The ASSISTANT enters.)" },
+        { type: 'stage-direction', text: "Hey. Sorry — I think I forgot to give you this yesterday." },
+        { type: 'dialogue', speaker: "GINNIE", text: "Yesterday." },
+        { type: 'dialogue', speaker: "ASSISTANT", text: "Late. I meant to—" },
+        { type: 'dialogue', speaker: "GINNIE", text: "What is it." },
+        { type: 'stage-direction', text: "(The assistant hands her a note. Ginnie reads. A long beat.)" },
+        { type: 'dialogue', speaker: "GINNIE", text: "Wait — does this say Gus?" },
+        { type: 'dialogue', speaker: "ASSISTANT", text: "Yeah. He called a little while ago to confirm. He's in DC. About an hour out." },
+        { type: 'stage-direction', text: "(Ginnie reads the note again. Quietly.)" },
+        { type: 'dialogue', speaker: "GINNIE", text: "\"Ginnie. Dusting was acceptable. A person in that building heard.\"" },
+        { type: 'stage-direction', text: "(Beat.)" },
+        { type: 'dialogue', speaker: "ASSISTANT", text: "Is he — should I know who this is?" },
+        { type: 'dialogue', speaker: "GINNIE", text: "I didn't know his name. I didn't think—" },
+        { type: 'stage-direction', text: "(She stops. Looks at the note.)" },
+        { type: 'dialogue', speaker: "GINNIE", text: "Make coffee. Order food — a platter, something. Set up the conference room." },
+        { type: 'dialogue', speaker: "ASSISTANT", text: "How many people?" },
+        { type: 'dialogue', speaker: "GINNIE", text: "Call Marcus back in. Get Leslie. Get the team." },
+        { type: 'stage-direction', text: "(The assistant moves to go.)" },
+        { type: 'dialogue', speaker: "GINNIE", text: "And—" },
+        { type: 'stage-direction', text: "(The assistant stops.)" },
+        { type: 'dialogue', speaker: "GINNIE", text: "Nothing. Go." },
+        { type: 'stage-direction', text: "(The assistant exits. Ginnie sits slowly with the note.)" },
+        { type: 'stage-direction', text: "(She reads it one more time.)" },
+        { type: 'stage-direction', text: "(A long beat.)" },
+        { type: 'stage-direction', text: "(quietly, almost to herself — not a statement, a confession)" },
+        { type: 'dialogue', speaker: "GINNIE", text: "I hope." },
+        { type: 'stage-direction', text: "Lights shift." }
+      ]
+    },
+    { 
+      id: "02-04", 
+      title: "The Transit Hub", 
+      summary: "Gus sees news about the Goldstein documents at a transit hub and changes his plans.", 
+      characters: "Gus, Commuter",
+      hasMusic: false,
+      script: [
+        {
+          "type": "stage-direction",
+          "text": "TRANSIT HUB — DAY"
+        },
+        {
+          "type": "stage-direction",
+          "text": "A busy DC transit station. Boards, foot traffic, the specific noise of a place built for people going somewhere. GUS enters with a bag over one shoulder, moving with purpose. He checks the board. Finds his train. Starts toward it."
+        },
+        {
+          "type": "stage-direction",
+          "text": "A news screen stops him mid-step."
+        },
+        {
+          "type": "stage-direction",
+          "text": "Chyron: GOLDSTEIN DOCUMENTS EXPECTED FOR RELEASE — SOURCES SAY IMMINENT"
+        },
+        {
+          "type": "stage-direction",
+          "text": "He reads it once. Twice."
+        },
+        {
+          "type": "stage-direction",
+          "text": "The calculation crosses his face — not slow, not dramatic. Just math. Fast, ugly math."
+        },
+        {
+          "type": "stage-direction",
+          "text": "He checks his phone. Checks the board again. The train he just found is gone from his head."
+        },
+        {
+          "type": "stage-direction",
+          "text": "He's lost his place. The news knocked it out of him."
+        },
+        {
+          "type": "stage-direction",
+          "text": "He stands in the middle of foot traffic, bag shifting on his shoulder, trying to reconstruct where he was going."
+        },
+        {
+          "type": "stage-direction",
+          "text": "He can't find it."
+        },
+        {
+          "type": "stage-direction",
+          "text": "Under his breath:"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "GUS",
+          "text": "Okay. Okay."
+        },
+        {
+          "type": "stage-direction",
+          "text": "He sets the bag down between his feet. Digs. Past a folded paper, past a charger, past something wrapped in a shirt. He pulls out the phone."
+        },
+        {
+          "type": "stage-direction",
+          "text": "Canary yellow. Unavoidable."
+        },
+        {
+          "type": "stage-direction",
+          "text": "A COMMUTER passing slows slightly."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "COMMUTER",
+          "text": "Whoa. Is that the—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "GUS",
+          "text": "It's a phone."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "COMMUTER",
+          "text": "No I know, I just haven't seen one of those yet. When did you get that?"
+        },
+        {
+          "type": "stage-direction",
+          "text": "(already looking at the screen)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "GUS",
+          "text": "While back."
+        },
+        {
+          "type": "stage-direction",
+          "text": "The news is on the commuter's phone too. She's looking at the same chyron."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "COMMUTER",
+          "text": "You following this Goldstein thing? These documents dropping today—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "GUS",
+          "text": "Which platform is the Red Line?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "COMMUTER",
+          "text": "Disgusting, right? These people just — they get away with everything and now he's just *gone* — like how does a person just—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "GUS",
+          "text": "I'm sorry, I'm in a hurry — which platform—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "COMMUTER",
+          "text": "Oh — B6. Down the left corridor, second escalator."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "GUS",
+          "text": "Thank you."
+        },
+        {
+          "type": "stage-direction",
+          "text": "He's already moving. Phone back in the bag but not as deep this time — no time."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(calling after him)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "COMMUTER",
+          "text": "They should lock all of them up!"
+        },
+        {
+          "type": "stage-direction",
+          "text": "Gus doesn't look back. He's already gone."
+        },
+        {
+          "type": "stage-direction",
+          "text": "The commuter watches him go, then looks back at her phone. The chyron is still running. She shakes her head and moves on."
+        },
+        {
+          "type": "stage-direction",
+          "text": "Lights shift toward Ginnie's office."
+        }
+      ]
+    },
+    { id: "02-05", title: "SNOWSTORM", summary: "The media frenzy and the cover-up collide.", hasMusic: true, youtubeId: "iJNhZs7p_2Y", script: [
         { type: 'stage-direction', text: `PRESS CONFERENCE — DAY` },
         { type: 'stage-direction', text: `A podium. Snow visible through a window behind it, just starting. CAMMIE and ASH enter together, unhurried. They have folders they don't need. They set them down with the confidence of people who have prepared for exactly this.` },
         { type: 'stage-direction', text: `The room is loud before they speak. It gets quieter when they smile.` },
@@ -1890,7 +2276,7 @@ export default function App() {
         { type: 'dialogue', speaker: `CAMMIE`, text: `We're happy to take questions.` },
         { type: 'stage-direction', text: `The room erupts. She and Ash stand perfectly still in the noise, smiling at slightly different rates.` },
         { type: 'stage-direction', text: `Music begins.` },
-        { type: 'musical-number', speaker: `SONG`, text: `[Musical number occurs here]` },
+        { type: 'dialogue', speaker: `SONG`, text: `[Musical number occurs here]` },
         { type: 'stage-direction', text: `PRESS CORPS` },
         { type: 'dialogue', speaker: `CAMMIE`, text: `It is a beautiful day.` },
         { type: 'dialogue', speaker: `CAMMIE`, text: `Naturally.` },
@@ -1906,9 +2292,1384 @@ export default function App() {
         { type: 'stage-direction', text: `He’s already been on the phone with the Governor and Mayor and the various agencies that handle this sort of thing.` },
         { type: 'stage-direction', text: `He’s declaring a national emergency.` }
       ] },
-    { id: "02-06", title: "Scene 6", summary: "TBA", hasMusic: false },
-    { id: "02-07", title: "Scene 7", summary: "TBA", hasMusic: false },
-    { id: "02-08", title: "What Did You Do?", summary: "A confrontation between Geoff and Maxie.", hasMusic: true, youtubeId: "niNLu3u8Fps", script: [
+    { 
+      id: "02-06", 
+      title: "THE LEAK", 
+      summary: "Tammy discovers Lila has been leaking documents to Buck and the White House.", 
+      hasMusic: false,
+      script: [
+        {
+          "type": "stage-direction",
+          "text": "BEAT 2 - TAMMY'S OFFICE [FIRST NOTE]"
+        },
+        {
+          "type": "stage-direction",
+          "text": "TAMMY is at her desk. Working. LILA enters, slightly hurried, slightly off."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "How was your lunch?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "It was fine. You remember Stacey? The girl you met?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Yes. The one that you were gossiping about the Goldstein case with. Outside the elevators. Yes, I remember."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "She gave me a note."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(Beat.)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "She gave you a note.."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "She said it was from a friend who wanted to—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Who is the friend."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "She didn't say exactly. Someone who works with the defense—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Lila."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "She said it was just—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Stop."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(Beat. Tammy doesn't raise her voice. She never raises her voice.)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "You had lunch with a woman who was discussing an active case in a public corridor. Who then passed you a note. From someone working defense."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "When you say it like that—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Is there another way to say it?"
+        },
+        {
+          "type": "stage-direction",
+          "text": "Lila has no answer."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Give me the note."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Lila hands it over. Tammy reads. Sets it down."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Who else did you see at lunch?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "Just Stacey and—"
+        },
+        {
+          "type": "stage-direction",
+          "text": "She stops."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "And."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "There was someone she introduced me to. Briefly."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Name."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "Buck. He works defense, I think—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "I know who Buck is."
+        },
+        {
+          "type": "stage-direction",
+          "text": "A long beat. Tammy looks at the note. Looks at Lila."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Lila. I need you to think very carefully before you answer this. Did you discuss anything about this office, these files, or this case at any point during that lunch?"
+        },
+        {
+          "type": "stage-direction",
+          "text": "Silence"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Go back to your desk."
+        },
+        {
+          "type": "stage-direction",
+          "text": "Lila exits. Tammy picks up the note. Reads it again. Sets it down. Then picks up her own pen and begins writing. She is not calling anyone. She is documenting."
+        },
+        {
+          "type": "stage-direction",
+          "text": "A second note arrives — delivered through Lila, provenance unclear. Tammy reads it. Adds it to the file she is building. Music begins."
+        },
+        {
+          "type": "stage-direction",
+          "text": "BEAT 2 - TAMMY'S OFFICE [BACK FROM THE WHITE HOUSE]"
+        },
+        {
+          "type": "stage-direction",
+          "text": "LILA enters. She is not quite late but close."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Back from where? It's not lunch."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "From the White House?"
+        },
+        {
+          "type": "stage-direction",
+          "text": "(appalled)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "You went to the White House and didn't say anything?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "Well, yes. The President wanted to see me."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(shocked)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Under what circumstances is the President of the United States of America calling to see the STACEY of the Solicitor General — without me? This is highly unorthodox."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "He wanted me to give you a note. He said he didn't want all the cameras."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Lila, that is exactly why you should not go. The cameras are what keep the wheels of democracy oiled."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "What does that mean?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "It means that transparency assures accountability."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(Beat.)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "People act right when they're being watched. The closer you watch, the better they act."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "Like — watching citizens? The police?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "No. Citizens have the right to privacy. The President is a publicly elected official. Different levels."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(Beat.)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "What's the note?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Lila hands it over. Tammy reads. Her expression doesn't change. That's the tell."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "How long were you there?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "Maybe twenty minutes? He was very friendly—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "I'm sure he was."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "He said it was just a quick—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Did anyone else speak to you while you were there?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "His aide showed me in. And there was a man in the hallway on the way out—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "What man."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "I don't know. He introduced himself. He was very—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Friendly."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "...Yes."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "Beat. Tammy folds the note once. Sets it on the desk face down."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Lila. If the President contacts this office again — by any means, through any person, in any format — you come to me first. Before you go anywhere. Before you say anything to anyone."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Especially if he says."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(Beat.)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Do you understand the difference between a request and a directive?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "...I think so?"
+        },
+        {
+          "type": "stage-direction",
+          "text": "A directive comes through proper channels with documentation and I am notified in advance. Everything else is a request. And requests from the President of the United States to members of this office are — what?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "...Highly unorthodox?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Highly unorthodox."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(Beat. Almost gentle.)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "You're not in trouble. But you will be if it happens again."
+        },
+        {
+          "type": "stage-direction",
+          "text": "Lila nods and exits. Tammy looks at the note on her desk. Doesn't pick it up. Music begins."
+        },
+        {
+          "type": "stage-direction",
+          "text": "BEAT 3 - CORRIDOR [BUCK]"
+        },
+        {
+          "type": "stage-direction",
+          "text": "BUCK is there when LILA comes out. STACEY nearby. It looks like a coincidence. It isn't."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "Your help has been vital in helping my client. Those documents you provided — I wanted to thank you. The President wanted to thank you personally."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "I was so worried when she told me not to go back to the White House. She's such a nit picky old bitch. I mean, I can do what I want, talk to who I want."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "Right. Well, we're going to get you out of there as soon as this unpleasantness is over. We'll get you a desk that suits you."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "All the way up on the top floor?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "Now, now. The lawyers are on the top floor. But certainly you'll have a view."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "What do you need from me? I mean, what does the President want from me?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "Shhh. Never mention to anyone that the President is involved at all. You understand me?"
+        },
+        {
+          "type": "stage-direction",
+          "text": "Lila nods. Buck smiles. Stacey watches from a little distance, catching just enough."
+        },
+        {
+          "type": "stage-direction",
+          "text": "TAMMY'S OFFICE"
+        },
+        {
+          "type": "stage-direction",
+          "text": "LILA enters with another note."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "I brought you another note."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "What — what have I said about this? Who is delivering these? Where are you getting them?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "I don't know. I go to lunch. That nice man drops them off next to me, says hello, tells me to give them to you and he's gone before I can ask."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(Beat.)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "What? You said they're from the President. Aren't we serving his majesty?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "He's not — Lila, what if there's anthrax?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "But there's not. Come on, lighten up. He's super polite and works in the White House. What could possibly be wrong? Who can you trust if you can't trust the guy in the White House?"
+        },
+        {
+          "type": "stage-direction",
+          "text": "Lila turns back toward the filing area. Sees a pile of folders."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "These need to be filed?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Yes. Lock and key, Lila. Lock. And. Key."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Tammy returns to her work. We watch Lila carry the folders to her desk. She opens the top folder. Reads a page. Reads another. Removes half the documents. Tucks them into her bag. Files the rest away. Picks up her phone."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(into phone, quietly)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "Buck? Yeah. I have a present for you."
+        },
+        {
+          "type": "stage-direction",
+          "text": "Lights shift."
+        },
+        {
+          "type": "stage-direction",
+          "text": "CORRIDOR [BUCK 2]"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "We shouldn't meet twice in a day."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "You said you needed more."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "I said that quietly. In a private context."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "Well I have them. Do you want them or not?"
+        },
+        {
+          "type": "stage-direction",
+          "text": "Buck looks around. Takes the folder. Doesn't open it."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "How many people touch these before they get to you?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "Just me. I file everything. She doesn't trust anyone else with the organization system."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(almost to himself)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "No. She wouldn't."
+        },
+        {
+          "type": "stage-direction",
+          "text": "He pockets the folder."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "You didn't make copies."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "I took the originals. She has so many she won't—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "Don't do that again. Copies only. Originals stay in the office."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "Fine. Sorry. I didn't—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "It's fine. You did well."
+        },
+        {
+          "type": "stage-direction",
+          "text": "That lands on her exactly the way he intended."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "The President is very pleased."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "Yeah?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "Very. Now—"
+        },
+        {
+          "type": "stage-direction",
+          "text": "He leans in slightly."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "How much access do you have to the filing system after hours?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "Beat. Something flickers across Lila's face — not quite doubt, but the shape of it."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "I mean. I have a key."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "Good."
+        },
+        {
+          "type": "stage-direction",
+          "text": "He straightens. Warm smile."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "You're going to have a very good year, Lila."
+        },
+        {
+          "type": "stage-direction",
+          "text": "He walks away. She watches him go. The folder is gone. She stands there a moment. Then picks up her phone."
+        },
+        {
+          "type": "stage-direction",
+          "text": "TAMMY'S OFFICE"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "Tammy at her desk. She reaches for a file. Opens the drawer. Closes it. Opens it again. Counts. A long, very still beat."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(into phone)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Pull the access log for the filing room going back thirty days."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(Beat.)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Yes, all of it."
+        },
+        {
+          "type": "stage-direction",
+          "text": "She hangs up. Looks at the drawer. Looks at the door to the outer office where Lila sits. Does not look away."
+        },
+        {
+          "type": "stage-direction",
+          "text": "BEAT 4 - UPSTAIRS [CORRIDOR]"
+        },
+        {
+          "type": "stage-direction",
+          "text": "LILA enters the corridor. She's been staying late. She's jumpy, pleased with herself, running on the story Buck has given her about who she is."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "Sorry I'm late. I had to stay over and pretend to be doing extra filing. She's been watching me like a hawk."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "It's okay. I work late like this all the time."
+        },
+        {
+          "type": "stage-direction",
+          "text": "He looks around."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "We should find someplace more private."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(excited)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "Yes, Mr. Buck. There's a janitor's closet—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "Perfect."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "I brought copies this time. But I'm telling you, she has no idea the other files are—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "Shhh. Wait until we're private."
+        },
+        {
+          "type": "stage-direction",
+          "text": "They move toward the closet. Lights shift."
+        },
+        {
+          "type": "stage-direction",
+          "text": "TAMMY stands with an SECURITY. Calm. She has been calm since she started counting folders."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "According to the phone logs, they were going to meet on this floor."
+        },
+        {
+          "type": "stage-direction",
+          "text": "SECURITY Buck's not new. How did he not use a private line or a cell phone?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "She's got a personal line — so she can field phone calls about her kids and their daycare. She told him it was her personal number. I don't think she thought we would be monitoring all calls in and out on all of our phone lines."
+        },
+        {
+          "type": "stage-direction",
+          "text": "SECURITY She thought you gave her a private unmonitored phone line to conduct illegal reconnaissance with the opposition?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "She's not very good at her job."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(Beat.)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "But she was positive. She was energetic. She learned quickly. You had to teach her, but once she got it, she got it better than most. You just had to teach her. I thought the wrinkles would iron out with exposure."
+        },
+        {
+          "type": "stage-direction",
+          "text": "SECURITY This isn't a great city to test people's character in. They lose more often than they win."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "I know that now."
+        },
+        {
+          "type": "stage-direction",
+          "text": "A sound from down the corridor."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "The closet?"
+        },
+        {
+          "type": "stage-direction",
+          "text": "The officer nods. They move to the closet door. Tammy knocks twice. Official. Unhurried."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Ms. Lila."
+        },
+        {
+          "type": "stage-direction",
+          "text": "Silence."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Mr. Buck."
+        },
+        {
+          "type": "stage-direction",
+          "text": "A beat. Then the sound of shuffling. Papers. Something falling. The door opens. LILA. BUCK. The folder between them, half open. Nobody speaks for a moment. Buck recovers first. Of course he does."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "Counselor."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Mr. Buck."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(Beat.)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "This isn't what—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Don't."
+        },
+        {
+          "type": "stage-direction",
+          "text": "One word. He stops. Tammy looks at Lila. Just looks at her. Long enough that Lila has to look away."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Pack your desk tonight. Leave your key card on my desk before you go. HR will contact you in the morning."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "I can explain—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "I know you can. You'll have the opportunity to do that with the appropriate parties."
+        },
+        {
+          "type": "stage-direction",
+          "text": "She gestures to the officer. Lila looks at Buck."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(quietly)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "LILA",
+          "text": "You said—"
+        },
+        {
+          "type": "stage-direction",
+          "text": "(not unkindly, which is worse)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "I wouldn't hire a snitch."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "Beat. Lila absorbs that. Nods once. Walks past Tammy without looking at her. Tammy watches her go. Then turns to Buck."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Your client is missing, Mr. Buck."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "My client's interests persist regardless of—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Your client is missing and you just burned a twenty-three year old girl for documents she didn't understand she wasn't authorized to access."
+        },
+        {
+          "type": "stage-direction",
+          "text": "Buck says nothing."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Your bar review will be very interesting."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(measured)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "I look forward to it."
+        },
+        {
+          "type": "stage-direction",
+          "text": "He picks up the folder. Looks at it."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "You'll want this back."
+        },
+        {
+          "type": "stage-direction",
+          "text": "He holds it out. Tammy doesn't take it."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "The officer will take it."
+        },
+        {
+          "type": "stage-direction",
+          "text": "Buck hands it over. Straightens his jacket."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "BUCK",
+          "text": "You're very good at your job, Counselor."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "I know."
+        },
+        {
+          "type": "stage-direction",
+          "text": "He leaves. Tammy stands in the hallway. The officer looks at her."
+        },
+        {
+          "type": "stage-direction",
+          "text": "SECURITY You want to press—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Not yet."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(Beat.)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Document everything. Every phone log. Every access record. Every note from the White House."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(Beat.)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "TAMMY",
+          "text": "Every note."
+        },
+        {
+          "type": "stage-direction",
+          "text": "The officer nods and goes. Tammy stands alone in the corridor. Looks at the closet door, still open. Looks at the empty desk through the glass where Lila sat."
+        },
+        {
+          "type": "stage-direction",
+          "text": "Lights shift."
+        }
+      ]
+    },
+    { 
+      id: "02-07", 
+      title: "CONTAINMENT", 
+      summary: "Ash and Cammie discuss containment with Ronnie in the Oval Office.", 
+      hasMusic: false,
+      script: [
+        {
+          "type": "stage-direction",
+          "text": "The White House Oval Office. ASH and CAMMIE are already inside — comfortable in a space that isn't theirs."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "She named them."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "Our informant."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "She didn't name us. She only named—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "The President. And with documentation."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "Not on schedule."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "But conveniently timed."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "The snowstorm was very useful."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "Kept everything quiet."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "It was such a beautiful day."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "So naturally natural."
+        },
+        {
+          "type": "stage-direction",
+          "text": "The snowstorm was the story."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "Made all the allegations seem like—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "Like a hoax."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "Like a witch hunt."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(They smile together.)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "But we cannot have this happen again. We cannot risk—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "—our position and our duty to the country."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "And to the President."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "Yes, the President. We are doing our duty first to the country, then to the President."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "I thought it was first to the President and then to the country."
+        },
+        {
+          "type": "stage-direction",
+          "text": "The President represents the country."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "And we represent the country. So really—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "We should be doing our duty to the country that includes us and is represented by the President."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "A-men."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "Sh. Freedom of religion."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "Not freedom *from* religion."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(The door opens. RONNIE enters.)"
+        },
+        {
+          "type": "stage-direction",
+          "text": "RONNIE What — what are you guys doing in my office? Did I miss a meeting? You've got me all over the gosh-darn place. First the East Wing to meet with Sultan Ali Baba of Timbuktu — with the special envoy from Oogadish — where the hell are these people coming from?"
+        },
+        {
+          "type": "stage-direction",
+          "text": "Cammie and Ash exchange the smallest possible look. This happens every time."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "Those are our allies, sir."
+        },
+        {
+          "type": "stage-direction",
+          "text": "They're in my office every other Tuesday—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "Wednesday."
+        },
+        {
+          "type": "stage-direction",
+          "text": "RONNIE —and nobody tells me their names ahead of time. I've got the little cards but I can never read them because my glasses are always—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "We'll have the cards laminated."
+        },
+        {
+          "type": "stage-direction",
+          "text": "RONNIE Larger font."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "Larger font."
+        },
+        {
+          "type": "stage-direction",
+          "text": "RONNIE And then the Second Lady wants a photo with every single one of them and I'm standing there like a—"
+        },
+        {
+          "type": "stage-direction",
+          "text": "(He stops. Looks around.)"
+        },
+        {
+          "type": "stage-direction",
+          "text": "RONNIE Why are you in my office?"
+        },
+        {
+          "type": "stage-direction",
+          "text": "Beat."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "We're concerned about some recent developments."
+        },
+        {
+          "type": "stage-direction",
+          "text": "The Solicitor General — what's her name?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "Tommy—"
+        },
+        {
+          "type": "stage-direction",
+          "text": "(amused)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "Tammy."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "Yes. Tammy."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "Among others."
+        },
+        {
+          "type": "stage-direction",
+          "text": "She can't do that. Can she do that? I mean, I expect my word to be treated as law. There is no legal basis for her coming out and saying all of these terrible things that I did — or anyone did. It's like she doesn't *want* us to do them. I'm the President."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "You are the President, sir."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "And we agree that she shouldn't be able to do that."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "But she did."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "It might even be unconstitutional."
+        },
+        {
+          "type": "stage-direction",
+          "text": "RONNIE I don't know about all that unconstitutional whack-a-roo. The Constitution's older than even my predecessor. I don't like many things that measure their age in three digits — hell, two digits is pushing it sometimes. But that little piece of paper has done some good around here. I'm not a lawyer, so unconstitutional is — it's a bit much. I think it's a bit much. It's an old document, but like fine wine it's getting better with age. It's just — it's unreasonable."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(Ash and Cammie look at each other.)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "It can be both unreasonable and unconstitutional, sir."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "Yes, sir — we agree it's unreasonable, as you said. But—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "It could also be unconstitutional. We could make it—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "We should make sure that—"
+        },
+        {
+          "type": "stage-direction",
+          "text": "RONNIE What are you two getting at? I swear I can never tell which one of you to look at. It's like one of you is the good eye and the other one is the lazy eye on a single person. I'm never sure which one I should focus on."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(He dances back and forth between them — joking, but also a little cornered as they move closer together.)"
+        },
+        {
+          "type": "stage-direction",
+          "text": "RONNIE Look at this eye. Look at *this* eye. It's just too darn confusing. Isn't one of you her boss? Isn't one of you in the FBI? Or the CIA? Homeland Security?"
+        },
+        {
+          "type": "stage-direction",
+          "text": "(weakly)"
+        },
+        {
+          "type": "stage-direction",
+          "text": "RONNIE Agriculture? Veteran's Affairs?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "Sir."
+        },
+        {
+          "type": "stage-direction",
+          "text": "They move toward him. Not menacing. Just together. Like weather."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "We're here to discuss—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "—how we make sure this doesn't happen again."
+        },
+        {
+          "type": "stage-direction",
+          "text": "Beat."
+        },
+        {
+          "type": "stage-direction",
+          "text": "She went to the press."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "Yes."
+        },
+        {
+          "type": "stage-direction",
+          "text": "RONNIE With documentation."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "Yes."
+        },
+        {
+          "type": "stage-direction",
+          "text": "RONNIE On a Tuesday."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "Wednesday."
+        },
+        {
+          "type": "stage-direction",
+          "text": "RONNIE When everybody was paying attention."
+        },
+        {
+          "type": "stage-direction",
+          "text": "Beat."
+        },
+        {
+          "type": "stage-direction",
+          "text": "The word we're using—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "—going forward—"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "—is containment."
+        },
+        {
+          "type": "stage-direction",
+          "text": "Ronnie looks at one, then the other."
+        },
+        {
+          "type": "stage-direction",
+          "text": "RONNIE Containment."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "Containment."
+        },
+        {
+          "type": "stage-direction",
+          "text": "A beat. Ronnie nods slowly, like he's been given a gift he doesn't entirely understand."
+        },
+        {
+          "type": "stage-direction",
+          "text": "RONNIE I like that word. That's a very strong word. Very — presidential."
+        },
+        {
+          "type": "stage-direction",
+          "text": "(quietly)"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "ASH",
+          "text": "Very presidential."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "CAMMIE",
+          "text": "Very reasonable, Mr. President."
+        },
+        {
+          "type": "stage-direction",
+          "text": "Lights shift."
+        }
+      ]
+    },
+    { id: "02-08", title: "What Did You Do?", summary: "A confrontation between Geoff and Maxie.", hasMusic: true, youtubeId: "08OeZlI8uf8", script: [
         { type: 'stage-direction', text: `The White House Oval Office. ASH and CAMMIE are already inside — comfortable in a space that isn't theirs.` },
         { type: 'dialogue', speaker: `ASH`, text: `She named them.` },
         { type: 'dialogue', speaker: `CAMMIE`, text: `Our informant.` },
@@ -1999,7 +3760,7 @@ export default function App() {
         { type: 'dialogue', speaker: `CAMMIE`, text: `Very reasonable, Mr. President.` },
         { type: 'stage-direction', text: `Lights shift.` }
       ] },
-    { id: "02-09", title: "Just Like Them, Just Like Me", summary: "Gus realizes his own complicity.", hasMusic: true, youtubeId: "niNLu3u8Fps", script: [
+    { id: "02-09", title: "Just Like Them, Just Like Me", summary: "Gus realizes his own complicity.", hasMusic: true, youtubeId: "wdesqA9Er9c", script: [
         { type: 'stage-direction', text: `Gus enters the reception area. A FRONT DESK WORKER looks up.` },
         { type: 'dialogue', speaker: `GUS`, text: `I'm here to see Ginnie. She's expecting me.` },
         { type: 'stage-direction', text: `Ginnie enters from the inner office. She stops when she sees him. A beat.` },
@@ -2060,9 +3821,300 @@ export default function App() {
         { type: 'dialogue', speaker: `STACEY`, text: `Whatever you need.` },
         { type: 'dialogue', speaker: `GINNIE`, text: `*(a beat, almost a smile)* You already did it.` }
       ] },
-    { id: "02-10", title: "Scene 10", summary: "TBA", hasMusic: false },
-    { id: "02-11", title: "Scene 11", summary: "TBA", hasMusic: false },
-    { id: "02-12", title: "I Need to Walk", summary: "A moment of reflection before the final trial.", hasMusic: true, youtubeId: "niNLu3u8Fps", script: [
+    { id: "02-10", title: "Arrestable", summary: "Gus faces the news coverage and a meeting with Ginnie about what comes next.", hasMusic: false, script: [
+        { type: 'stage-direction', text: `Stacey looks at Gus for a long moment.` },
+        { type: 'dialogue', speaker: `STACEY`, text: `For what it's worth.` },
+        { type: 'dialogue', speaker: `STACEY`, text: `You're the only person in any of this` },
+        { type: 'dialogue', speaker: `STACEY`, text: `who actually showed up` },
+        { type: 'dialogue', speaker: `STACEY`, text: `without being paid to.` },
+        { type: 'stage-direction', text: `She picks up her bag.` },
+        { type: 'stage-direction', text: `That's not nothing.` },
+        { type: 'stage-direction', text: `She exits.` },
+        { type: 'stage-direction', text: `Gus sits alone with the phone.` },
+        { type: 'stage-direction', text: `Lights narrow.` },
+        { type: 'stage-direction', text: `Then the newsreels begin.` },
+        { type: 'dialogue', speaker: `STACEY`, text: `[NEWSREEL SEQUENCE - music under, television static and cuts]` },
+        { type: 'dialogue', speaker: `ANCHOR - CHANNEL 1`, text: `...as the Goldstein documents continue` },
+        { type: 'dialogue', speaker: `ANCHOR - CHANNEL 1`, text: `to circulate online,` },
+        { type: 'dialogue', speaker: `ANCHOR - CHANNEL 1`, text: `legal experts close to the case` },
+        { type: 'dialogue', speaker: `ANCHOR - CHANNEL 1`, text: `are asking whether Solicitor General Caldwell,` },
+        { type: 'dialogue', speaker: `ANCHOR - CHANNEL 1`, text: `newly appointed and already embattled,` },
+        { type: 'dialogue', speaker: `ANCHOR - CHANNEL 1`, text: `is simply in over her head—` },
+        { type: 'dialogue', speaker: `ANCHOR - CHANNEL 2`, text: `—the documents name dozens of prominent figures,` },
+        { type: 'dialogue', speaker: `ANCHOR - CHANNEL 2`, text: `but the identity of one individual` },
+        { type: 'dialogue', speaker: `ANCHOR - CHANNEL 2`, text: `referred to only as "G"` },
+        { type: 'dialogue', speaker: `ANCHOR - CHANNEL 2`, text: `continues to elude investigators—` },
+        { type: 'dialogue', speaker: `TALKING HEAD 1`, text: `Look, I'm not saying it's Geoff.` },
+        { type: 'dialogue', speaker: `TALKING HEAD 1`, text: `I'm saying they'd have wanted someone like Geoff` },
+        { type: 'dialogue', speaker: `TALKING HEAD 1`, text: `to blame someone else if it went south—` },
+        { type: 'dialogue', speaker: `TALKING HEAD 2`, text: `It cannot be Geoff.` },
+        { type: 'dialogue', speaker: `TALKING HEAD 2`, text: `Look at the handwriting. Look at the pen.` },
+        { type: 'stage-direction', text: `The pressure is completely different—` },
+        { type: 'dialogue', speaker: `TALKING HEAD 1`, text: `Oh, you're a handwriting expert now—` },
+        { type: 'dialogue', speaker: `TALKING HEAD 2`, text: `I'm just saying—` },
+        { type: 'dialogue', speaker: `ANCHOR - CHANNEL 3`, text: `—Solicitor General Caldwell` },
+        { type: 'dialogue', speaker: `ANCHOR - CHANNEL 3`, text: `has issued a second plea for patience` },
+        { type: 'dialogue', speaker: `ANCHOR - CHANNEL 3`, text: `as she continues to review the documents` },
+        { type: 'dialogue', speaker: `ANCHOR - CHANNEL 3`, text: `largely alone,` },
+        { type: 'dialogue', speaker: `ANCHOR - CHANNEL 3`, text: `after a leak rocked her office` },
+        { type: 'dialogue', speaker: `ANCHOR - CHANNEL 3`, text: `within weeks of her appointment` },
+        { type: 'dialogue', speaker: `ANCHOR - CHANNEL 3`, text: `and left her without` },
+        { type: 'dialogue', speaker: `ANCHOR - CHANNEL 3`, text: `a significant portion of her staff—` },
+        { type: 'dialogue', speaker: `TALKING HEAD 3`, text: `I'm telling you, the G is bigger than Geoff.` },
+        { type: 'dialogue', speaker: `TALKING HEAD 3`, text: `The Secretary of Transportation.` },
+        { type: 'dialogue', speaker: `TALKING HEAD 3`, text: `It's all logistics. Who else has that access?` },
+        { type: 'stage-direction', text: `He's gay. What's he doing with Geoff?` },
+        { type: 'dialogue', speaker: `TALKING HEAD 3`, text: `Good cover.` },
+        { type: 'stage-direction', text: `The newsreel cuts. Gus is standing in his apartment. The television is on. He hasn't moved.` },
+        { type: 'stage-direction', text: `His coat is still on.` },
+        { type: 'stage-direction', text: `He has been here for a long time.` },
+        { type: 'stage-direction', text: `He checks his train.` },
+        { type: 'stage-direction', text: `Just math. Fast, ugly math.` },
+        { type: 'stage-direction', text: `He checks his phone. Checks the board again. The train he just found is gone from his head.` },
+        { type: 'stage-direction', text: `He's lost his place. The news knocked it out of him.` },
+        { type: 'dialogue', speaker: `TAMMY`, text: `Good cover.` },
+        { type: 'stage-direction', text: `She picks up a document. Reads. Sets it down.` },
+        { type: 'stage-direction', text: `Lights shift.` },
+        { type: 'dialogue', speaker: `TAMMY`, text: `[GINNIE'S OFFICE - CONTINUOUS]` },
+        { type: 'stage-direction', text: `Gus sits. Ginnie across from him. Marcus standing. The newsreel murmurs from somewhere offstage, barely audible.` },
+        { type: 'dialogue', speaker: `GINNIE`, text: `I understand if you don't want to do this.` },
+        { type: 'dialogue', speaker: `GINNIE`, text: `Because your —` },
+        { type: 'stage-direction', text: `(careful)` },
+        { type: 'dialogue', speaker: `GINNIE`, text: `— your history will come out.` },
+        { type: 'dialogue', speaker: `GINNIE`, text: `And I —` },
+        { type: 'dialogue', speaker: `GUS`, text: `And I lose everything.` },
+        { type: 'dialogue', speaker: `GINNIE`, text: `What?` },
+        { type: 'dialogue', speaker: `GUS`, text: `It's not just the history.` },
+        { type: 'dialogue', speaker: `GUS`, text: `It's not just the shame.` },
+        { type: 'dialogue', speaker: `GUS`, text: `It's back to the street.` },
+        { type: 'dialogue', speaker: `GUS`, text: `Back to the milk crate.` },
+        { type: 'stage-direction', text: `Nobody saves you twice.` },
+        { type: 'stage-direction', text: `Beat.` },
+        { type: 'dialogue', speaker: `GUS`, text: `I know. Let's not dwell on it.` },
+        { type: 'dialogue', speaker: `GUS`, text: `I've made my peace.` },
+        { type: 'dialogue', speaker: `GUS`, text: `But let's not —` },
+        { type: 'stage-direction', text: `We have to. For a minute.` },
+        { type: 'dialogue', speaker: `GUS`, text: `Can we —` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `You're going to be arrested` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `when you turn it in.` },
+        { type: 'stage-direction', text: `Silence.` },
+        { type: 'dialogue', speaker: `GUS`, text: `Arrested for what.` },
+        { type: 'dialogue', speaker: `GUS`, text: `I didn't do anything.` },
+        { type: 'stage-direction', text: `(immediately, earnestly)` },
+        { type: 'stage-direction', text: `We believe you.` },
+        { type: 'stage-direction', text: `(a beat slower)` },
+        { type: 'stage-direction', text: `We... do.` },
+        { type: 'stage-direction', text: `(continues)` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `The optics.` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `You're his assistant.` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `You have a record.` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `Your name appears nowhere` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `in a million pages of documents.` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `All they have is a G.` },
+        { type: 'stage-direction', text: `The newsreel drifts in from somewhere. Muted. Indistinct.` },
+        { type: 'stage-direction', text: `They're going to think I did something.` },
+        { type: 'stage-direction', text: `They're going to think you did everything, Gus.` },
+        { type: 'stage-direction', text: `He stares at her.` },
+        { type: 'dialogue', speaker: `GUS`, text: `I don't understand.` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `You came out of nowhere while he was incarcerated.` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `You ran the house.` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `You went to the island.` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `You disappeared when the files went public.` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `And now you've surfaced with a phone` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `full of God knows what.` },
+        { type: 'stage-direction', text: `They think —` },
+        { type: 'dialogue', speaker: `GUS`, text: `Oh god.` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `You came out of the shadows to do the work.` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `And returned to the shadows when it was done.` },
+        { type: 'stage-direction', text: `They think I'm his —` },
+        { type: 'stage-direction', text: `(can't finish it)` },
+        { type: 'dialogue', speaker: `GINNIE`, text: `Associate. At minimum.` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `And if they're feeling less generous —` },
+        { type: 'stage-direction', text: `Silence.` },
+        { type: 'dialogue', speaker: `GUS`, text: `Obstruction.` },
+        { type: 'stage-direction', text: `Nobody answers. That's the answer.` },
+        { type: 'dialogue', speaker: `GUS`, text: `I'm going to be arrested.` },
+        { type: 'stage-direction', text: `(a flash of anger)` },
+        { type: 'dialogue', speaker: `GUS`, text: `Again.` },
+        { type: 'stage-direction', text: `(quieter, the real wound)` },
+        { type: 'dialogue', speaker: `GUS`, text: `But I didn't —` },
+        { type: 'dialogue', speaker: `GUS`, text: `I didn't know —` },
+        { type: 'dialogue', speaker: `GUS`, text: `I didn't know what any of it —` },
+        { type: 'stage-direction', text: `They don't know that.` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `And the world isn't going to believe you` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `before it decides not to.` },
+        { type: 'dialogue', speaker: `GINNIE`, text: `You have to be ready.` },
+        { type: 'stage-direction', text: `Gus sits with that. His face does several things. None of them resolve.` },
+        { type: 'dialogue', speaker: `GUS`, text: `I need to think.` },
+        { type: 'stage-direction', text: `He stands. Walks out.` },
+        { type: 'stage-direction', text: `Marcus moves to follow.` },
+        { type: 'dialogue', speaker: `GINNIE`, text: `Don't you dare.` },
+        { type: 'stage-direction', text: `Marcus stops.` },
+        { type: 'stage-direction', text: `He got here once.` },
+        { type: 'stage-direction', text: `She looks at the door.` },
+        { type: 'stage-direction', text: `(barely)` },
+        { type: 'stage-direction', text: `He knows the way back.` },
+        { type: 'stage-direction', text: `Beat.` },
+        { type: 'stage-direction', text: `(quieter still)` },
+        { type: 'dialogue', speaker: `GINNIE`, text: `I hope he does.` },
+        { type: 'stage-direction', text: `The newsreel rises again from offstage. Louder now. Insistent.` },
+        { type: 'stage-direction', text: `Lights shift into the pressure sequence.` }
+      ] },
+    { id: "02-11", title: "Big Pharaoh Thruxton the Third", summary: "A media storm over Big Pharaoh Thruxton dominates the news cycle, pulling focus from the Goldstein files.", hasMusic: false, script: [
+        { type: 'stage-direction', text: `[NEWSREEL - rising from the pressure sequence music]` },
+        { type: 'stage-direction', text: `[SUGGESTED STAGE DRESSING: The Washington Monument visible through the upstage window, center frame. Never referenced. Never lit for emphasis. Simply present for the duration of the scene.]` },
+        { type: 'dialogue', speaker: `ANCHOR`, text: `In entertainment news tonight — Grammy-winning producer and rap mogul Big Pharaoh Thruxton, born Marcus DeShawn Pullman of Compton, has been arrested at his Bel Air compound after federal investigators declared the property a crime scene.` },
+        { type: 'dialogue', speaker: `ANCHOR`, text: `Fresh allegations describe what witnesses refer to as drug- and alcohol-fueled binge parties called Thoth Downs in Big Pharoah Thruxton’s Thothiverse, the name given to his secret guest house on the property, where young industry hopefuls were required to perform in what lawyers are describing as live performances of an artistic nature as Thruxton’s Thoths, each assigned their own Thoth Title to the amusement and pleasure of celebrity guests for access and exposure to other entertainment industry figures.` },
+        { type: 'dialogue', speaker: `ANCHOR`, text: `Wow. Those certainly are some serious allegations. Tell me, do we have any video or audio - or even images of these parties? If I’m like every other American, I think it’s important to see who exactly participated.` },
+        { type: 'dialogue', speaker: `SETTING`, text: `[GINNIE's OFFICE]` },
+        { type: 'dialogue', speaker: `GINNIE`, text: `What does this — mean for us?` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `It pulls the news cycle. Everyone will be tuned in.` },
+        { type: 'dialogue', speaker: `GINNIE`, text: `But those people. Those young artists. Those kids who just wanted —` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `The crime is done. We need to make sure it never happens again. Justice.` },
+        { type: 'stage-direction', text: `(uncertain)` },
+        { type: 'dialogue', speaker: `GINNIE`, text: `And justice doesn’t exist in the dark.` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `Transparency keeps everyone honest.` },
+        { type: 'dialogue', speaker: `GINNIE`, text: `So this is — good for us?` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `I hate it.` },
+        { type: 'stage-direction', text: `(Hesitantly Grossly Optimistic)` },
+        { type: 'dialogue', speaker: `MARCUS`, text: `But it might be.` },
+        { type: 'dialogue', speaker: `SETTING`, text: `White House. Conference Room. ASH and CAM stand silent next to a map. RONNIE enters - eating.` },
+        { type: 'dialogue', speaker: `ASH`, text: `Mr. President. We are ready to deploy.` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `Boots are on the ground.` },
+        { type: 'dialogue', speaker: `ASH`, text: `Sails are jibbed.` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `Gurneys are rolling.` },
+        { type: 'dialogue', speaker: `ASH`, text: `Cannons are foddered.` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `Troops are waiting, sir.` },
+        { type: 'dialogue', speaker: `RONNIE`, text: `Waiting for what? Who are we invading? Did we get attacked? I told the Secretary of Defense —` },
+        { type: 'stage-direction', text: `War, sir. Secretary of War` },
+        { type: 'stage-direction', text: `You changed it. A week ago.` },
+        { type: 'dialogue', speaker: `RONNIE`, text: `Did I? Well, I told that old drunk to let me know first thing if something goes boom. When did we decide to attack?` },
+        { type: 'dialogue', speaker: `ASH`, text: `This morning, sir.` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `The staff meeting.` },
+        { type: 'dialogue', speaker: `ASH`, text: `You were present.` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `I mean — you were —` },
+        { type: 'dialogue', speaker: `ASH`, text: `Absorbing.` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `Demonstrating quiet strength.` },
+        { type: 'dialogue', speaker: `ASH`, text: `Leading stoically.` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `It was frankly moving, sir.` },
+        { type: 'dialogue', speaker: `ASH`, text: `Inspired all of us.` },
+        { type: 'dialogue', speaker: `RONNIE`, text: `Inspiring? To - what country are we invading - or defending ourselves against - or making an example of - give me the highlights. I'm a little foggy. I'm assuming it's a country — or is this one of those cave situations where we're bombing a mountain somewhere —` },
+        { type: 'dialogue', speaker: `ASH`, text: `A country, sir.` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `They said very bad things about you.` },
+        { type: 'dialogue', speaker: `ASH`, text: `Because of the files.` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `Called you names. Internationally.` },
+        { type: 'dialogue', speaker: `ASH`, text: `We can't have that.` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `And they have —` },
+        { type: 'dialogue', speaker: `ASH`, text: `Conveniently —` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `So much oil.` },
+        { type: 'dialogue', speaker: `ASH`, text: `And the country next door has been very friendly.` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `And is willing to let us build a pipline from this country to that and right through a military base of ours.` },
+        { type: 'dialogue', speaker: `RONNIE`, text: `You said they're saying things about me? Who are they? I'll get them on the phone! They can't talk about me like that! Secretary - do you think State would do this? Get me the Secretary of State, have that pretty little secretary - oh are we supposed to call them executive assistants now. I'm the President!` },
+        { type: 'dialogue', speaker: `ASH`, text: `Yes, sir.` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `We agree. Very disrespectful.` },
+        { type: 'dialogue', speaker: `ASH`, text: `But in the meantime —` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `The troops are staged.` },
+        { type: 'dialogue', speaker: `ASH`, text: `And your company does have property there.` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `Beachfront.` },
+        { type: 'dialogue', speaker: `ASH`, text: `Beautiful location for a —` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `Resort.` },
+        { type: 'dialogue', speaker: `ASH`, text: `And then of course the —` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `Oil fields.` },
+        { type: 'dialogue', speaker: `RONNIE`, text: `Well that is a whole bunch of convenient things lined up in a row. They disrespected the country —that's what that is, disrespecting the country — they're blocking American energy independence,and you're telling me we have property there already — why aren't we bombing them yesterday?` },
+        { type: 'dialogue', speaker: `ASH`, text: `Exactly what you suggested in the meeting this morning.` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `Broadcasted on your social media immediately after. Very well received.` },
+        { type: 'stage-direction', text: `The newsreel cuts back in.` },
+        { type: 'dialogue', speaker: `ANCHOR - NEWSREEL`, text: `Big Pharaoh Thruxton the Third's press office has released a statement categorically denying any connection between the artist and President Ronnie, as well as any known association with Geoffrey Goldstein or Maxie Laurent — despite the artist's name appearing forty-seven times in the Goldstein documents. The feeling in Los Angeles tonight is difficult to describe.` },
+        { type: 'stage-direction', text: `(staring at the screen)` },
+        { type: 'dialogue', speaker: `RONNIE`, text: `This happened today?` },
+        { type: 'dialogue', speaker: `ASH`, text: `Sir —` },
+        { type: 'dialogue', speaker: `RONNIE`, text: `Isn't monitoring this literally one of your jobs?` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `Technically —` },
+        { type: 'dialogue', speaker: `ASH`, text: `We feel the invasion demonstrates that the business of the country —` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `Cannot be derailed —` },
+        { type: 'dialogue', speaker: `ASH`, text: `By liberal elitists —` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `In California.` },
+        { type: 'dialogue', speaker: `RONNIE`, text: `No no no no no. We table the invasion.` },
+        { type: 'dialogue', speaker: `ASH`, text: `Sir —` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `The resort —` },
+        { type: 'dialogue', speaker: `ASH`, text: `The oil —` },
+        { type: 'dialogue', speaker: `RONNIE`, text: `We turn every single resource we have to this Mogul-whatsahooie situation. He goes down, we stay up. That is the whole strategy. Someone write that down. What are we doing - what am I doing - if not to make sure history remembers me as the kind of great leader that inspires his staff in his sleep!` },
+        { type: 'dialogue', speaker: `ASH`, text: `Stoically leading.` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `Slumberly leadership, sir.` },
+        { type: 'dialogue', speaker: `RONNIE`, text: `Whatever` },
+        { type: 'stage-direction', text: `(beat)` },
+        { type: 'dialogue', speaker: `RONNIE`, text: `And someone find out what he said about me in those documents.` },
+        { type: 'stage-direction', text: `RONNIE exits. Ash and Cammie stand in front of the map. The country they were going to invade sits there, labeled.` },
+        { type: 'dialogue', speaker: `ASH`, text: `The troops are just — standing there.` },
+        { type: 'stage-direction', text: `(quietly)` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `In formation.` },
+        { type: 'dialogue', speaker: `ASH`, text: `Will they get tired?` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `We should feed them, perhaps.` },
+        { type: 'dialogue', speaker: `ASH`, text: `It's a lot of people to just —` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `I'll send them home.` },
+        { type: 'stage-direction', text: `Beat.` },
+        { type: 'dialogue', speaker: `ASH`, text: `Which home?` },
+        { type: 'stage-direction', text: `Cammie looks at the map.` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `Ohio?` },
+        { type: 'dialogue', speaker: `ASH`, text: `All of them?` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `Where else do they come from?` },
+        { type: 'dialogue', speaker: `ASH`, text: `Daytona. That's Ohio, right?` },
+        { type: 'dialogue', speaker: `CAMMIE`, text: `Dayton is Ohio. Daytona is Florida.` },
+        { type: 'dialogue', speaker: `ASH`, text: `And?` },
+        { type: 'stage-direction', text: `Lights shift. Newsreel rises. Into the song.` },
+        { type: 'dialogue', speaker: `SETTING`, text: `[A BAR - WASHINGTON D.C. - NIGHT]` },
+        { type: 'stage-direction', text: `Dark. Quiet. A television in the corner, muted. Gus enters, looks around, finds a stool. The BARTENDER has his back turned. When he turns around —It's the same face. Different name tag. Different city. Same face. It's the actor that played Geoff!` },
+        { type: 'dialogue', speaker: `GUS`, text: `Don't I — know you from somewhere?` },
+        { type: 'dialogue', speaker: `BARTENDER`, text: `Everyone says that. I have that kind of face. What can I get you? I've vodka, diet soda, and water.` },
+        { type: 'dialogue', speaker: `GUS`, text: `That's all?` },
+        { type: 'dialogue', speaker: `BARTENDER`, text: `You got lucky. It's happy hour.` },
+        { type: 'dialogue', speaker: `GUS`, text: `It's 11am.` },
+        { type: 'dialogue', speaker: `BARTENDER`, text: `I'm happy. It'll last about an hour. Happy. Hour.` },
+        { type: 'dialogue', speaker: `GUS`, text: `I'll have a diet soda.` },
+        { type: 'stage-direction', text: `[NEWSREEL - muted, closed captions running]` },
+        { type: 'dialogue', speaker: `ANCHOR - NEWSREEL`, text: `BIG PHARAOH THRUXTON III — NEW DETAILS. NO MENTION OF GOLDSTEIN FILES.` },
+        { type: 'dialogue', speaker: `GUS`, text: `Funny how fast the cycle turns.` },
+        { type: 'dialogue', speaker: `BARTENDER`, text: `Lucky for that other guy. What was his name? Some Jew. I'm not antisemitic, but he was very Jewish.` },
+        { type: 'dialogue', speaker: `GUS`, text: `Goldstein. Gee-offrrey Goldstein.` },
+        { type: 'dialogue', speaker: `BARTENDER`, text: `That's it. Very Jewish. What is it with all the rich weirdos lately? Whatever happened to a good old-fashioned creepy high school gym teacher? You always knew what you were dealing with. Kept it contained. A perv was a perv and the neighborhood knew it.` },
+        { type: 'dialogue', speaker: `GUS`, text: `That's an — odd take.` },
+        { type: 'dialogue', speaker: `BARTENDER`, text: `I'm just saying. Everyone should keep their bedroom in their bedroom. Door shuts — hey, whose business is it?` },
+        { type: 'dialogue', speaker: `GUS`, text: `Are you suggesting we pick a fall guy and blame it all on him because he creeps us out? And then we can do - whatever we want?` },
+        { type: 'dialogue', speaker: `BARTENDER`, text: `The creep's gonna be there anyway. And besides — these rock stars? They got paid. Fully reimbursed for their — what would you call it — trauma. It's not like they were children, more the - the barely legal type. Like sixteen or fifteen - but that's the lowest, I'll bet. It's not like they're eight or something. Whole different class.` },
+        { type: 'dialogue', speaker: `GUS`, text: `I don't think it is.` },
+        { type: 'dialogue', speaker: `BARTENDER`, text: `Come on, they get money, fame. Everyone knows about casting couches. The parents knew, I bet - let them go! And if the parents say it's ok, who am I? And the money! That should be enough. I mean, he's not exactly a handsome man, this Pharaoh character, but for the kind of money they were offered — I mean, honestly, I might even su—` },
+        { type: 'dialogue', speaker: `GUS`, text: `Stop. Just. No.` },
+        { type: 'dialogue', speaker: `BARTENDER`, text: `That's the point. They're just afraid of saying so! Everyone thinks so but all these activist out there asking for kids to be pampered-` },
+        { type: 'dialogue', speaker: `GUS`, text: `No - just - I don't - no.` },
+        { type: 'stage-direction', text: `GUS puts down the glass. Stands. Leaves money on the bar. Walks out.` },
+        { type: 'dialogue', speaker: `GUS`, text: `What the fuck. What a fucking creep.` },
+        { type: 'stage-direction', text: `The bartender watches him go. Picks up the glass. Rinses it.` },
+        { type: 'dialogue', speaker: `BARTENDER`, text: `Probably one of those creeps.` },
+        { type: 'stage-direction', text: `Lights shift.` },
+        { type: 'dialogue', speaker: `SETTING`, text: `[TAMMY'S OFFICE - LATE]` },
+        { type: 'stage-direction', text: `Documents everywhere. Multiple stacks. Color-coded. She has been here for days. The newsreel plays on a small screen on her desk.` },
+        { type: 'dialogue', speaker: `ANCHOR - NEWSREEL`, text: `The stage appears to be set in the Pharaoh Thruxton case, but with no witnesses coming forward, questions are mounting about whether this is a legitimate prosecution or an overeager attorney general on a political witch hunt.` },
+        { type: 'dialogue', speaker: `ANCHOR - NEWSREEL`, text: `President Ronnie has thrown his full support behind the investigation, and both the DOJ and FBI have pledged their cooperation.` },
+        { type: 'dialogue', speaker: `ANCHOR - NEWSREEL`, text: `The same agencies have faced criticism in recent months for their handling — or lack thereof — of the Goldstein matter.` },
+        { type: 'dialogue', speaker: `TALKING HEAD 1`, text: `Where are we on that, exactly?` },
+        { type: 'dialogue', speaker: `TALKING HEAD 2`, text: `Still waiting on Solicitor General Caldwell to make a call.` },
+        { type: 'dialogue', speaker: `TALKING HEAD 1`, text: `She's still sitting on it? How long has it been?` },
+        { type: 'dialogue', speaker: `TALKING HEAD 2`, text: `She's had the files a month.` },
+        { type: 'dialogue', speaker: `TALKING HEAD 1`, text: `But the leak —` },
+        { type: 'dialogue', speaker: `TALKING HEAD 2`, text: `Oh, the leak. Yes. What a disaster.` },
+        { type: 'dialogue', speaker: `TALKING HEAD 1`, text: `Heads are going to roll. Someone has to be accountable.` },
+        { type: 'dialogue', speaker: `TALKING HEAD 2`, text: `Do they?` },
+        { type: 'stage-direction', text: `Tammy reaches over. Clicks it off. For the first time all scene. Silence.` },
+        { type: 'dialogue', speaker: `TAMMY`, text: `They do.` },
+        { type: 'stage-direction', text: `(looks at the stack)` },
+        { type: 'dialogue', speaker: `TAMMY`, text: `I'm just not sure I have enough to hold anyone accountable.` },
+        { type: 'stage-direction', text: `She picks up a document. Sets it down. Picks up another.` },
+        { type: 'dialogue', speaker: `TAMMY`, text: `If I bring it now — with what I have — I lose. And if I lose — But if I wait —` },
+        { type: 'stage-direction', text: `(she doesn't finish it)` },
+        { type: 'stage-direction', text: `She stands. Walks to the window. Looks out at nothing.` },
+        { type: 'stage-direction', text: `(she doesn't finish that one either) She goes back to the desk. Sits. Opens the next file. The television screen sits dark. The stack doesn't get smaller.` }
+      ] },
+    { id: "02-12", title: "I Need to Walk", summary: "A moment of reflection before the final trial.", hasMusic: true, youtubeId: "Jk3R5NF6eqs", script: [
         { type: 'stage-direction', text: `[NEWSREEL - rising from the pressure sequence music]` },
         { type: 'stage-direction', text: `[SUGGESTED STAGE DRESSING: The Washington Monument visible through the upstage window, center frame. Never referenced. Never lit for emphasis. Simply present for the duration of the scene.]` },
         { type: 'dialogue', speaker: `ANCHOR`, text: `In entertainment news tonight — Grammy-winning producer and rap mogul Big Pharaoh Thruxton, born Marcus DeShawn Pullman of Compton, has been arrested at his Bel Air compound after federal investigators declared the property a crime scene.` },
@@ -2216,7 +4268,7 @@ export default function App() {
         { type: 'stage-direction', text: `She stands.Walks to the window.Looks out at nothing.` },
         { type: 'stage-direction', text: `(she doesn't finish that one either) She goes back to the desk.Sits.Opens the next file. The television screen sits dark.The stack doesn't get smaller.` }
       ] },
-    { id: "02-13", title: "Not Unreasonable, Man", summary: "The Solicitor General's final stand.", hasMusic: true, youtubeId: "niNLu3u8Fps", script: [
+    { id: "02-13", title: "Not Unreasonable, Man", summary: "The Solicitor General's final stand.", hasMusic: true, youtubeId: "j1lVwTeycPQ", script: [
         { type: 'stage-direction', text: `(The Oval. RONNIE is at his desk. ASH and CAMMIE are flanking him. Television in the corner, muted. TAMMY's face visible on it occasionally. RONNIE is not looking at it.)` },
         { type: 'dialogue', speaker: `ASH`, text: `Sir, the situation in Ohio —` },
         { type: 'dialogue', speaker: `RONNIE`, text: `Is not my situation.` },
@@ -2260,7 +4312,7 @@ export default function App() {
         { type: 'stage-direction', text: `(ASH and CAMMIE look at each other. They say nothing. They step back. Ronnie plays with some toys on his desk humming “Its not unreasonable, man”)` },
         { type: 'stage-direction', text: `(Lights shift.)` }
       ] },
-    { id: "02-14", title: "We the People", summary: "The jury's verdict and the public's reaction.", hasMusic: true, youtubeId: "niNLu3u8Fps", script: [
+    { id: "02-14", title: "We the People", summary: "The jury's verdict and the public's reaction.", hasMusic: true, youtubeId: "cSVe6MhYpC0", script: [
         { type: 'stage-direction', text: `Tammy's chambers. Before anyone arrives.` },
         { type: 'stage-direction', text: `TAMMY paces. Files in her arms.` },
         { type: 'stage-direction', text: `Low heels on hardwood — click, click, click. She mutters with her whole chest. We cannot make out words. Just rhythm.` },
@@ -2435,7 +4487,7 @@ export default function App() {
         { type: 'dialogue', speaker: `TAMMY`, text: `Make the calls.` },
         { type: 'stage-direction', text: `She walks back to her files.The room begins to move around Gus — agents, aides, the machinery of process — while he sits very quietly with the canary yellow phone in his hands, not entirely sure what just happened.Lights narrow.Down.` }
       ] },
-    { id: "02-15", title: "A Reasonable Vice (President)", summary: "A satirical take on the political fallout.", hasMusic: true, youtubeId: "niNLu3u8Fps", script: [
+    { id: "02-15", title: "A Reasonable Vice (President)", summary: "A satirical take on the political fallout.", hasMusic: true, youtubeId: "dv-ZFkmz_Bk", script: [
         { type: 'stage-direction', text: `A podium. Press corps. Cameras. The sound of heavy rain. RONNIE at the mic.` },
         { type: 'dialogue', speaker: `RONNIE`, text: `Beautiful day. Really beautiful. You know what a beautiful day means? It means things are good. Things are moving in the right direction. The sun is out. The snow is gone. You know what I always say about the rain—` },
         { type: 'dialogue', speaker: `RONNIE`, text: `It washes everything away. That's what I always say. I've been saying it for years. The snow was covering everything up and now it's a beautiful day and the truth is coming out and it's very —` },
@@ -2536,7 +4588,7 @@ export default function App() {
         { type: 'dialogue', speaker: `ASH`, text: `Everyone that matters.` },
         { type: 'dialogue', speaker: `CAM`, text: `Did we forget anyone?` }
       ] },
-    { id: "02-16", title: "Park Bench Sobriety", summary: "Gus finds a moment of peace and clarity.", hasMusic: true, youtubeId: "niNLu3u8Fps", script: [
+    { id: "02-16", title: "Park Bench Sobriety", summary: "Gus finds a moment of peace and clarity.", hasMusic: true, script: [
         { type: 'stage-direction', text: `A park bench. Outside a church. Morning.` },
         { type: 'stage-direction', text: `GUS sits. He's been sitting for a while.` },
         { type: 'stage-direction', text: `He reaches into his pocket. Pulls out the canary yellow phone. Turns it over in his hands. They gave it back — cleared. OS wiped. Nothing on it. Just a phone.` },
@@ -2625,7 +4677,7 @@ export default function App() {
       summary: "The cycle continues. A new island, a new name, the same old rules.", 
       characters: "Ensemble, Geoff (Voice)",
       hasMusic: true,
-      youtubeId: "niNLu3u8Fps",
+      youtubeId: "dv-ZFkmz_Bk",
       lyric: "IT'S STANDARD PROCEDURE\nNothing to see here, move along.\nIT'S STANDARD PROCEDURE\nJust a verse in a different song.\nThe names may change, the faces too\nBut the game is old and the rules are new\nAnd the powerful are never wrong.",
       script: [
         { type: 'stage-direction', text: "The entire ENSEMBLE is on stage, dressed in sharp, geometric Bauhaus-style suits. They move in perfect, mechanical unison." },
