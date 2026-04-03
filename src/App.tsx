@@ -222,7 +222,7 @@ export default function App() {
     { id: 'iJNhZs7p_2Y', act: 'Act 2', scene: 'Scene 5', title: 'Witch Hunt & Snowstorm', versions: { '1.0': 'iJNhZs7p_2Y', '2.0': 'eTmFxsTFifeHgvdd' } },
     { id: '08OeZlI8uf8', act: 'Act 2', scene: 'Scene 8', title: 'What Did You Do', versions: { '1.0': '08OeZlI8uf8' } },
     { id: 'wdesqA9Er9c', act: 'Act 2', scene: 'Scene 9', title: 'Just Like Them, Just Like Me', versions: { '1.0': 'wdesqA9Er9c' } },
-    { id: 'Jk3R5NF6eqs', act: 'Act 2', scene: 'Scene 12', title: 'I Need to Walk', versions: { '1.0': 'Jk3R5NF6eqs' } },
+    { id: 'Jk3R5NF6eqs', act: 'Act 2', scene: 'Scene 12', title: 'summary: "Back on the park bench, Gus holds a wiped canary yellow phone. Tammy joins him — offering perspective on justice and a folded piece of paper with a path forward. Everything orbits around your next move."', versions: { '1.0': 'Jk3R5NF6eqs' } },
     { id: 'bdb6xQDCGZU', act: 'Act 2', scene: 'Scene 13', title: 'Not Unreasonable, Man', versions: { '1.0': 'bdb6xQDCGZU' } },
     { id: 'cSVe6MhYpC0', act: 'Act 2', scene: 'Scene 14', title: 'We the People', versions: { '1.0': 'cSVe6MhYpC0' } },
   ];
