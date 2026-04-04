@@ -2125,46 +2125,50 @@ export default function App() {
       ]
     },
     { id: "02-05", title: "SNOWSTORM", summary: "The media frenzy and the cover-up collide.", hasMusic: true, youtubeId: "iJNhZs7p_2Y", script: [
-        { type: 'stage-direction', text: `PRESS CONFERENCE — DAY` },
-        { type: 'stage-direction', text: `A podium. Snow visible through a window behind it, just starting. CAMMIE and ASH enter together, unhurried. They have folders they don't need. They set them down with the confidence of people who have prepared for exactly this.` },
-        { type: 'stage-direction', text: `The room is loud before they speak. It gets quieter when they smile.` },
-        { type: 'dialogue', speaker: `CAMMIE`, text: `Good morning.` },
-        { type: 'dialogue', speaker: `ASH`, text: `Good morning.` },
-        { type: 'dialogue', speaker: `CAMMIE`, text: `We'll keep this brief because we know you have reading to do.` },
-        { type: 'stage-direction', text: `A small, warm laugh. Hers.` },
-        { type: 'dialogue', speaker: `ASH`, text: `We were made aware this morning — along with many of you, apparently —` },
-        { type: 'stage-direction', text: `He glances at several reporters with the gentle reproach of a man who is not reproaching anyone.` },
-        { type: 'dialogue', speaker: `ASH`, text: `— that a substantial portion of the investigative files have found their way into circulation ahead of the official release window.` },
-        { type: 'dialogue', speaker: `CAMMIE`, text: `We share your surprise.` },
-        { type: 'stage-direction', text: `She does not look surprised.` },
-        { type: 'dialogue', speaker: `ASH`, text: `We share it completely.` },
-        { type: 'stage-direction', text: `He does not look surprised.` },
-        { type: 'dialogue', speaker: `CAMMIE`, text: `We want to be clear that this office had no role in the timing or distribution of any materials currently —` },
-        { type: 'stage-direction', text: `She glances toward the window. Snow falling.` },
-        { type: 'dialogue', speaker: `CAMMIE`, text: `— circulating.` },
-        { type: 'stage-direction', text: `Beat.` },
-        { type: 'dialogue', speaker: `ASH`, text: `Beautiful day, though.` },
-        { type: 'stage-direction', text: `Cammie looks at the snow. Almost to herself:` },
-        { type: 'dialogue', speaker: `CAMMIE`, text: `It really is.` },
-        { type: 'stage-direction', text: `She turns back to the room. Bright.` },
-        { type: 'dialogue', speaker: `CAMMIE`, text: `We're happy to take questions.` },
-        { type: 'stage-direction', text: `The room erupts. She and Ash stand perfectly still in the noise, smiling at slightly different rates.` },
-        { type: 'stage-direction', text: `Music begins.` },
-        { type: 'dialogue', speaker: `SONG`, text: `[Musical number occurs here]` },
-        { type: 'stage-direction', text: `PRESS CORPS` },
-        { type: 'dialogue', speaker: `CAMMIE`, text: `It is a beautiful day.` },
-        { type: 'dialogue', speaker: `CAMMIE`, text: `Naturally.` },
-        { type: 'stage-direction', text: `PRESS CORPS` },
-        { type: 'dialogue', speaker: `CAMMIE`, text: `When will the rest of the documents be released?` },
-        { type: 'dialogue', speaker: `ASH`, text: `Soon. Trust us, it’ll be real soon.` },
-        { type: 'dialogue', speaker: `CAMMIE`, text: `In the meantime, did you hear there’s a huge traffic jam in Boston over the unexpected speed with which the storm dropped snow on the city?` },
-        { type: 'stage-direction', text: `The whole city is shut down. Streets are clogged from all those poor commuters stuck on the highway.` },
-        { type: 'dialogue', speaker: `CAMMIE`, text: `It’s a tragedy` },
-        { type: 'stage-direction', text: `A national emergency.` },
-        { type: 'stage-direction', text: `PRESS CORPS` },
-        { type: 'dialogue', speaker: `ASH`, text: `How’s the President handling it.` },
-        { type: 'stage-direction', text: `He’s already been on the phone with the Governor and Mayor and the various agencies that handle this sort of thing.` },
-        { type: 'stage-direction', text: `He’s declaring a national emergency.` }
+        { type: 'stage-direction', text: "PRESS CONFERENCE — DAY" },
+        { type: 'stage-direction', text: "A podium. Snow visible through a window behind it, just starting. CAM and ASH enter together, unhurried. They have folders they don't need. They set them down with the confidence of people who have prepared for exactly this." },
+        { type: 'stage-direction', text: "The room is loud before they speak. It gets quieter when they smile." },
+        { type: 'dialogue', speaker: "CAM", text: "Good morning." },
+        { type: 'dialogue', speaker: "ASH", text: "Good morning." },
+        { type: 'dialogue', speaker: "CAM", text: "We'll keep this brief because we know you have reading to do." },
+        { type: 'stage-direction', text: "A small, warm laugh. Hers." },
+        { type: 'dialogue', speaker: "ASH", text: "We were made aware this morning — along with many of you, apparently —" },
+        { type: 'stage-direction', text: "He glances at several reporters with the gentle reproach of a man who is not reproaching anyone." },
+        { type: 'dialogue', speaker: "ASH", text: "— that a substantial portion of the investigative files have found their way into circulation ahead of the official release window." },
+        { type: 'dialogue', speaker: "CAM", text: "We share your surprise." },
+        { type: 'stage-direction', text: "They do not look surprised." },
+        { type: 'dialogue', speaker: "ASH", text: "We share it completely." },
+        { type: 'stage-direction', text: "They do not look surprised." },
+        { type: 'dialogue', speaker: "CAM", text: "We want to be clear that this office had no role in the timing or distribution of any materials currently —" },
+        { type: 'stage-direction', text: "CAM glances to the window." },
+        { type: 'dialogue', speaker: "CAM", text: "— circulating." },
+        { type: 'stage-direction', text: "Beat." },
+        { type: 'dialogue', speaker: "ASH", text: "Beautiful day, though." },
+        { type: 'stage-direction', text: "CAM looks at the snow. Almost to herself:" },
+        { type: 'dialogue', speaker: "CAM", text: "It really is." },
+        { type: 'stage-direction', text: "She turns back to the room. Bright." },
+        { type: 'dialogue', speaker: "CAM", text: "We're happy to take questions." },
+        { type: 'stage-direction', text: "The room erupts. She and Ash stand perfectly still in the noise, smiling at slightly different rates." },
+        { type: 'stage-direction', text: "Music begins." },
+        { type: 'dialogue', speaker: "SONG", text: "[Musical number occurs here]" },
+        { type: 'dialogue', speaker: "ASH", text: "It is a beautiful day." },
+        { type: 'dialogue', speaker: "CAM", text: "Naturally." },
+        { type: 'dialogue', speaker: "PRESS CORPS", text: "When will the rest of the documents be released?" },
+        { type: 'dialogue', speaker: "ASH", text: "Soon. Trust us, it’ll be real soon." },
+        { type: 'dialogue', speaker: "CAM", text: "In the meantime, did you hear there’s a crisis in Chicago? " },
+        { type: 'dialogue', speaker: "ASH", text: "The whole city is shut down. " },
+        { type: 'dialogue', speaker: "CAM", text: "The storm moved so quickly and covered the city so heavily, even for Chicago." },
+        { type: 'dialogue', speaker: "ASH", text: "People are without power, without heat, stuck in their cars - It's humanitarain!" },
+        { type: 'dialogue', speaker: "CAM", text: "A humanitarian crisis! And an emergency!" },
+        { type: 'dialogue', speaker: "ASH", text: "A national emergency!" },
+        { type: 'dialogue', speaker: "PRESS CORPS", text: "In Chicago? You said Chicago? Is the storm moving this direction.." },
+        { type: 'dialogue', speaker: "ASH", text: "The storm has just begun here. " },
+        { type: 'dialogue', speaker: "CAM", text: "Such a beautiful day, but an accumulation is expected." },
+        { type: 'dialogue', speaker: "ASH", text: "The President is already on the phone wtihy Governors and Senators-" },
+        { type: 'dialogue', speaker: "CAM", text: "-and Mayors and Local Businesspeople - and all of New England might have the same -" },
+        { type: 'dialogue', speaker: "ASH", text: "-accumulation! It's a crisis!" },
+        { type: 'dialogue', speaker: "CAM", text: "The President is already calling it a national emergency." },
+        { type: 'stage-direction', text: "The PRESS CORPS get worked up and the scene ends with the sounds of them shouting questions." }
       ] },
     { 
       id: "02-06", 
@@ -2172,960 +2176,176 @@ export default function App() {
       summary: "Tammy discovers Lila has been leaking documents to Buck and the White House.", 
       hasMusic: false,
       script: [
-        {
-          "type": "stage-direction",
-          "text": "BEAT 2 - TAMMY'S OFFICE [FIRST NOTE]"
-        },
-        {
-          "type": "stage-direction",
-          "text": "TAMMY is at her desk. Working. LILA enters, slightly hurried, slightly off."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "How was your lunch?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "It was fine. You remember Stacey? The girl you met?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Yes. The one that you were gossiping about the Goldstein case with. Outside the elevators. Yes, I remember."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "She gave me a note."
-        },
-        {
-          "type": "stage-direction",
-          "text": "(Beat.)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "She gave you a note.."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "She said it was from a friend who wanted to—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Who is the friend."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "She didn't say exactly. Someone who works with the defense—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Lila."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "She said it was just—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Stop."
-        },
-        {
-          "type": "stage-direction",
-          "text": "(Beat. Tammy doesn't raise her voice. She never raises her voice.)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "You had lunch with a woman who was discussing an active case in a public corridor. Who then passed you a note. From someone working defense."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "When you say it like that—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Is there another way to say it?"
-        },
-        {
-          "type": "stage-direction",
-          "text": "Lila has no answer."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Give me the note."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Lila hands it over. Tammy reads. Sets it down."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Who else did you see at lunch?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "Just Stacey and—"
-        },
-        {
-          "type": "stage-direction",
-          "text": "She stops."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "And."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "There was someone she introduced me to. Briefly."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Name."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "Buck. He works defense, I think—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "I know who Buck is."
-        },
-        {
-          "type": "stage-direction",
-          "text": "A long beat. Tammy looks at the note. Looks at Lila."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Lila. I need you to think very carefully before you answer this. Did you discuss anything about this office, these files, or this case at any point during that lunch?"
-        },
-        {
-          "type": "stage-direction",
-          "text": "Silence"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Go back to your desk."
-        },
-        {
-          "type": "stage-direction",
-          "text": "Lila exits. Tammy picks up the note. Reads it again. Sets it down. Then picks up her own pen and begins writing. She is not calling anyone. She is documenting."
-        },
-        {
-          "type": "stage-direction",
-          "text": "A second note arrives — delivered through Lila, provenance unclear. Tammy reads it. Adds it to the file she is building. Music begins."
-        },
-        {
-          "type": "stage-direction",
-          "text": "BEAT 2 - TAMMY'S OFFICE [BACK FROM THE WHITE HOUSE]"
-        },
-        {
-          "type": "stage-direction",
-          "text": "LILA enters. She is not quite late but close."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Back from where? It's not lunch."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "From the White House?"
-        },
-        {
-          "type": "stage-direction",
-          "text": "(appalled)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "You went to the White House and didn't say anything?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "Well, yes. The President wanted to see me."
-        },
-        {
-          "type": "stage-direction",
-          "text": "(shocked)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Under what circumstances is the President of the United States of America calling to see the STACEY of the Solicitor General — without me? This is highly unorthodox."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "He wanted me to give you a note. He said he didn't want all the cameras."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Lila, that is exactly why you should not go. The cameras are what keep the wheels of democracy oiled."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "What does that mean?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "It means that transparency assures accountability."
-        },
-        {
-          "type": "stage-direction",
-          "text": "(Beat.)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "People act right when they're being watched. The closer you watch, the better they act."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "Like — watching citizens? The police?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "No. Citizens have the right to privacy. The President is a publicly elected official. Different levels."
-        },
-        {
-          "type": "stage-direction",
-          "text": "(Beat.)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "What's the note?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Lila hands it over. Tammy reads. Her expression doesn't change. That's the tell."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "How long were you there?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "Maybe twenty minutes? He was very friendly—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "I'm sure he was."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "He said it was just a quick—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Did anyone else speak to you while you were there?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "His aide showed me in. And there was a man in the hallway on the way out—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "What man."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "I don't know. He introduced himself. He was very—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Friendly."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "...Yes."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "Beat. Tammy folds the note once. Sets it on the desk face down."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Lila. If the President contacts this office again — by any means, through any person, in any format — you come to me first. Before you go anywhere. Before you say anything to anyone."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Especially if he says."
-        },
-        {
-          "type": "stage-direction",
-          "text": "(Beat.)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Do you understand the difference between a request and a directive?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "...I think so?"
-        },
-        {
-          "type": "stage-direction",
-          "text": "A directive comes through proper channels with documentation and I am notified in advance. Everything else is a request. And requests from the President of the United States to members of this office are — what?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "...Highly unorthodox?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Highly unorthodox."
-        },
-        {
-          "type": "stage-direction",
-          "text": "(Beat. Almost gentle.)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "You're not in trouble. But you will be if it happens again."
-        },
-        {
-          "type": "stage-direction",
-          "text": "Lila nods and exits. Tammy looks at the note on her desk. Doesn't pick it up. Music begins."
-        },
-        {
-          "type": "stage-direction",
-          "text": "BEAT 3 - CORRIDOR [BUCK]"
-        },
-        {
-          "type": "stage-direction",
-          "text": "BUCK is there when LILA comes out. STACEY nearby. It looks like a coincidence. It isn't."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "Your help has been vital in helping my client. Those documents you provided — I wanted to thank you. The President wanted to thank you personally."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "I was so worried when she told me not to go back to the White House. She's such a nit picky old bitch. I mean, I can do what I want, talk to who I want."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "Right. Well, we're going to get you out of there as soon as this unpleasantness is over. We'll get you a desk that suits you."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "All the way up on the top floor?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "Now, now. The lawyers are on the top floor. But certainly you'll have a view."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "What do you need from me? I mean, what does the President want from me?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "Shhh. Never mention to anyone that the President is involved at all. You understand me?"
-        },
-        {
-          "type": "stage-direction",
-          "text": "Lila nods. Buck smiles. Stacey watches from a little distance, catching just enough."
-        },
-        {
-          "type": "stage-direction",
-          "text": "TAMMY'S OFFICE"
-        },
-        {
-          "type": "stage-direction",
-          "text": "LILA enters with another note."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "I brought you another note."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "What — what have I said about this? Who is delivering these? Where are you getting them?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "I don't know. I go to lunch. That nice man drops them off next to me, says hello, tells me to give them to you and he's gone before I can ask."
-        },
-        {
-          "type": "stage-direction",
-          "text": "(Beat.)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "What? You said they're from the President. Aren't we serving his majesty?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "He's not — Lila, what if there's anthrax?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "But there's not. Come on, lighten up. He's super polite and works in the White House. What could possibly be wrong? Who can you trust if you can't trust the guy in the White House?"
-        },
-        {
-          "type": "stage-direction",
-          "text": "Lila turns back toward the filing area. Sees a pile of folders."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "These need to be filed?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Yes. Lock and key, Lila. Lock. And. Key."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Tammy returns to her work. We watch Lila carry the folders to her desk. She opens the top folder. Reads a page. Reads another. Removes half the documents. Tucks them into her bag. Files the rest away. Picks up her phone."
-        },
-        {
-          "type": "stage-direction",
-          "text": "(into phone, quietly)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "Buck? Yeah. I have a present for you."
-        },
-        {
-          "type": "stage-direction",
-          "text": "Lights shift."
-        },
-        {
-          "type": "stage-direction",
-          "text": "CORRIDOR [BUCK 2]"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "We shouldn't meet twice in a day."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "You said you needed more."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "I said that quietly. In a private context."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "Well I have them. Do you want them or not?"
-        },
-        {
-          "type": "stage-direction",
-          "text": "Buck looks around. Takes the folder. Doesn't open it."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "How many people touch these before they get to you?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "Just me. I file everything. She doesn't trust anyone else with the organization system."
-        },
-        {
-          "type": "stage-direction",
-          "text": "(almost to himself)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "No. She wouldn't."
-        },
-        {
-          "type": "stage-direction",
-          "text": "He pockets the folder."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "You didn't make copies."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "I took the originals. She has so many she won't—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "Don't do that again. Copies only. Originals stay in the office."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "Fine. Sorry. I didn't—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "It's fine. You did well."
-        },
-        {
-          "type": "stage-direction",
-          "text": "That lands on her exactly the way he intended."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "The President is very pleased."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "Yeah?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "Very. Now—"
-        },
-        {
-          "type": "stage-direction",
-          "text": "He leans in slightly."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "How much access do you have to the filing system after hours?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "Beat. Something flickers across Lila's face — not quite doubt, but the shape of it."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "I mean. I have a key."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "Good."
-        },
-        {
-          "type": "stage-direction",
-          "text": "He straightens. Warm smile."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "You're going to have a very good year, Lila."
-        },
-        {
-          "type": "stage-direction",
-          "text": "He walks away. She watches him go. The folder is gone. She stands there a moment. Then picks up her phone."
-        },
-        {
-          "type": "stage-direction",
-          "text": "TAMMY'S OFFICE"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "Tammy at her desk. She reaches for a file. Opens the drawer. Closes it. Opens it again. Counts. A long, very still beat."
-        },
-        {
-          "type": "stage-direction",
-          "text": "(into phone)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Pull the access log for the filing room going back thirty days."
-        },
-        {
-          "type": "stage-direction",
-          "text": "(Beat.)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Yes, all of it."
-        },
-        {
-          "type": "stage-direction",
-          "text": "She hangs up. Looks at the drawer. Looks at the door to the outer office where Lila sits. Does not look away."
-        },
-        {
-          "type": "stage-direction",
-          "text": "BEAT 4 - UPSTAIRS [CORRIDOR]"
-        },
-        {
-          "type": "stage-direction",
-          "text": "LILA enters the corridor. She's been staying late. She's jumpy, pleased with herself, running on the story Buck has given her about who she is."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "Sorry I'm late. I had to stay over and pretend to be doing extra filing. She's been watching me like a hawk."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "It's okay. I work late like this all the time."
-        },
-        {
-          "type": "stage-direction",
-          "text": "He looks around."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "We should find someplace more private."
-        },
-        {
-          "type": "stage-direction",
-          "text": "(excited)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "Yes, Mr. Buck. There's a janitor's closet—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "Perfect."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "I brought copies this time. But I'm telling you, she has no idea the other files are—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "Shhh. Wait until we're private."
-        },
-        {
-          "type": "stage-direction",
-          "text": "They move toward the closet. Lights shift."
-        },
-        {
-          "type": "stage-direction",
-          "text": "TAMMY stands with an SECURITY. Calm. She has been calm since she started counting folders."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "According to the phone logs, they were going to meet on this floor."
-        },
-        {
-          "type": "stage-direction",
-          "text": "SECURITY Buck's not new. How did he not use a private line or a cell phone?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "She's got a personal line — so she can field phone calls about her kids and their daycare. She told him it was her personal number. I don't think she thought we would be monitoring all calls in and out on all of our phone lines."
-        },
-        {
-          "type": "stage-direction",
-          "text": "SECURITY She thought you gave her a private unmonitored phone line to conduct illegal reconnaissance with the opposition?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "She's not very good at her job."
-        },
-        {
-          "type": "stage-direction",
-          "text": "(Beat.)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "But she was positive. She was energetic. She learned quickly. You had to teach her, but once she got it, she got it better than most. You just had to teach her. I thought the wrinkles would iron out with exposure."
-        },
-        {
-          "type": "stage-direction",
-          "text": "SECURITY This isn't a great city to test people's character in. They lose more often than they win."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "I know that now."
-        },
-        {
-          "type": "stage-direction",
-          "text": "A sound from down the corridor."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "The closet?"
-        },
-        {
-          "type": "stage-direction",
-          "text": "The officer nods. They move to the closet door. Tammy knocks twice. Official. Unhurried."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Ms. Lila."
-        },
-        {
-          "type": "stage-direction",
-          "text": "Silence."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Mr. Buck."
-        },
-        {
-          "type": "stage-direction",
-          "text": "A beat. Then the sound of shuffling. Papers. Something falling. The door opens. LILA. BUCK. The folder between them, half open. Nobody speaks for a moment. Buck recovers first. Of course he does."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "Counselor."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Mr. Buck."
-        },
-        {
-          "type": "stage-direction",
-          "text": "(Beat.)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "This isn't what—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Don't."
-        },
-        {
-          "type": "stage-direction",
-          "text": "One word. He stops. Tammy looks at Lila. Just looks at her. Long enough that Lila has to look away."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Pack your desk tonight. Leave your key card on my desk before you go. HR will contact you in the morning."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "I can explain—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "I know you can. You'll have the opportunity to do that with the appropriate parties."
-        },
-        {
-          "type": "stage-direction",
-          "text": "She gestures to the officer. Lila looks at Buck."
-        },
-        {
-          "type": "stage-direction",
-          "text": "(quietly)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "LILA",
-          "text": "You said—"
-        },
-        {
-          "type": "stage-direction",
-          "text": "(not unkindly, which is worse)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "I wouldn't hire a snitch."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "Beat. Lila absorbs that. Nods once. Walks past Tammy without looking at her. Tammy watches her go. Then turns to Buck."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Your client is missing, Mr. Buck."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "My client's interests persist regardless of—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Your client is missing and you just burned a twenty-three year old girl for documents she didn't understand she wasn't authorized to access."
-        },
-        {
-          "type": "stage-direction",
-          "text": "Buck says nothing."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Your bar review will be very interesting."
-        },
-        {
-          "type": "stage-direction",
-          "text": "(measured)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "I look forward to it."
-        },
-        {
-          "type": "stage-direction",
-          "text": "He picks up the folder. Looks at it."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "You'll want this back."
-        },
-        {
-          "type": "stage-direction",
-          "text": "He holds it out. Tammy doesn't take it."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "The officer will take it."
-        },
-        {
-          "type": "stage-direction",
-          "text": "Buck hands it over. Straightens his jacket."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "BUCK",
-          "text": "You're very good at your job, Counselor."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "I know."
-        },
-        {
-          "type": "stage-direction",
-          "text": "He leaves. Tammy stands in the hallway. The officer looks at her."
-        },
-        {
-          "type": "stage-direction",
-          "text": "SECURITY You want to press—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Not yet."
-        },
-        {
-          "type": "stage-direction",
-          "text": "(Beat.)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Document everything. Every phone log. Every access record. Every note from the White House."
-        },
-        {
-          "type": "stage-direction",
-          "text": "(Beat.)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "TAMMY",
-          "text": "Every note."
-        },
-        {
-          "type": "stage-direction",
-          "text": "The officer nods and goes. Tammy stands alone in the corridor. Looks at the closet door, still open. Looks at the empty desk through the glass where Lila sat."
-        },
-        {
-          "type": "stage-direction",
-          "text": "Lights shift."
-        }
+        { type: 'dialogue', speaker: "SETTING", text: "BEAT 2 - TAMMY'S OFFICE [FIRST NOTE]" },
+        { type: 'stage-direction', text: "TAMMY is at her desk. Working. LILA enters, slightly hurried, slightly off." },
+        { type: 'dialogue', speaker: "TAMMY", text: "How was your lunch?" },
+        { type: 'dialogue', speaker: "LILA", text: "It was fine. You remember Stacey? The girl you met?" },
+        { type: 'dialogue', speaker: "TAMMY", text: "Yes. The one that you were gossiping about the Goldstein case with. Outside the elevators. Yes, I remember." },
+        { type: 'dialogue', speaker: "LILA", text: "She gave me a note." },
+        { type: 'stage-direction', text: "(Beat.)" },
+        { type: 'dialogue', speaker: "TAMMY", text: "She gave you a note.." },
+        { type: 'dialogue', speaker: "LILA", text: "She said it was from a friend who wanted to—" },
+        { type: 'dialogue', speaker: "TAMMY", text: "Who is the friend." },
+        { type: 'dialogue', speaker: "LILA", text: "She didn't say exactly. Someone who works with the defense—" },
+        { type: 'dialogue', speaker: "TAMMY", text: "Lila." },
+        { type: 'dialogue', speaker: "LILA", text: "She said-" },
+        { type: 'dialogue', speaker: "TAMMY", text: "Stop. You had lunch with a woman who was discussing an active case in a public corridor. Who then passed you a note. From someone working defense." },
+        { type: 'dialogue', speaker: "LILA", text: "When you say it like that -" },
+        { type: 'dialogue', speaker: "TAMMY", text: "Give me the note." },
+        { type: 'stage-direction', text: "Lila hands it over. Tammy reads. Sets it down." },
+        { type: 'dialogue', speaker: "TAMMY", text: "Who else did you see at lunch?" },
+        { type: 'dialogue', speaker: "LILA", text: "Buck, her boss. He works in corporate defense -" },
+        { type: 'dialogue', speaker: "TAMMY", text: "I know Buck. Lila. I need you to think very carefully before you answer this. Did you discuss anything about this office, these files, or this case at any point during that lunch?" },
+        { type: 'stage-direction', text: "A long beat. Tammy looks at the note. Looks at Lila." },
+        { type: 'dialogue', speaker: "TAMMY", text: "Go back to your desk. No notes. No lunches with the opposition. Lock it down." },
+        { type: 'stage-direction', text: "Lila exits. Tammy picks up the note. Reads it again. Sets it down. Then picks up her own pen and begins writing. She is not calling anyone. She is documenting." },
+        { type: 'dialogue', speaker: "SETTING", text: "BEAT 2 - TAMMY'S OFFICE [BACK FROM THE WHITE HOUSE]" },
+        { type: 'stage-direction', text: "LILA enters. She is not quite late but close." },
+        { type: 'dialogue', speaker: "TAMMY", text: "Where were you? We start working precisely at -" },
+        { type: 'dialogue', speaker: "LILA", text: "At the White House?" },
+        { type: 'dialogue', speaker: "TAMMY", text: "The - THE White House? " },
+        { type: 'dialogue', speaker: "LILA", text: "The President wanted to see me." },
+        { type: 'dialogue', speaker: "TAMMY", text: "Under what circumstances is the President of the United States of America calling to see Lila, the legal secretary of the Solicitor General? What could he possibly have wanted that didn't involve me? This is highly unorthodox." },
+        { type: 'dialogue', speaker: "LILA", text: "Well, I didn't see him. I was in the same room and he waved. But one of his people - I don't remember their name - well, two of his people - well, they said they didn't want the cameras." },
+        { type: 'dialogue', speaker: "TAMMY", text: "Lila, that is exactly why you should not go. The cameras are what keep the wheels of democracy oiled." },
+        { type: 'dialogue', speaker: "LILA", text: "The wheels of - what?" },
+        { type: 'dialogue', speaker: "TAMMY", text: "Transparency ensures accountability." },
+        { type: 'stage-direction', text: "(Beat.)" },
+        { type: 'dialogue', speaker: "TAMMY", text: "People act right when they're being watched. The closer you watch, the better they act." },
+        { type: 'dialogue', speaker: "LILA", text: "Are you saying the cops are watching me? I didn't do nothing!" },
+        { type: 'dialogue', speaker: "TAMMY", text: "No. Citizens have the right to privacy. The President is a publicly elected official." },
+        { type: 'stage-direction', text: "(Beat.)" },
+        { type: 'dialogue', speaker: "TAMMY", text: "Well - the note?" },
+        { type: 'stage-direction', text: "Lila hands it over. Tammy reads. Her expression doesn't change. That's the tell." },
+        { type: 'dialogue', speaker: "TAMMY", text: "How long were you there?" },
+        { type: 'dialogue', speaker: "LILA", text: "Maybe twenty minutes? They were very efficient." },
+        { type: 'dialogue', speaker: "TAMMY", text: "Mmhmm." },
+        { type: 'dialogue', speaker: "LILA", text: "They said the President -" },
+        { type: 'dialogue', speaker: "TAMMY", text: "Who else did you speak to?" },
+        { type: 'dialogue', speaker: "LILA", text: "No one. They were very -" },
+        { type: 'dialogue', speaker: "TAMMY", text: "Efficient." },
+        { type: 'dialogue', speaker: "LILA", text: "...Yes." },
+        { type: 'stage-direction', text: "Beat. Tammy folds the note once. Sets it on the desk face down." },
+        { type: 'dialogue', speaker: "TAMMY", text: "Lila. If the President contacts this office again - by any means, through any person, in any format -  you come to me first. Before you go anywhere. Before you say anything to anyone." },
+        { type: 'dialogue', speaker: "LILA", text: "Even if -" },
+        { type: 'dialogue', speaker: "TAMMY", text: "Especially if. Proper communication from the President should come through transparent channels. The communications between the President and I should be auditable. Anything else is ethically dubious and legally suspect. Back-channeling through my legal secretary is - " },
+        { type: 'dialogue', speaker: "LILA", text: "...Highly unorthodox?" },
+        { type: 'dialogue', speaker: "TAMMY", text: "Exactly. It puts your job at risk, and mine. " },
+        { type: 'stage-direction', text: "(Beat. Almost gentle.)" },
+        { type: 'dialogue', speaker: "TAMMY", text: "You're not in trouble. But you will be if it happens again." },
+        { type: 'stage-direction', text: "Lila nods and exits. Tammy looks at the note on her desk. Doesn't pick it up. Music begins." },
+        { type: 'dialogue', speaker: "SETTING", text: "BEAT 3 - CORRIDOR [BUCK]" },
+        { type: 'stage-direction', text: "BUCK is there when LILA comes out. STACEY nearby. It looks like a coincidence. It isn't." },
+        { type: 'dialogue', speaker: "BUCK", text: "Your help has been vital in helping my client. Those documents you provided — I wanted to thank you. The President wanted to thank you personally." },
+        { type: 'dialogue', speaker: "LILA", text: " She's such a nit picky old bitch. She treats me like I don't know nothing. I'm a grown ass woman. " },
+        { type: 'dialogue', speaker: "BUCK", text: "Right. Well, we're going to get you out of there as soon as this unpleasantness is over. But we need you there now." },
+        { type: 'dialogue', speaker: "LILA", text: "What do you need from me? I mean, what does the President need from me?" },
+        { type: 'dialogue', speaker: "BUCK", text: "Shhh. Never mention to anyone that the President is involved at all. You understand me?" },
+        { type: 'stage-direction', text: "Lila nods. Buck smiles. Stacey watches from a little distance, catching just enough." },
+        { type: 'dialogue', speaker: "SETTING", text: "TAMMY'S OFFICE" },
+        { type: 'stage-direction', text: "LILA enters with another note." },
+        { type: 'dialogue', speaker: "LILA", text: "A note. " },
+        { type: 'dialogue', speaker: "TAMMY", text: "What — what have I said about this? Who is delivering these? Where are you getting them?" },
+        { type: 'dialogue', speaker: "LILA", text: "I went to lunch - alone. Buck just walked up, said 'hey' and dropped this next to my pasta. I didn't look - I didn't go looking for him." },
+        { type: 'stage-direction', text: "(Beat.)" },
+        { type: 'dialogue', speaker: "LILA", text: "What? You said they're from the President. What was I supposed to do? " },
+        { type: 'dialogue', speaker: "TAMMY", text: "He's not — Lila, what if there's anthrax?" },
+        { type: 'dialogue', speaker: "LILA", text: "There's not, though. And wouldn't I get the anthrax first? I figure you'd probably want the note anyways, better bring it to you than dump it in the trash. " },
+        { type: 'stage-direction', text: "Lila turns back toward the filing area. Sees a pile of folders." },
+        { type: 'dialogue', speaker: "LILA", text: "These need to be filed?" },
+        { type: 'dialogue', speaker: "TAMMY", text: "Yes. Lock and key, Lila. Lock. And. Key." },
+        { type: 'stage-direction', text: "Tammy returns to her work. We watch Lila carry the folders to her desk. She opens the top folder. Reads a page. Reads another. Removes half the documents. Tucks them into her bag. Files the rest away. Picks up her phone." },
+        { type: 'dialogue', speaker: "LILA", text: "Buck? Yeah. I have a present for you." },
+        { type: 'stage-direction', text: "Lights shift." },
+        { type: 'dialogue', speaker: "SETTING", text: "CORRIDOR [BUCK 2]" },
+        { type: 'dialogue', speaker: "BUCK", text: "We shouldn't meet twice in a day." },
+        { type: 'dialogue', speaker: "LILA", text: "You said you needed more. Do you want them or not?" },
+        { type: 'stage-direction', text: "Buck looks around. Takes the folder. Doesn't open it." },
+        { type: 'dialogue', speaker: "BUCK", text: "How many people touch these before they get to you?" },
+        { type: 'dialogue', speaker: "LILA", text: "Just me. I file everything. I was only able to grab about half - I can't be seen taking all of the files at once -" },
+        { type: 'stage-direction', text: "He pockets the folder." },
+        { type: 'dialogue', speaker: "BUCK", text: "These are the originals." },
+        { type: 'dialogue', speaker: "LILA", text: "Well, yea, I didn't have time to make copies." },
+        { type: 'dialogue', speaker: "BUCK", text: "Don't do that again. Copies only. Make the time." },
+        { type: 'dialogue', speaker: "LILA", text: "Fine. Sorry. I didn't—" },
+        { type: 'dialogue', speaker: "BUCK", text: "It's fine. You did well." },
+        { type: 'stage-direction', text: "That lands on her exactly the way he intended." },
+        { type: 'dialogue', speaker: "BUCK", text: "The President is very pleased." },
+        { type: 'dialogue', speaker: "LILA", text: "Yeah?" },
+        { type: 'dialogue', speaker: "BUCK", text: "How much access do you have to the filing system after hours?" },
+        { type: 'dialogue', speaker: "LILA", text: "I mean. I have the key." },
+        { type: 'dialogue', speaker: "BUCK", text: "Good." },
+        { type: 'stage-direction', text: "He straightens. Warm smile." },
+        { type: 'dialogue', speaker: "BUCK", text: "It's going to be a good year for both us, Lila" },
+        { type: 'stage-direction', text: "He walks away. She watches him go. The folder is gone. She stands there a moment. Then picks up her phone." },
+        { type: 'dialogue', speaker: "SETTING", text: "TAMMY'S OFFICE" },
+        { type: 'dialogue', speaker: "BUCK", text: "Tammy at her desk. She reaches for a file. Opens the drawer. Closes it. Opens it again. Counts. A long, very still beat." },
+        { type: 'stage-direction', text: "(into phone)" },
+        { type: 'dialogue', speaker: "TAMMY", text: "Pull the access log for the filing room going back thirty days." },
+        { type: 'stage-direction', text: "(Beat.)" },
+        { type: 'dialogue', speaker: "TAMMY", text: "Yes, all of it." },
+        { type: 'stage-direction', text: "She hangs up. Looks at the drawer. Looks at the door to the outer office where Lila sits. Does not look away." },
+        { type: 'dialogue', speaker: "SETTING", text: "BEAT 4 - UPSTAIRS [CORRIDOR]" },
+        { type: 'stage-direction', text: "LILA enters the corridor. She's been staying late. She's jumpy, pleased with herself, running on the story Buck has given her about who she is." },
+        { type: 'dialogue', speaker: "LILA", text: "Sorry I'm late.She's been watching me like a hawk." },
+        { type: 'dialogue', speaker: "BUCK", text: "It's okay. My office works late. You should get used to it." },
+        { type: 'stage-direction', text: "He looks around." },
+        { type: 'dialogue', speaker: "BUCK", text: "We should go somewhere more discrete." },
+        { type: 'stage-direction', text: "(excited)" },
+        { type: 'dialogue', speaker: "LILA", text: "Janitor's closet?" },
+        { type: 'dialogue', speaker: "BUCK", text: "Perfect." },
+        { type: 'dialogue', speaker: "LILA", text: "I brought copies this time. " },
+        { type: 'dialogue', speaker: "BUCK", text: "Shhh. Wait." },
+        { type: 'stage-direction', text: "They move toward the closet. Lights shift." },
+        { type: 'stage-direction', text: "TAMMY stands with an two SECURITY officers - the actors that play ASH and CAM dressed up as SECURITY. Calm. She has been calm since she started counting folders." },
+        { type: 'dialogue', speaker: "TAMMY", text: "According to the phone logs, they were going to meet on this floor." },
+        { type: 'dialogue', speaker: "SECURITY 1", text: "Buck's not new. This seems juvenile. Why not use a cell phone?" },
+        { type: 'dialogue', speaker: "TAMMY", text: "She's got a personal line — so she can field phone calls about her kids and their daycare. She told him it was her personal number. I don't think she thought we would be monitoring the phone lines." },
+        { type: 'dialogue', speaker: "SECURITY 2", text: "She thought you gave her a private unmonitored phone line from your office? And Buck didn't double check. Feels sloppy." },
+        { type: 'dialogue', speaker: "TAMMY", text: "Like he's sure he's gonna get away with it no matter what." },
+        { type: 'dialogue', speaker: "SECURITY 1", text: "You're right. That sounds like Buck, all right. His father, too." },
+        { type: 'dialogue', speaker: "SECURITY 2", text: "His father, too." },
+        { type: 'stage-direction', text: "A sound from down the corridor." },
+        { type: 'dialogue', speaker: "TAMMY", text: "The closet?" },
+        { type: 'stage-direction', text: "The officer nods. They move to the closet door. Tammy knocks twice. Official. Unhurried." },
+        { type: 'dialogue', speaker: "TAMMY", text: "Ms. Lila." },
+        { type: 'stage-direction', text: "Silence." },
+        { type: 'dialogue', speaker: "TAMMY", text: "Mr. Buck." },
+        { type: 'stage-direction', text: "A beat. Then the sound of shuffling. Papers. Something falling. The door opens. LILA. BUCK. The folder between them, half open. Nobody speaks for a moment. Buck recovers first. Of course he does." },
+        { type: 'dialogue', speaker: "BUCK", text: "Madame Solicitor." },
+        { type: 'dialogue', speaker: "TAMMY", text: "Counselor. Don't. " },
+        { type: 'stage-direction', text: "TAMMY looks at LILA" },
+        { type: 'dialogue', speaker: "TAMMY", text: "You'll accompany security out of the building. I will have them go through your desk in the morning and return any personal effects. Please be aware anything may be withheld as part of an investigation. They will be in contact with you. You will surrender your badge, key, and other means of access immediately. You will retain, for now, your personal effects after security has gone through them. " },
+        { type: 'dialogue', speaker: "LILA", text: "I can explain—" },
+        { type: 'dialogue', speaker: "TAMMY", text: "I know you can. You'll have the opportunity to do that with the appropriate parties. Officer?" },
+        { type: 'stage-direction', text: "TAMMY gestures to SECURITY. " },
+        { type: 'dialogue', speaker: "SECUIRTY 1", text: "Ma'am-" },
+        { type: 'stage-direction', text: "LILA looks at BUCK." },
+        { type: 'dialogue', speaker: "LILA", text: "You said—" },
+        { type: 'dialogue', speaker: "BUCK", text: "This is on you, pretty girl. You were just a piece of ass. I told you not to get ahead of yourself." },
+        { type: 'stage-direction', text: "LILA's face drops as she's led away. " },
+        { type: 'dialogue', speaker: "TAMMY", text: "Your client is missing, Mr. Buck." },
+        { type: 'dialogue', speaker: "BUCK", text: "My client's interests persist regardless of—" },
+        { type: 'dialogue', speaker: "TAMMY", text: "Your client is missing, and you just burned that poor girl. I can't save her, Buck, and she's going to have a rough time finding work from here on out. " },
+        { type: 'dialogue', speaker: "BUCK", text: "She volunteered. It was my intention to collect as much evidence-" },
+        { type: 'dialogue', speaker: "TAMMY", text: "Stop. I'd speak with a lawyer before you gave a statement. " },
+        { type: 'dialogue', speaker: "BUCK", text: "I don't need to. " },
+        { type: 'stage-direction', text: "He picks up the folder. Looks at it." },
+        { type: 'dialogue', speaker: "BUCK", text: "You'll want this back." },
+        { type: 'stage-direction', text: "He holds it out. Tammy doesn't take it." },
+        { type: 'dialogue', speaker: "TAMMY", text: "The officer will take it." },
+        { type: 'stage-direction', text: "Buck hands it over. Straightens his jacket." },
+        { type: 'dialogue', speaker: "BUCK", text: "You're very good at your job, Counselor." },
+        { type: 'dialogue', speaker: "TAMMY", text: "I know." },
+        { type: 'stage-direction', text: "BUCK  leaves. Tammy stands in the hallway. The officer looks at her." },
+        { type: 'dialogue', speaker: "SECURITY 2", text: "We'll finish up the reports and forward it to your office." },
+        { type: 'dialogue', speaker: "TAMMY", text: "Great. thank you. Make it quick. I have to make an announcement. Stick to the facts and include all the evidence you have." },
+        { type: 'stage-direction', text: "(Beat.)" },
+        { type: 'dialogue', speaker: "SECURITY 2", text: "It's gonna be that big of a deal?" },
+        { type: 'stage-direction', text: "(Beat.)" },
+        { type: 'dialogue', speaker: "TAMMY", text: "Possibly. Maybe. I hope not. Just make sure your paperwork is meticulous. No more mistakes." },
+        { type: 'stage-direction', text: "The officer nods and goes. Tammy stands alone in the corridor. Looks at the closet door, still open. Looks at the empty desk through the glass where Lila sat." },
+        { type: 'stage-direction', text: "Lights shift." }
       ]
     },
     { 
