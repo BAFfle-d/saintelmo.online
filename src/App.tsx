@@ -1945,57 +1945,46 @@ export default function App() {
       hasMusic: false, 
       script: [
         { type: 'stage-direction', text: "ACT TWO, SCENE 1 — THE BAR" },
-        { type: 'stage-direction', text: "A quiet bar. Sports on television. Low light. GUS enters and sits at the bar." },
+        { type: 'stage-direction', text: "A quiet bar. Sports on television — the particular mercy of a room that has nothing to do with any of this. Low light. GUS enters and sits at the bar. He doesn't look around. He already knows this is the right place. The BARTENDER is played by the same actor that played GEOFF in the first act." },
         { type: 'dialogue', speaker: "BARTENDER", text: "What can I get you?" },
         { type: 'dialogue', speaker: "GUS", text: "Whiskey—" },
-        { type: 'stage-direction', text: "He stops. A beat. Something internal." },
-        { type: 'dialogue', speaker: "GUS", text: "Can I just get a Coke and a menu?" },
-        { type: 'stage-direction', text: "BARTENDER" },
-        { type: 'dialogue', speaker: "GUS", text: "Sure." },
+        { type: 'stage-direction', text: "He stops. A beat. GUS looks more closely." },
+        { type: 'dialogue', speaker: "GUS", text: "Do I - know you?" },
+        { type: 'dialogue', speaker: "BARTENDER", text: "Everyone says that. It's my face. It must be on Cover Girl or something. " },
+        { type: 'dialogue', speaker: "GUS", text: "Must be - Can I just get a Coke and a menu?" },
+        { type: 'dialogue', speaker: "BARTENDER", text: "Sure." },
         { type: 'stage-direction', text: "The bartender pours the Coke and slides a menu across without ceremony. He turns up the TV. Sports wrapping up. Then the news." },
-        { type: 'stage-direction', text: "BARTENDER" },
-        { type: 'dialogue', speaker: "GUS", text: "You got a team?" },
+        { type: 'dialogue', speaker: "BARTENDER", text: "You got a team?" },
         { type: 'dialogue', speaker: "GUS", text: "Used to. You?" },
-        { type: 'stage-direction', text: "BARTENDER" },
-        { type: 'dialogue', speaker: "GUS", text: "Yankees. And — oh, what's the hockey team." },
+        { type: 'dialogue', speaker: "BARTENDER", text: "Yankees. And — oh, what's the hockey team." },
         { type: 'dialogue', speaker: "GUS", text: "Doesn't matter, they're all millionaires anyway." },
         { type: 'dialogue', speaker: "BARTENDER", text: "They don't care who's rooting for them. Why should I care to cheer?" },
         { type: 'stage-direction', text: "A comfortable beat. Two people who understand each other without explanation." },
-        { type: 'stage-direction', text: "BARTENDER" },
-        { type: 'dialogue', speaker: "GUS", text: "Burger's our specialty." },
+        { type: 'dialogue', speaker: "BARTENDER", text: "Burger's our specialty." },
         { type: 'dialogue', speaker: "GUS", text: "What's special about it?" },
-        { type: 'stage-direction', text: "BARTENDER" },
-        { type: 'dialogue', speaker: "GUS", text: "I make it." },
+        { type: 'dialogue', speaker: "BARTENDER", text: "I make it." },
         { type: 'dialogue', speaker: "GUS", text: "I'll let you know." },
         { type: 'stage-direction', text: "The news comes on. GINNIE appears on screen — composed, standing with her lawyers, mid-statement. The bartender glances up. Something shifts in his face. Not dramatic. Just recognition." },
-        { type: 'stage-direction', text: "BARTENDER" },
-        { type: 'dialogue', speaker: "GUS", text: "Bless her heart." },
+        { type: 'dialogue', speaker: "BARTENDER", text: "Bless her heart." },
         { type: 'stage-direction', text: "Gus looks up. Looks away. Looks back." },
         { type: 'dialogue', speaker: "GUS", text: "You know her?" },
-        { type: 'stage-direction', text: "BARTENDER" },
-        { type: 'dialogue', speaker: "GUS", text: "Know her? She's on the news all the time. She's one of those girls — from that guy with the island. Goldberg or something." },
+        { type: 'dialogue', speaker: "BARTENDER", text: "Know her? She's on the news all the time. She's one of those girls — from that guy with the island. Jeff Goldberg or something - real Jewish name." },
         { type: 'dialogue', speaker: "GUS", text: "Gee-off. Geoffrey Aaron Goldstein." },
-        { type: 'stage-direction', text: "BARTENDER" },
-        { type: 'dialogue', speaker: "GUS", text: "That's it! Gee-off? Funny way to say Jeff." },
+        { type: 'dialogue', speaker: "BARTENDER", text: "That's it! Gee-off? Funny way to say Jeff." },
         { type: 'dialogue', speaker: "GUS", text: "It is." },
-        { type: 'stage-direction', text: "A beat. Gus is watching the screen." },
-        { type: 'stage-direction', text: "BARTENDER" },
-        { type: 'dialogue', speaker: "GUS", text: "Ever since that Gee-off guy went missing she's on every talk show. Standing there by herself and her lawyers, talking about what a monster he was." },
+        { type: 'dialogue', speaker: "BARTENDER", text: "Ever since that Gee-off guy went missing she's on every talk show. Standing there by herself and her lawyers, talking about what a monster he was." },
         { type: 'dialogue', speaker: "GUS", text: "Brave woman." },
-        { type: 'stage-direction', text: "BARTENDER" },
-        { type: 'dialogue', speaker: "GUS", text: "Brave? That's one word. She's been at this a full decade. Nobody believed her. They threatened her. Someone attacked her once. She keeps going anyway. She's still standing." },
-        { type: 'stage-direction', text: "Beat." },
+        { type: 'dialogue', speaker: "BARTENDER", text: "Brave? That's one word. She's been at this a full decade. Nobody believed her. They threatened her. Someone attacked her once. She keeps going anyway. She's still standing." },
         { type: 'dialogue', speaker: "BARTENDER", text: "She's a goddamn hero, you ask me." },
         { type: 'dialogue', speaker: "GUS", text: "Yeah. She's pretty amazing." },
         { type: 'stage-direction', text: "He looks at the screen more carefully now." },
         { type: 'dialogue', speaker: "GUS", text: "Wait — this is here? Is she speaking nearby?" },
-        { type: 'stage-direction', text: "BARTENDER" },
-        { type: 'dialogue', speaker: "GUS", text: "Nah. DC. They're releasing some of this Goldstein guy's personal effects this week. She's up there for it. Brave, sure — but what can she do? They didn't listen for years." },
+        { type: 'dialogue', speaker: "BARTENDER", text: "Nah. DC. They're releasing some of this Gee-off's guy's personal effects this week. She's up there for it. Brave, sure — but what can she do? They didn't listen for years." },
         { type: 'stage-direction', text: "quietly, almost to himself" },
-        { type: 'dialogue', speaker: "GUS", text: "Why would they listen now." },
-        { type: 'stage-direction', text: "He stands. Places a bill on the bar. Doesn't pick up the menu." },
-        { type: 'stage-direction', text: "BARTENDER" },
-        { type: 'dialogue', speaker: "GUS", text: "Not hungry anymore?" },
+        { type: 'dialogue', speaker: "GUS", text: "Why would they listen now after all this time?" },
+        { type: 'dialogue', speaker: "BARTENDER", text: "Right, exactly. The people at the top don't care about who they hurt -" },
+        { type: 'stage-direction', text: "GUS stands suddenly. Places a bill on the bar. Doesn't pick up the menu." },
+        { type: 'dialogue', speaker: "BARTENDER", text: "Not hungry anymore?" },
         { type: 'dialogue', speaker: "GUS", text: "Nah. I got somewhere I need to be. Completely slipped my mind." },
         { type: 'stage-direction', text: "He exits. The news keeps playing. The bartender watches the door for a moment, then goes back to his work." },
         { type: 'stage-direction', text: "Lights shift." }
@@ -2008,9 +1997,9 @@ export default function App() {
       characters: "Ginnie, Marcus, Assistant",
       hasMusic: false,
       script: [
-        { type: 'stage-direction', text: "Lights shift toward Ginnie's office. A working office. Not inspiring. Whiteboards with too much on them. Files in stacks that have developed their own logic. Coffee cups in various states of abandonment." },
-        { type: 'stage-direction', text: "GINNIE stands at the board. Two ADVOCATES — MARCUS and one other — sit with laptops. It's morning. It feels like late." },
-        { type: 'stage-direction', text: "[NOTE: Ginnie is not Joan of Arc. She's someone who had a life before this and can barely remember what it looked like. She's still standing because stopping feels like losing, not because she's fearless.]" },
+        { type: 'stage-direction', text: "direction: *Lights shift toward Ginnie's office.**A working office. Not inspiring. Whiteboards with too much on them. Files in stacks that have developed their own logic. Coffee cups in various states of abandonment. This is a place where people have been at something for a long time.*" },
+        { type: 'stage-direction', text: "GINNIE stands at the board. Two ADVOCATES — MARCUS (finances) and LESLIE (lawyer) — sit with laptops. It's morning. It feels like late." },
+        { type: 'stage-direction', text: "[NOTE: Ginnie is not Joan of Arc. She's someone who had a life before this and can barely remember what it looked like. She's still standing because stopping feels like losing, not because she's fearless. Exhausted competence, not inspiration. The audience should feel the weight before they feel the hope.]" },
         { type: 'dialogue', speaker: "GINNIE", text: "Let's make this quick if we can. I was up late with a call-in show in Hawaii." },
         { type: 'dialogue', speaker: "MARCUS", text: "Hawaii? That's thousands of miles away." },
         { type: 'dialogue', speaker: "GINNIE", text: "Right. But they send representation here. They vote for the president." },
@@ -2019,7 +2008,7 @@ export default function App() {
         { type: 'dialogue', speaker: "MARCUS", text: "But are these actually going to—" },
         { type: 'dialogue', speaker: "GINNIE", text: "What? What haven't we done, Marcus? Sued? Sued who? Geoff is missing. Maxie is pleading the fifth from her comfortable cell on her iPad. And the President is—" },
         { type: 'stage-direction', text: "(doing a voice)" },
-        { type: 'stage-direction', text: "The best. The best president ever. Nobody has been more presidential." },
+        { type: 'dialogue', speaker: "MARCUS", text: "The best. The best president ever. Nobody has been more presidential." },
         { type: 'stage-direction', text: "(back to himself)" },
         { type: 'dialogue', speaker: "MARCUS", text: "How does Maxie have an iPad? You mean one of the prison tablets?" },
         { type: 'dialogue', speaker: "GINNIE", text: "iPad." },
@@ -2028,24 +2017,22 @@ export default function App() {
         { type: 'dialogue', speaker: "MARCUS", text: "When did minimum security get a hotel program?" },
         { type: 'dialogue', speaker: "GINNIE", text: "It didn't. Most of that isn't available through any program. The minimum security facility she was transferred to almost immediately is owned by an associate — hers and Geoff's. The warden is a former sheriff. Same party, same neighborhood, same dinners and country clubs. The only reason she didn't get work release as a first offender is probably because Geoff got away." },
         { type: 'dialogue', speaker: "MARCUS", text: "How in the hell did he escape custody?" },
-        { type: 'stage-direction', text: "He didn't escape. He was never documented en route. They have him on camera getting in the vehicle and nothing after. Footage from inside the vehicle is missing. The logs have gone missing." },
+        { type: 'dialogue', speaker: "GINNIE", text: "He didn't escape. He was never documented en route. They have him on camera getting in the vehicle and nothing after. Footage from inside the vehicle is missing. The logs have gone missing." },
         { type: 'stage-direction', text: "(Beat. Let this land before Marcus responds.)" },
-        { type: 'stage-direction', text: "[NOTE: This information is extraordinary. Geoff didn't slip through a crack — the crack was manufactured.]" },
         { type: 'dialogue', speaker: "GINNIE", text: "No one is being punished." },
-        { type: 'stage-direction', text: "(A beat.)" },
         { type: 'dialogue', speaker: "MARCUS", text: "Every time something like this happens — I can't believe this is the world I live in. They fall through every crack. But the good cracks. Not the bad ones." },
-        { type: 'stage-direction', text: "The worst usually do. I believe that." },
+        { type: 'dialogue', speaker: "LESLIE", text: "The worst usually do. I believe that." },
         { type: 'stage-direction', text: "(She turns to the board.)" },
         { type: 'dialogue', speaker: "GINNIE", text: "So. We keep going. The data dump. What do we know?" },
-        { type: 'dialogue', speaker: "MARCUS", text: "Still coming. They keep moving it, but this far past the deadline — it's practically rubbing it in Congress's face not to have released something." },
+        { type: 'dialogue', speaker: "LESLIE", text: "Still coming. They keep moving it, but this far past the deadline — it's practically rubbing it in Congress's face not to have released something." },
         { type: 'dialogue', speaker: "GINNIE", text: "Keep our network active. Make sure we have people ready to speak when it drops." },
-        { type: 'stage-direction', text: "A lot of people are shaken by Geoff's disappearance. Even the most committed ones are rattled. The letters, the calls, people following them—" },
-        { type: 'stage-direction', text: "They're our sisters and brothers. We are bonded by this. I know what they feel. If they want to stay quiet — that's okay. People cope in their own ways. Some had it worse than me." },
+        { type: 'dialogue', speaker: "LESLIE", text: "A lot of people are shaken by Geoff's disappearance. Even the most committed ones are rattled. The letters, the calls, people following them—" },
+        { type: 'dialogue', speaker: "GINNIE", text: "They're our sisters and brothers. We are bonded by this. I know what they feel. If they want to stay quiet — that's okay. People cope in their own ways. Some had it worse than me. They don't want to go through it in public." },
         { type: 'stage-direction', text: "(Beat.)" },
         { type: 'dialogue', speaker: "GINNIE", text: "Just keep them informed." },
         { type: 'dialogue', speaker: "MARCUS", text: "When this thing lands — hundreds of thousands of pages. Travel logs. Financial records. Correspondence. Someone has to listen this time." },
         { type: 'dialogue', speaker: "GINNIE", text: "That puts money in a room. I need a person in a room." },
-        { type: 'dialogue', speaker: "MARCUS", text: "What about the island staff?" },
+        { type: 'dialogue', speaker: "LESLIE", text: "What about the island staff?" },
         { type: 'dialogue', speaker: "GINNIE", text: "Island folk. He built them an airport. A marina. A school. He didn't bother them for anything else. They're grateful. Disgusted — yes. JB helped get law enforcement there eventually. But they're grateful to the man even if they think he was little Satan." },
         { type: 'dialogue', speaker: "MARCUS", text: "So we've got nobody. Everyone's insulated." },
         { type: 'stage-direction', text: "(Beat.)" },
@@ -2057,44 +2044,42 @@ export default function App() {
         { type: 'dialogue', speaker: "MARCUS", text: "It's not — I mean — you're right. It's a snowstorm. I wish I had something more." },
         { type: 'stage-direction', text: "(A tired laugh from the room. Ginnie almost smiles.)" },
         { type: 'dialogue', speaker: "GINNIE", text: "Go home." },
-        { type: 'dialogue', speaker: "MARCUS", text: "I don't mind—" },
+        { type: 'dialogue', speaker: "LESLIE", text: "Ginnie, we don't mind. We can stay, if you need." },
         { type: 'dialogue', speaker: "GINNIE", text: "I know. Go anyway. Come back tomorrow." },
         { type: 'stage-direction', text: "(They start to gather things.)" },
-        { type: 'stage-direction', text: "The problem isn't the documents. The documents aren't the solution either." },
+        { type: 'dialogue', speaker: "GINNIE", text: "The problem isn't the documents. The documents aren't the solution either." },
         { type: 'stage-direction', text: "(Beat. She's working this out as she says it, not delivering a prepared speech.)" },
-        { type: 'stage-direction', text: "[NOTE: This is not a rousing speech. She's tired and thinking out loud.]" },
-        { type: 'dialogue', speaker: "GINNIE", text: "Cases like these fall apart because of neighbors. Friends. Someone who says — that story doesn't match what I saw. Nobody in this case can say that without being compromised. We need someone who was just there. Not a victim. Not a lawyer. Just — there. Ordinary enough that nobody thought to watch what he saw." },
+        { type: 'stage-direction', text: "[NOTE: This is not a rousing speech. She's tired and thinking out loud. The advocates have heard versions of this before. What's different tonight is that she doesn't have a next step to offer after it.]" },
+        { type: 'dialogue', speaker: "LESLIE", text: "Cases like these fall apart because of neighbors. Friends. Someone who says — that story doesn't match what I saw. Nobody in this case can say that without being compromised. We need someone who was just there. Not a victim. Not a lawyer. Just — there. Ordinary enough that nobody thought to watch what he saw." },
+        { type: 'dialogue', speaker: "MARCUS", text: "You are looking for a unicorn. We've ben combing through employment records and rumors for a decade - we would've noticed someone by now." },
         { type: 'stage-direction', text: "(She looks at the board.)" },
         { type: 'dialogue', speaker: "GINNIE", text: "Go home." },
         { type: 'stage-direction', text: "(They exit. Ginnie stands alone. She uncaps the marker. Looks at the board. Caps it again.)" },
-        { type: 'stage-direction', text: "[NOTE: Uncap, look, cap. She knows exactly what needs to be written. She doesn't have what she needs to write it.]" },
         { type: 'stage-direction', text: "(The ASSISTANT enters.)" },
-        { type: 'stage-direction', text: "Hey. Sorry — I think I forgot to give you this yesterday." },
+        { type: 'dialogue', speaker: "MARCUS", text: "I completely forgot. Your assistant gave this note to me yesterday. It was a phone call." },
         { type: 'dialogue', speaker: "GINNIE", text: "Yesterday." },
-        { type: 'dialogue', speaker: "ASSISTANT", text: "Late. I meant to—" },
-        { type: 'dialogue', speaker: "GINNIE", text: "What is it." },
+        { type: 'dialogue', speaker: "MARCUS", text: "It was late, and we started fast this morning. It's completely my fault. " },
+        { type: 'dialogue', speaker: "GINNIE", text: "I'm not mad. What is it?" },
         { type: 'stage-direction', text: "(The assistant hands her a note. Ginnie reads. A long beat.)" },
         { type: 'dialogue', speaker: "GINNIE", text: "Wait — does this say Gus?" },
-        { type: 'dialogue', speaker: "ASSISTANT", text: "Yeah. He called a little while ago to confirm. He's in DC. About an hour out." },
+        { type: 'dialogue', speaker: "MARCUS", text: "Yeah - it looks like he's in DC. He's desperate to speak to you. Probably just another conspiracy theoriest. You know, Satanists and cannibals on Lil'Elmo type- " },
         { type: 'stage-direction', text: "(Ginnie reads the note again. Quietly.)" },
-        { type: 'dialogue', speaker: "GINNIE", text: "\"Ginnie. Dusting was acceptable. A person in that building heard.\"" },
+        { type: 'dialogue', speaker: "GINNIE", text: "\"Dusting was acceptable. A person in that building heard.\"" },
         { type: 'stage-direction', text: "(Beat.)" },
-        { type: 'dialogue', speaker: "ASSISTANT", text: "Is he — should I know who this is?" },
-        { type: 'dialogue', speaker: "GINNIE", text: "I didn't know his name. I didn't think—" },
-        { type: 'stage-direction', text: "(She stops. Looks at the note.)" },
+        { type: 'dialogue', speaker: "MARCUS", text: "Right - how cryptic! You think, they'd be more direct if it was so urgent." },
+        { type: 'stage-direction', text: "(She stops him.)" },
         { type: 'dialogue', speaker: "GINNIE", text: "Make coffee. Order food — a platter, something. Set up the conference room." },
-        { type: 'dialogue', speaker: "ASSISTANT", text: "How many people?" },
-        { type: 'dialogue', speaker: "GINNIE", text: "Call Marcus back in. Get Leslie. Get the team." },
-        { type: 'stage-direction', text: "(The assistant moves to go.)" },
-        { type: 'dialogue', speaker: "GINNIE", text: "And—" },
+        { type: 'dialogue', speaker: "MARCUS", text: "Wait, wait, what is this? Shouldn't we get Leslie in if you think this matters?" },
+        { type: 'dialogue', speaker: "GINNIE", text: "It matters. Grab Leslie before she leaves. Pull the audio equipment in. We'll need audio at minimum." },
+        { type: 'dialogue', speaker: "MARCUS", text: "I didn't know - if I had, I would have - I'm sorry." },
         { type: 'stage-direction', text: "(The assistant stops.)" },
-        { type: 'dialogue', speaker: "GINNIE", text: "Nothing. Go." },
+        { type: 'dialogue', speaker: "GINNIE", text: "You wouldn't. It's ok. Get Leslie. " },
         { type: 'stage-direction', text: "(The assistant exits. Ginnie sits slowly with the note.)" },
         { type: 'stage-direction', text: "(She reads it one more time.)" },
         { type: 'stage-direction', text: "(A long beat.)" },
         { type: 'stage-direction', text: "(quietly, almost to herself — not a statement, a confession)" },
-        { type: 'dialogue', speaker: "GINNIE", text: "I hope." },
-        { type: 'stage-direction', text: "Lights shift." }
+        { type: 'dialogue', speaker: "GINNIE", text: "I think we have our unicorn." },
+        { type: 'stage-direction', text: "(Lights shift.)" }
       ]
     },
     { 
@@ -2104,150 +2089,39 @@ export default function App() {
       characters: "Gus, Commuter",
       hasMusic: false,
       script: [
-        {
-          "type": "stage-direction",
-          "text": "TRANSIT HUB — DAY"
-        },
-        {
-          "type": "stage-direction",
-          "text": "A busy DC transit station. Boards, foot traffic, the specific noise of a place built for people going somewhere. GUS enters with a bag over one shoulder, moving with purpose. He checks the board. Finds his train. Starts toward it."
-        },
-        {
-          "type": "stage-direction",
-          "text": "A news screen stops him mid-step."
-        },
-        {
-          "type": "stage-direction",
-          "text": "Chyron: GOLDSTEIN DOCUMENTS EXPECTED FOR RELEASE — SOURCES SAY IMMINENT"
-        },
-        {
-          "type": "stage-direction",
-          "text": "He reads it once. Twice."
-        },
-        {
-          "type": "stage-direction",
-          "text": "The calculation crosses his face — not slow, not dramatic. Just math. Fast, ugly math."
-        },
-        {
-          "type": "stage-direction",
-          "text": "He checks his phone. Checks the board again. The train he just found is gone from his head."
-        },
-        {
-          "type": "stage-direction",
-          "text": "He's lost his place. The news knocked it out of him."
-        },
-        {
-          "type": "stage-direction",
-          "text": "He stands in the middle of foot traffic, bag shifting on his shoulder, trying to reconstruct where he was going."
-        },
-        {
-          "type": "stage-direction",
-          "text": "He can't find it."
-        },
-        {
-          "type": "stage-direction",
-          "text": "Under his breath:"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "GUS",
-          "text": "Okay. Okay."
-        },
-        {
-          "type": "stage-direction",
-          "text": "He sets the bag down between his feet. Digs. Past a folded paper, past a charger, past something wrapped in a shirt. He pulls out the phone."
-        },
-        {
-          "type": "stage-direction",
-          "text": "Canary yellow. Unavoidable."
-        },
-        {
-          "type": "stage-direction",
-          "text": "A COMMUTER passing slows slightly."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "COMMUTER",
-          "text": "Whoa. Is that the—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "GUS",
-          "text": "It's a phone."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "COMMUTER",
-          "text": "No I know, I just haven't seen one of those yet. When did you get that?"
-        },
-        {
-          "type": "stage-direction",
-          "text": "(already looking at the screen)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "GUS",
-          "text": "While back."
-        },
-        {
-          "type": "stage-direction",
-          "text": "The news is on the commuter's phone too. She's looking at the same chyron."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "COMMUTER",
-          "text": "You following this Goldstein thing? These documents dropping today—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "GUS",
-          "text": "Which platform is the Red Line?"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "COMMUTER",
-          "text": "Disgusting, right? These people just — they get away with everything and now he's just *gone* — like how does a person just—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "GUS",
-          "text": "I'm sorry, I'm in a hurry — which platform—"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "COMMUTER",
-          "text": "Oh — B6. Down the left corridor, second escalator."
-        },
-        {
-          "type": "dialogue",
-          "speaker": "GUS",
-          "text": "Thank you."
-        },
-        {
-          "type": "stage-direction",
-          "text": "He's already moving. Phone back in the bag but not as deep this time — no time."
-        },
-        {
-          "type": "stage-direction",
-          "text": "(calling after him)"
-        },
-        {
-          "type": "dialogue",
-          "speaker": "COMMUTER",
-          "text": "They should lock all of them up!"
-        },
-        {
-          "type": "stage-direction",
-          "text": "Gus doesn't look back. He's already gone."
-        },
-        {
-          "type": "stage-direction",
-          "text": "The commuter watches him go, then looks back at her phone. The chyron is still running. She shakes her head and moves on."
-        },
-        {
-          "type": "stage-direction",
-          "text": "Lights shift toward Ginnie's office."
-        }
+        { type: 'stage-direction', text: "TRANSIT HUB — DAY" },
+        { type: 'stage-direction', text: "A busy DC transit station. Boards, foot traffic, the specific noise of a place built for people going somewhere. GUS enters with a bag over one shoulder, moving with purpose. He checks the board. Finds his train. Starts toward it." },
+        { type: 'stage-direction', text: "A news screen stops him mid-step." },
+        { type: 'stage-direction', text: "Chyron: GOLDSTEIN DOCUMENTS EXPECTED FOR RELEASE — SOURCES SAY IMMINENT" },
+        { type: 'stage-direction', text: "He reads it once. Twice." },
+        { type: 'stage-direction', text: "The calculation crosses his face — not slow, not dramatic. Just math. Fast, ugly math." },
+        { type: 'stage-direction', text: "He checks his phone. Checks the board again. The train he just found is gone from his head." },
+        { type: 'stage-direction', text: "direction: He's lost his place. The news knocked it out of him." },
+        { type: 'stage-direction', text: "He stands in the middle of foot traffic, bag shifting on his shoulder, trying to reconstruct where he was going." },
+        { type: 'stage-direction', text: "He can't find it." },
+        { type: 'stage-direction', text: "Under his breath:" },
+        { type: 'dialogue', speaker: "GUS", text: "Okay. Okay." },
+        { type: 'stage-direction', text: "He sets the bag down between his feet. Digs. Past a folded paper, past a charger, past something wrapped in a shirt. He pulls out the phone." },
+        { type: 'stage-direction', text: "Canary yellow. Unavoidable." },
+        { type: 'stage-direction', text: "A COMMUTER passing slows slightly." },
+        { type: 'dialogue', speaker: "COMMUTER", text: "Whoa. Is that the—" },
+        { type: 'dialogue', speaker: "GUS", text: "It's a phone." },
+        { type: 'dialogue', speaker: "COMMUTER", text: "No I know, I just haven't seen one of those yet. When did you get that?" },
+        { type: 'stage-direction', text: "(already looking at the screen)" },
+        { type: 'dialogue', speaker: "GUS", text: "While back." },
+        { type: 'stage-direction', text: "The news is on the commuter's phone too. She's looking at the same chyron." },
+        { type: 'dialogue', speaker: "COMMUTER", text: "You following this Goldstein thing? These documents dropping today—" },
+        { type: 'dialogue', speaker: "GUS", text: "Which platform is the Red Line?" },
+        { type: 'dialogue', speaker: "COMMUTER", text: "Disgusting, right? These people just — they get away with everything and now he's just *gone* — like how does a person just—" },
+        { type: 'dialogue', speaker: "GUS", text: "I'm sorry, I'm in a hurry — which platform—" },
+        { type: 'dialogue', speaker: "COMMUTER", text: "Oh — B6. Down the left corridor, second escalator." },
+        { type: 'dialogue', speaker: "GUS", text: "Thank you." },
+        { type: 'stage-direction', text: "He's already moving. Phone back in the bag but not as deep this time — no time." },
+        { type: 'stage-direction', text: "(calling after him)" },
+        { type: 'dialogue', speaker: "COMMUTER", text: "They should lock all of them up!" },
+        { type: 'stage-direction', text: "Gus doesn't look back. He's already gone." },
+        { type: 'stage-direction', text: "direction: *The commuter watches him go, then looks back at her phone. The chyron is still running. She shakes her head and moves on.*" },
+        { type: 'stage-direction', text: "direction: *Lights shift toward Ginnie's office.*" }
       ]
     },
     { id: "02-05", title: "SNOWSTORM", summary: "The media frenzy and the cover-up collide.", hasMusic: true, youtubeId: "iJNhZs7p_2Y", script: [
