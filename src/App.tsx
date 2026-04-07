@@ -205,48 +205,61 @@ export default function App() {
   };
 
   const youtubeTracks = [
-    { id: 'ETAIIfgJZKY', act: 'Act 1', scene: 'Intro', title: 'Allegedly', versions: { '1.0': 'ETAIIfgJZKY', '1.5': 'BpXg1siK0Gk5VrXl' } },
-    { id: 'ysue5dEzxjl', act: 'Act 1', scene: 'Scene 1', title: 'Sweetheart Deal', versions: { '1.0': 'ysue5dEzxjl' } },
-    { id: '_lhwSoj4Ilk', act: 'Act 1', scene: 'Scene 2', title: 'Who Was That (PrePrise 1)', versions: { '1.0': '_lhwSoj4Ilk' } },
-    { id: 'BThrcKexGvA', act: 'Act 1', scene: 'Scene 3', title: 'They Were Only Boys', versions: { '1.0': 'BThrcKexGvA', '2.0': 'RhZ3OAIIJk2IiK88' } },
-    { id: 'Qg-SA255BA4', act: 'Act 1', scene: 'Scene 4', title: 'Reasonable Man', versions: { '1.0': 'Qg-SA255BA4', '2.0': 'RhZ3OAIIJk2IiK88' } },
-    { id: 'RcVaEHwWUyo', act: 'Act 1', scene: 'Scene 5', title: 'Questions & Answers', versions: { '1.0': 'RcVaEHwWUyo' } },
-    { id: '8yOpukgj600', act: 'Act 1', scene: 'Scene 6', title: 'Little Secrets', versions: { '1.0': '8yOpukgj600' } },
-    { id: 'zT0aXnfWyIM', act: 'Act 1', scene: 'Scene 7', title: "Welcome to Lil'Elmo", versions: { '1.0': 'zT0aXnfWyIM' } },
-    { id: 'wnLDgj_xywo', act: 'Act 1', scene: 'Scene 11', title: 'I Know What Happened on That Island', versions: { '1.0': 'wnLDgj_xywo' } },
-    { id: 'Y35kzg4vQBQ', act: 'Act 1', scene: 'Scene 12', title: 'Who Was That, Part 2', versions: { '1.0': 'Y35kzg4vQBQ' } },
-    { id: 'qIVQvbwPohQ', act: 'Act 1', scene: 'Scene 14', title: 'The Arrest', versions: { '1.0': 'qIVQvbwPohQ' } },
-    { id: 'YBeARM-lNeo', act: 'Act 1', scene: 'Finale', title: 'Standard Procedure', versions: { '1.0': 'YBeARM-lNeo' } },
-    { id: 'YmZRKBgGhaw', act: 'Act 2', scene: 'Intro', title: 'Who Was That? (Part 3)', versions: { '1.0': 'YmZRKBgGhaw' } },
-    { id: 'bdb6xQDCGZU', act: 'Act 2', scene: 'Scene 4', title: 'Scene 4 Moving', versions: { '1.0': 'bdb6xQDCGZU' } },
-    { id: 'iJNhZs7p_2Y', act: 'Act 2', scene: 'Scene 5', title: 'Witch Hunt & Snowstorm', versions: { '1.0': 'iJNhZs7p_2Y', '2.0': 'eTmFxsTFifeHgvdd' } },
-    { id: '08OeZlI8uf8', act: 'Act 2', scene: 'Scene 8', title: 'What Did You Do', versions: { '1.0': '08OeZlI8uf8' } },
-    { id: 'wdesqA9Er9c', act: 'Act 2', scene: 'Scene 9', title: 'Just Like Them, Just Like Me', versions: { '1.0': 'wdesqA9Er9c' } },
-    { id: 'Jk3R5NF6eqs', act: 'Act 2', scene: 'Scene 12', title: 'summary: "Back on the park bench, Gus holds a wiped canary yellow phone. Tammy joins him — offering perspective on justice and a folded piece of paper with a path forward. Everything orbits around your next move."', versions: { '1.0': 'Jk3R5NF6eqs' } },
-    { id: 'bdb6xQDCGZU', act: 'Act 2', scene: 'Scene 13', title: 'Not Unreasonable, Man', versions: { '1.0': 'bdb6xQDCGZU' } },
-    { id: 'cSVe6MhYpC0', act: 'Act 2', scene: 'Scene 14', title: 'We the People', versions: { '1.0': 'cSVe6MhYpC0' } },
-  ];
+  { id: 'ETAIIfgJZKY', act: 'Act 1', scene: 'Intro', title: 'Allegedly', versions: { '1.0': 'ETAIIfgJZKY' } },
+  { id: 'ysue5dEzxjl', act: 'Act 1', scene: 'Scene 1', title: 'Sweetheart Deal', versions: { '1.0': 'ysue5dEzxjl' } },
+  { id: '_lhwSoj4Ilk', act: 'Act 1', scene: 'Scene 2', title: 'Who Was That (PrePrise 1)', versions: { '1.0': '_lhwSoj4Ilk' } },
+  { id: 'BThrcKexGvA', act: 'Act 1', scene: 'Scene 3', title: 'They Were Only Boys', versions: { '1.0': 'BThrcKexGvA', '2.0': 'KMISbNJIEgI' } },
+  { id: 'Qg-SA255BA4', act: 'Act 1', scene: 'Scene 4', title: 'Reasonable Man', versions: { '1.0': 'Qg-SA255BA4' } },
+  { id: 'RcVaEHwWUyo', act: 'Act 1', scene: 'Scene 5', title: 'Questions & Answers', versions: { '1.0': 'RcVaEHwWUyo' } },
+  { id: '8yOpukgj600', act: 'Act 1', scene: 'Scene 6', title: 'Little Secrets', versions: { '1.0': '8yOpukgj600' } },
+  { id: 'zT0aXnfWyIM', act: 'Act 1', scene: 'Scene 7', title: "Welcome to Lil'Elmo", versions: { '1.0': 'zT0aXnfWyIM' } },
+  { id: 'wnLDgj_xywo', act: 'Act 1', scene: 'Scene 11', title: 'I Know What Happened on That Island', versions: { '1.0': 'wnLDgj_xywo' } },
+  { id: 'Y35kzg4vQBQ', act: 'Act 1', scene: 'Scene 12', title: 'Who Was That, Part 2', versions: { '1.0': 'Y35kzg4vQBQ' } },
+  { id: 'wg2brKqY6x0', act: 'Act 1', scene: 'Scene 14', title: 'The Arrest', versions: { '1.0': 'wg2brKqY6x0' } },
+  { id: 'YBeARM-lNeo', act: 'Act 1', scene: 'Finale', title: 'Standard Procedure', versions: { '1.0': 'YBeARM-lNeo' } },
+  { id: 'YmZRKBgGhaw', act: 'Act 2', scene: 'Intro', title: 'Who Was That? (Part 3)', versions: { '1.0': 'YmZRKBgGhaw' } },
+  { id: 'bdb6xQDCGZU', act: 'Act 2', scene: 'Scene 4', title: 'In Transit', versions: { '1.0': 'bdb6xQDCGZU', '2.0': '4VD1OXasPsI' } },
+  { id: 'iJNhZs7p_2Y', act: 'Act 2', scene: 'Scene 5', title: 'Witch Hunt & Snowstorm', versions: { '1.0': 'iJNhZs7p_2Y', '2.0': 'S_ai5KR5Gjg', '2.1': '1O7g--H0PCg' } },
+  { id: '08OeZlI8uf8', act: 'Act 2', scene: 'Scene 8', title: 'What Did You Do', versions: { '1.0': '08OeZlI8uf8' } },
+  { id: 'wdesqA9Er9c', act: 'Act 2', scene: 'Scene 9', title: 'Just Like Them, Just Like Me', versions: { '1.0': 'wdesqA9Er9c' } },
+  { id: 'QqsgRN2zKkM', act: 'Act 2', scene: 'Scene 11', title: 'Good for Us', versions: { '1.0': 'QqsgRN2zKkM' } },
+  { id: 'Jk3R5NF6eqs', act: 'Act 2', scene: 'Scene 12', title: 'I Need to Walk', versions: { '1.0': 'Jk3R5NF6eqs' } },
+  { id: 'j1IVwTeycPQ', act: 'Act 2', scene: 'Scene 13', title: 'Not Unreasonable, Man', versions: { '1.0': 'j1IVwTeycPQ' } },
+  { id: 'cSVe6MhYpC0', act: 'Act 2', scene: 'Scene 14', title: 'We the People', versions: { '1.0': 'cSVe6MhYpC0' } },
+  { id: 'GuEb_Erov3s', act: 'Act 2', scene: 'Scene 15', title: 'A Reasonable Version of Events', versions: { '2.0': 'GuEb_Erov3s' } },
+  { id: 'dv-ZFkmz_Bk', act: 'Act 2', scene: 'Finale', title: 'If You Only Knew', versions: { '1.0': 'dv-ZFkmz_Bk', '2.0': '8NaFydqCrDA' } },
+];
 
   const sunoTracks = [
-    { id: 'uLicnxYQQxWFYrEG', version: 'v1.0', title: 'Billion Here' },
-    { id: 'Fkd7yUx7X9qLu78D', version: 'v1.0', title: 'Little Secrets' },
-    { id: 'pgI8dQiFwApnxxaX', version: 'v1.0', title: 'Sweetheart Deal' },
-    { id: 'SflPfMg5C2ALZyXk', version: 'v1.0', title: 'Welcome to Lil Elmo' },
-    { id: 'uK9ghMGSfYgAKXdO', version: 'v1.0', title: 'They Were Only Boys' },
-    { id: 'mRGl8dyZP1g64gej', version: 'v1.0', title: 'I Know What Happened' },
-    { id: 'fEIPDMV1SUP1xAe5', version: 'v1.0', title: 'Who Was That (Preprise 1)' },
-    { id: 'niNLu3u8FpsWeHhF', version: 'v1.0', title: 'Standard Procedure' },
-    { id: 'JzuSPXoXHO5kUQfk', version: 'v1.0', title: 'Who Was That (Preprise 2)' },
-    { id: 'iM11QEnVI1sDCGWs', version: 'v1.5', title: 'Who Was That (Preprise 2)' },
-    { id: 'vTgWsZSVDFQtS0tE', version: 'v1.0', title: 'Questions' },
-    { id: 'Nww4HkZosyvmRyf8', version: 'v1.0', title: 'Reasonable Man' },
-    { id: 'eVcmOgm8DZsl5kQa', version: 'v1.0', title: 'The Arrest' },
-    { id: 'BpXg1siK0Gk5VrXl', version: 'v1.5', title: 'Allegedly' },
-    { id: '3GB5eAZiLDeV8oDJ', version: 'v1.0', title: 'Just Like' },
-    { id: 'uhzD8Udjzwu89KOV', version: 'v1.0', title: 'Snowstorm & Witch Hunt' },
-    { id: 'RhZ3OAIIJk2IiK88', version: 'v2.0', title: 'Reasonable Man' },
-    { id: 'eTmFxsTFifeHgvdd', version: 'v2.0', title: 'Snowstorm & Witch Hunt' },
-  ];
+  { id: 'BpXg1siK0Gk5VrXl', version: 'v1.0', act: 'Act 1', scene: 'Intro', title: 'Allegedly' },
+  { id: 'pgI8dQiFwApnxxaX', version: 'v1.0', act: 'Act 1', scene: 'Scene 1', title: 'Sweetheart Deal' },
+  { id: 'fEIPDMV1SUP1xAe5', version: 'v1.0', act: 'Act 1', scene: 'Scene 2', title: 'Who Was That (Preprise 1)' },
+  { id: 'uK9ghMGSfYgAKXdO', version: 'v1.0', act: 'Act 1', scene: 'Scene 3', title: 'They Were Only Boys' },
+  { id: 'ACLv76ZONDEEa3dR', version: 'v2.0', act: 'Act 1', scene: 'Scene 3', title: 'They Were Only Boys' },
+  { id: 'Nww4HkZosyvmRyf8', version: 'v1.0', act: 'Act 1', scene: 'Scene 4', title: 'Reasonable Man' },
+  { id: 'RhZ3OAIIJk2IiK88', version: 'v1.5', act: 'Act 1', scene: 'Scene 4', title: 'Reasonable Man' },
+  { id: 'vTgWsZSVDFQtS0tE', version: 'v1.0', act: 'Act 1', scene: 'Scene 5', title: 'Questions & Answers' },
+  { id: 'uLicnxYQQxWFYrEG', version: 'v1.0', act: 'Act 1', scene: 'Scene 6', title: 'Billion Here' },
+  { id: 's0VOzra9aQ3DCddb', version: 'v1.5', act: 'Act 1', scene: 'Scene 6', title: 'Billion Here' },
+  { id: 'TxyT0kjG6KpHyODM', version: 'v2.0', act: 'Act 1', scene: 'Scene 6', title: 'Billion Here' },
+  { id: 'Fkd7yUx7X9qLu78D', version: 'v1.0', act: 'Act 1', scene: 'Scene 6', title: 'Little Secrets' },
+  { id: 'SflPfMg5C2ALZyXk', version: 'v1.0', act: 'Act 1', scene: 'Scene 7', title: "Welcome to Lil'Elmo" },
+  { id: 'mRGl8dyZP1g64gej', version: 'v1.0', act: 'Act 1', scene: 'Scene 11', title: 'I Know What Happened' },
+  { id: 'Y35kzg4vQBQ', version: 'v1.0', act: 'Act 1', scene: 'Scene 12', title: 'Who Was That, Part 2' },
+  { id: 'eVcmOgm8DZsl5kQa', version: 'v1.0', act: 'Act 1', scene: 'Scene 14', title: 'The Arrest' },
+  { id: 'niNLu3u8FpsWeHhF', version: 'v1.0', act: 'Act 1', scene: 'Finale', title: 'Standard Procedure' },
+  { id: 'AqNQgKhLvMTK6gkL', version: 'v1.0', act: 'Act 2', scene: 'Intro', title: 'Who Was That? (Part 3)' },
+  { id: 'uhzD8Udjzwu89KOV', version: 'v1.0', act: 'Act 2', scene: 'Scene 5', title: 'Snowstorm & Witch Hunt' },
+  { id: 'eTmFxsTFifeHgvdd', version: 'v2.0', act: 'Act 2', scene: 'Scene 5', title: 'Snowstorm & Witch Hunt' },
+  { id: 'Gu6VYg0IuvWf5lq3', version: 'v1.0', act: 'Act 2', scene: 'Scene 8', title: 'What Did You Do' },
+  { id: '3GB5eAZiLDeV8oDJ', version: 'v1.0', act: 'Act 2', scene: 'Scene 9', title: 'Just Like Them, Just Like Me' },
+  { id: 'TQgI3U311Jj0ffrP', version: 'v1.0', act: 'Act 2', scene: 'Scene 12', title: 'I Need to Walk' },
+  { id: 'dWWqqLz3le5aPR7w', version: 'v1.0', act: 'Act 2', scene: 'Scene 14', title: 'We the People' },
+  { id: 'vUXOUgfpehjCXpe6', version: 'v2.0', act: 'Act 2', scene: 'Scene 15', title: 'A Reasonable Version of Events' },
+  { id: 'pfaY6ZDN5Ynan4UJ', version: 'v1.0', act: 'Act 2', scene: 'Scene 17', title: 'If You Only Knew' },
+  { id: 'L9HH0p95YCl8rMYp', version: 'v2.0', act: 'Act 2', scene: 'Finale', title: 'If You Only Knew' },
+  { id: 'Y04mCXJMMCuaSeho', version: 'v2.0', act: 'Act 2', scene: 'Finale', title: 'If You Only Knew (Alt)' },
+];
 
   const tiktokTracks = [
     { id: '7345678901234567890', title: 'Allegedly - Dance' },
@@ -4354,56 +4367,18 @@ export default function App() {
                       </span>
                     </div>
                     <div className="flex flex-wrap gap-4">
-                      {/* Grouped Version Selection */}
-                      {(() => {
-                        const versions = Object.keys(youtubeTracks[selectedYoutubeIndex].versions);
-                        const hasV1 = versions.some(v => v === '1.0' || v === '1.5');
-                        const hasV2 = versions.some(v => v.startsWith('2.'));
-                        
-                        return (
-                          <>
-                            {hasV1 && (
-                              <button
-                                onClick={() => {
-                                  if (versions.includes('1.5')) setSelectedYoutubeVersion('1.5');
-                                  else setSelectedYoutubeVersion('1.0');
-                                }}
-                                className={`px-6 py-2 border-2 border-bauhaus-black font-display font-bold uppercase transition-all ${
-                                  (selectedYoutubeVersion === '1.0' || selectedYoutubeVersion === '1.5') ? 'bg-bauhaus-black text-bauhaus-white' : 'bg-bauhaus-white text-bauhaus-black hover:bg-bauhaus-yellow'
-                                }`}
-                              >
-                                1.0/1.5
-                              </button>
-                            )}
-                            {hasV2 && (
-                              <button
-                                onClick={() => {
-                                  const v2s = versions.filter(v => v.startsWith('2.'));
-                                  setSelectedYoutubeVersion(v2s[v2s.length - 1]); // Pick latest 2.x
-                                }}
-                                className={`px-6 py-2 border-2 border-bauhaus-black font-display font-bold uppercase transition-all ${
-                                  selectedYoutubeVersion.startsWith('2.') ? 'bg-bauhaus-black text-bauhaus-white' : 'bg-bauhaus-white text-bauhaus-black hover:bg-bauhaus-yellow'
-                                }`}
-                              >
-                                2.0+
-                              </button>
-                            )}
-                            {/* Fallback for other versions */}
-                            {versions.filter(v => v !== '1.0' && v !== '1.5' && !v.startsWith('2.')).map(v => (
-                              <button
-                                key={v}
-                                onClick={() => setSelectedYoutubeVersion(v)}
-                                className={`px-6 py-2 border-2 border-bauhaus-black font-display font-bold uppercase transition-all ${
-                                  selectedYoutubeVersion === v ? 'bg-bauhaus-black text-bauhaus-white' : 'bg-bauhaus-white text-bauhaus-black hover:bg-bauhaus-yellow'
-                                }`}
-                              >
-                                {v}
-                              </button>
-                            ))}
-                          </>
-                        );
-                      })()}
-                    </div>
+                      {/* Version Selection */}
+{Object.keys(youtubeTracks[selectedYoutubeIndex].versions).map((v) => (
+  <button
+    key={v}
+    onClick={() => setSelectedYoutubeVersion(v)}
+    className={`px-6 py-2 border-2 border-bauhaus-black font-display font-bold uppercase transition-all ${
+      selectedYoutubeVersion === v ? 'bg-bauhaus-black text-bauhaus-white' : 'bg-bauhaus-white text-bauhaus-black hover:bg-bauhaus-yellow'
+    }`}
+  >
+    {v}
+  </button>
+))}
                   </div>
                 </div>
               </div>
