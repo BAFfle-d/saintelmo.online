@@ -4368,17 +4368,17 @@ export default function App() {
                     </div>
                     <div className="flex flex-wrap gap-4">
                       {/* Version Selection */}
-{Object.keys(youtubeTracks[selectedYoutubeIndex].versions).map((v) => (
-  <button
-    key={v}
-    onClick={() => setSelectedYoutubeVersion(v)}
-    className={`px-6 py-2 border-2 border-bauhaus-black font-display font-bold uppercase transition-all ${
-      selectedYoutubeVersion === v ? 'bg-bauhaus-black text-bauhaus-white' : 'bg-bauhaus-white text-bauhaus-black hover:bg-bauhaus-yellow'
-    }`}
-  >
-    {v}
-  </button>
-))}
+                      {Object.keys(youtubeTracks[selectedYoutubeIndex].versions).map((v) => (
+                        <button
+                          key={v}
+                          onClick={() => setSelectedYoutubeVersion(v)}
+                          className={`px-6 py-2 border-2 border-bauhaus-black font-display font-bold uppercase transition-all ${
+                            selectedYoutubeVersion === v ? 'bg-bauhaus-black text-bauhaus-white' : 'bg-bauhaus-white text-bauhaus-black hover:bg-bauhaus-yellow'
+                          }`}
+                        >
+                          {v}
+                        </button>
+                      ))}
                   </div>
                 </div>
               </div>
