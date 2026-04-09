@@ -127,7 +127,11 @@ export default function App() {
   const [currentThemeIndex, setCurrentThemeIndex] = useState(0);
   const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0);
   const [currentCharityIndex, setCurrentCharityIndex] = useState(0);
-  const [listenTab, setListenTab] = useState<'playlist' | 'links'>('playlist');
+  const [listenTab, setListenTab] = useState<'playlist' | 'platforms'>('playlist');
+  const [selectedVersions, setSelectedVersions] = useState<Record<string, string>>({});
+  const [selectedYoutubeLink, setSelectedYoutubeLink] = useState('');
+  const [selectedSunoLink, setSelectedSunoLink] = useState('');
+  const [selectedTiktokLink, setSelectedTiktokLink] = useState('');
   const [selectedYoutubeVersion, setSelectedYoutubeVersion] = useState('1.5');
   const [selectedSunoId, setSelectedSunoId] = useState('');
   const [selectedTiktokId, setSelectedTiktokId] = useState('');
@@ -205,10 +209,10 @@ export default function App() {
   };
 
   const youtubeTracks = [
-  { id: 'ETAIIfgJZKY', act: 'Act 1', scene: 'Intro', title: 'Allegedly', versions: { '1.0': 'ETAIIfgJZKY' } },
-  { id: 'ysue5dEzxjl', act: 'Act 1', scene: 'Scene 1', title: 'Sweetheart Deal', versions: { '1.0': 'ysue5dEzxjl' } },
-  { id: '_lhwSoj4Ilk', act: 'Act 1', scene: 'Scene 2', title: 'Who Was That (PrePrise 1)', versions: { '1.0': '_lhwSoj4Ilk' } },
-  { id: 'BThrcKexGvA', act: 'Act 1', scene: 'Scene 3', title: 'They Were Only Boys', versions: { '1.0': 'BThrcKexGvA' } },
+  { id: 'ETAlfgJZKY', act: 'Act 1', scene: 'Intro', title: 'Allegedly', versions: { '1.0': 'ETAlfgJZKY' } },
+  { id: 'ysue5dEzxjI', act: 'Act 1', scene: 'Scene 1', title: 'Sweetheart Deal', versions: { '1.0': 'ysue5dEzxjI' } },
+  { id: '_lhwSoj4ilk', act: 'Act 1', scene: 'Scene 2', title: 'Who Was That (PrePrise 1)', versions: { '1.0': '_lhwSoj4ilk' } },
+  { id: 'BThrcKexGvA', act: 'Act 1', scene: 'Scene 3', title: 'They Were Only Boys', versions: { '1.0': 'BThrcKexGvA', '2.0': 'KMlSbNJIEgI' } },
   { id: 'Qg-SA255BA4', act: 'Act 1', scene: 'Scene 4', title: 'Reasonable Man', versions: { '1.0': 'Qg-SA255BA4' } },
   { id: 'RcVaEHwWUyo', act: 'Act 1', scene: 'Scene 5', title: 'Questions & Answers', versions: { '1.0': 'RcVaEHwWUyo' } },
   { id: '8yOpukgj600', act: 'Act 1', scene: 'Scene 6', title: 'Little Secrets', versions: { '1.0': '8yOpukgj600' } },
@@ -216,56 +220,69 @@ export default function App() {
   { id: 'wnLDgj_xywo', act: 'Act 1', scene: 'Scene 11', title: 'I Know What Happened on That Island', versions: { '1.0': 'wnLDgj_xywo' } },
   { id: 'Y35kzg4vQBQ', act: 'Act 1', scene: 'Scene 12', title: 'Who Was That, Part 2', versions: { '1.0': 'Y35kzg4vQBQ' } },
   { id: 'wg2brKqY6x0', act: 'Act 1', scene: 'Scene 14', title: 'The Arrest', versions: { '1.0': 'wg2brKqY6x0' } },
-  { id: 'YBeARM-lNeo', act: 'Act 1', scene: 'Finale', title: 'Standard Procedure', versions: { '1.0': 'YBeARM-lNeo' } },
-  { id: 'YmZRKBgGhaw', act: 'Act 2', scene: 'Intro', title: 'Who Was That? (Part 3)', versions: { '1.0': 'YmZRKBgGhaw' } },
+  { id: 'YBeARM-INeo', act: 'Act 1', scene: 'Finale', title: 'Standard Procedure', versions: { '1.0': 'YBeARM-INeo' } },
+  { id: 'YmZRKBgGhaw', act: 'Act 2', scene: 'Intro', title: 'Who Was That?', versions: { '1.0': 'YmZRKBgGhaw' } },
   { id: 'bdb6xQDCGZU', act: 'Act 2', scene: 'Scene 4', title: 'In Transit', versions: { '1.0': 'bdb6xQDCGZU', '2.0': '4VD1OXasPsI' } },
   { id: 'iJNhZs7p_2Y', act: 'Act 2', scene: 'Scene 5', title: 'Witch Hunt & Snowstorm', versions: { '1.0': 'iJNhZs7p_2Y', '2.0': 'S_ai5KR5Gjg', '2.1': '1O7g--H0PCg' } },
-  { id: '08OeZlI8uf8', act: 'Act 2', scene: 'Scene 8', title: 'What Did You Do', versions: { '1.0': '08OeZlI8uf8' } },
+  { id: '08OeZli8uf8', act: 'Act 2', scene: 'Scene 8', title: 'What Did You Do', versions: { '1.0': '08OeZli8uf8' } },
   { id: 'wdesqA9Er9c', act: 'Act 2', scene: 'Scene 9', title: 'Just Like Them, Just Like Me', versions: { '1.0': 'wdesqA9Er9c' } },
-  { id: 'QqsgRN2zKkM', act: 'Act 2', scene: 'Scene 11', title: 'Good for Us', versions: { '2.0': 'QqsgRN2zKkM' } },
+  { id: 'QqsgRN2zKkM', act: 'Act 2', scene: 'Scene 11', title: 'Good for Us', versions: { '1.0': 'QqsgRN2zKkM' } },
   { id: 'Jk3R5NF6eqs', act: 'Act 2', scene: 'Scene 12', title: 'I Need to Walk', versions: { '1.0': 'Jk3R5NF6eqs' } },
-  { id: 'j1lVwTeycPQ', act: 'Act 2', scene: 'Scene 13', title: 'Not Unreasonable, Man', versions: { '1.0': 'j1lVwTeycPQ' } },
+  { id: 'j1IVwTeycPQ', act: 'Act 2', scene: 'Scene 13', title: 'Not Unreasonably', versions: { '1.0': 'j1IVwTeycPQ' } },
   { id: 'cSVe6MhYpC0', act: 'Act 2', scene: 'Scene 14', title: 'We the People', versions: { '1.0': 'cSVe6MhYpC0' } },
   { id: 'GuEb_Erov3s', act: 'Act 2', scene: 'Scene 15', title: 'A Reasonable Version of Events', versions: { '2.0': 'GuEb_Erov3s' } },
-  { id: 'dv-ZFkmz_Bk', act: 'Act 2', scene: 'Finale', title: 'If You Only Knew', versions: { '1.0': 'dv-ZFkmz_Bk', '2.0': '8NaFydqCrDA' } },
+  { id: 'dv-ZFkmz_Bk', act: 'Act 2', scene: 'Finale', title: 'If You Only Knew', versions: { '1.0': 'dv-ZFkmz_Bk', '2.0': '8NaFydqCrDA', '2.0.2': 'UR5I3MQjw2o' } },
 ];
 
-  const sunoTracks = [
-  { id: 'BpXg1siK0Gk5VrXl', version: 'v1.0', act: 'Act 1', scene: 'Intro', title: 'Allegedly' },
-  { id: 'pgI8dQiFwApnxxaX', version: 'v1.0', act: 'Act 1', scene: 'Scene 1', title: 'Sweetheart Deal' },
-  { id: 'fEIPDMV1SUP1xAe5', version: 'v1.0', act: 'Act 1', scene: 'Scene 2', title: 'Who Was That (Preprise 1)' },
+const sunoTracks = [
+  { id: 'BpXg1siK0Gk5VrXI', version: 'v1.0', act: 'Act 1', scene: 'Intro', title: 'Allegedly' },
+  { id: 'pqI8dQiFwApnxxaX', version: 'v1.0', act: 'Act 1', scene: 'Scene 1', title: 'Sweetheart Deal' },
+  { id: 'fEIPDMV1SUP1xAe5', version: 'v1.0', act: 'Act 1', scene: 'Scene 2', title: 'Who Was That (PrePrise 1)' },
   { id: 'uK9ghMGSfYgAKXdO', version: 'v1.0', act: 'Act 1', scene: 'Scene 3', title: 'They Were Only Boys' },
+  { id: 'uvUPVRMZEwHZ3xuI', version: 'v2.1', act: 'Act 1', scene: 'Scene 3', title: 'They Were Only Boys' },
   { id: 'ACLv76ZONDEEa3dR', version: 'v2.0', act: 'Act 1', scene: 'Scene 3', title: 'They Were Only Boys' },
   { id: 'Nww4HkZosyvmRyf8', version: 'v1.0', act: 'Act 1', scene: 'Scene 4', title: 'Reasonable Man' },
-  { id: 'RhZ3OAIIJk2IiK88', version: 'v1.5', act: 'Act 1', scene: 'Scene 4', title: 'Reasonable Man' },
+  { id: 'RhZ3OAlIJk2liK88', version: 'v1.5', act: 'Act 1', scene: 'Scene 4', title: 'Reasonable Man' },
   { id: 'vTgWsZSVDFQtS0tE', version: 'v1.0', act: 'Act 1', scene: 'Scene 5', title: 'Questions & Answers' },
-  { id: 'uLicnxYQQxWFYrEG', version: 'v1.0', act: 'Act 1', scene: 'Scene 6', title: 'Billion Here' },
-  { id: 's0VOzra9aQ3DCddb', version: 'v1.5', act: 'Act 1', scene: 'Scene 6', title: 'Billion Here' },
-  { id: 'TxyT0kjG6KpHyODM', version: 'v2.0', act: 'Act 1', scene: 'Scene 6', title: 'Billion Here' },
+  { id: 'uLicnxYQQxWFYrEG', version: 'v1.0', act: 'Act 1', scene: 'Scene 6', title: 'A Billion Here' },
+  { id: 's0VOzra9aQ3DCddb', version: 'v1.5', act: 'Act 1', scene: 'Scene 6', title: 'A Billion Here' },
+  { id: 'TxyT0kjG6KpHyODM', version: 'v2.0', act: 'Act 1', scene: 'Scene 6', title: 'A Billion Here' },
   { id: 'Fkd7yUx7X9qLu78D', version: 'v1.0', act: 'Act 1', scene: 'Scene 6', title: 'Little Secrets' },
-  { id: 'SflPfMg5C2ALZyXk', version: 'v1.0', act: 'Act 1', scene: 'Scene 7', title: "Welcome to Lil'Elmo" },
-  { id: 'mRGl8dyZP1g64gej', version: 'v1.0', act: 'Act 1', scene: 'Scene 11', title: 'I Know What Happened' },
-  { id: 'Y35kzg4vQBQ', version: 'v1.0', act: 'Act 1', scene: 'Scene 12', title: 'Who Was That, Part 2' },
+  { id: 'SfIPfMg5C2ALZyXk', version: 'v1.0', act: 'Act 1', scene: 'Scene 7', title: "Welcome to Lil'Elmo" },
+  { id: 'mRGI8dyZP1g64gej', version: 'v1.0', act: 'Act 1', scene: 'Scene 11', title: 'I Know What Happened on That Island' },
   { id: 'eVcmOgm8DZsl5kQa', version: 'v1.0', act: 'Act 1', scene: 'Scene 14', title: 'The Arrest' },
   { id: 'niNLu3u8FpsWeHhF', version: 'v1.0', act: 'Act 1', scene: 'Finale', title: 'Standard Procedure' },
-  { id: 'AqNQgKhLvMTK6gkL', version: 'v1.0', act: 'Act 2', scene: 'Intro', title: 'Who Was That? (Part 3)' },
-  { id: 'uhzD8Udjzwu89KOV', version: 'v1.0', act: 'Act 2', scene: 'Scene 5', title: 'Snowstorm & Witch Hunt' },
-  { id: 'eTmFxsTFifeHgvdd', version: 'v2.0', act: 'Act 2', scene: 'Scene 5', title: 'Snowstorm & Witch Hunt' },
+  { id: 'AqNQqKhLvMTK6gkL', version: 'v1.0', act: 'Act 2', scene: 'Intro', title: 'Who Was That?' },
+  { id: 'm119yIhdy7HgI3JL', version: 'v2.0', act: 'Act 2', scene: 'Scene 4', title: 'In Transit' },
+  { id: 'uhzD8UDjzwu89KOV', version: 'v1.0', act: 'Act 2', scene: 'Scene 5', title: 'Snowstorm & a Witch Hunt' },
+  { id: 'eTmFxsTFifeHgvdd', version: 'v2.0', act: 'Act 2', scene: 'Scene 5', title: 'Witch Hunt in a Snowstorm' },
   { id: 'Gu6VYg0IuvWf5lq3', version: 'v1.0', act: 'Act 2', scene: 'Scene 8', title: 'What Did You Do' },
+  { id: 'PJHx1rVRWRIYSS28', version: 'v2.0', act: 'Act 2', scene: 'Scene 7', title: 'What Did You Do' },
   { id: '3GB5eAZiLDeV8oDJ', version: 'v1.0', act: 'Act 2', scene: 'Scene 9', title: 'Just Like Them, Just Like Me' },
-  { id: 'TQgI3U311Jj0ffrP', version: 'v1.0', act: 'Act 2', scene: 'Scene 12', title: 'I Need to Walk' },
-  { id: 'dWWqqLz3le5aPR7w', version: 'v1.0', act: 'Act 2', scene: 'Scene 14', title: 'We the People' },
+  { id: 'lwur092qzAdQGKfa', version: 'v1.0', act: 'Act 2', scene: 'Scene 11', title: 'Good For Us' },
+  { id: 'TQgI3U311J0ffrP', version: 'v1.0', act: 'Act 2', scene: 'Scene 12', title: 'I Need to Walk' },
+  { id: 'dWWqqLz3Ie5aPR7w', version: 'v1.0', act: 'Act 2', scene: 'Scene 14', title: 'We the People' },
   { id: 'vUXOUgfpehjCXpe6', version: 'v2.0', act: 'Act 2', scene: 'Scene 15', title: 'A Reasonable Version of Events' },
   { id: 'pfaY6ZDN5Ynan4UJ', version: 'v1.0', act: 'Act 2', scene: 'Scene 17', title: 'If You Only Knew' },
   { id: 'L9HH0p95YCl8rMYp', version: 'v2.0', act: 'Act 2', scene: 'Finale', title: 'If You Only Knew' },
   { id: 'Y04mCXJMMCuaSeho', version: 'v2.0', act: 'Act 2', scene: 'Finale', title: 'If You Only Knew (Alt)' },
 ];
 
-  const tiktokTracks = [
-    { id: '7345678901234567890', title: 'Allegedly - Dance' },
-    { id: '7345678901234567891', title: 'Sweetheart Deal - POV' },
-    { id: '7345678901234567892', title: 'Standard Procedure - Remix' },
-  ];
+const tiktokTracks = [
+  { id: '7610458304506088734', version: 'v1.0', act: 'Act 1', scene: 'Intro', title: 'Allegedly' },
+  { id: '7610489795164294430', version: 'v1.0', act: 'Act 1', scene: 'Scene 1', title: 'Sweetheart Deal' },
+  { id: '7610796426943003638', version: 'v1.0', act: 'Act 1', scene: 'Scene 2', title: 'Who Was That (PrePrise 1)' },
+  { id: '7611546735864728863', version: 'v1.0', act: 'Act 1', scene: 'Scene 3', title: 'They Were Only Boys' },
+  { id: '7611547596141628702', version: 'v1.0', act: 'Act 1', scene: 'Scene 4', title: 'Reasonable Man' },
+  { id: '7618833620176165094', version: 'v1.0', act: 'Act 1', scene: 'Scene 5', title: 'Questions & Answers' },
+  { id: '7611154924472554627', version: 'v1.0', act: 'Act 1', scene: 'Scene 6', title: 'Little Secrets' },
+  { id: '7611548723696438558', version: 'v1.0', act: 'Act 1', scene: 'Scene 7', title: "Welcome to Lil'Elmo" },
+  { id: '7618817286924733726', version: 'v1.0', act: 'Act 1', scene: 'Scene 11', title: 'I Know What Happened on That Island' },
+  { id: '7618815685455678750', version: 'v1.0', act: 'Act 1', scene: 'Scene 14', title: 'The Arrest' },
+  { id: '7618319120685108510', version: 'v1.0', act: 'Act 1', scene: 'Finale', title: 'Standard Procedure' },
+  { id: '7618817621542194463', version: 'v1.0', act: 'Act 2', scene: 'Scene 5', title: 'Snowstorm & a Witch Hunt' },
+  { id: '7622361670010096927', version: 'v2.0.2', act: 'Act 2', scene: 'Finale', title: 'If You Only Knew' },
+];
 
   const nextTrack = () => {
     setCurrentTrackIndex((prev) => (prev + 1) % youtubeTracks.length);
@@ -4306,7 +4323,7 @@ export default function App() {
       <Modal isOpen={activeModal === 'listen'} onClose={closeModal} title="LISTEN NOW">
         <div className="flex flex-col gap-8">
           <div className="flex gap-4 border-b-4 border-bauhaus-black pb-4">
-            {(['playlist', 'links'] as const).map((tab) => (
+            {(['playlist', 'platforms'] as const).map((tab) => (
               <button
                 key={tab}
                 onClick={() => setListenTab(tab)}
@@ -4314,175 +4331,142 @@ export default function App() {
                   listenTab === tab ? 'bg-bauhaus-black text-bauhaus-white' : 'bg-bauhaus-white text-bauhaus-black hover:bg-bauhaus-yellow'
                 }`}
               >
-                {tab === 'playlist' ? 'YouTube Playlist' : 'Links'}
+                {tab === 'playlist' ? 'YouTube Playlist' : 'Other Platforms'}
               </button>
             ))}
           </div>
 
-          {listenTab === 'playlist' ? (
-            <div className="flex flex-col md:flex-row gap-8 h-[60vh]">
-              {/* Track List */}
-              <div className="w-full md:w-1/3 overflow-y-auto custom-scrollbar border-r-4 border-bauhaus-black pr-4 space-y-4">
-                {youtubeTracks.map((track, i) => (
-                  <button
-                    key={i}
-                    onClick={() => {
-                      setSelectedYoutubeIndex(i);
-                      // Set default version for the new track
-                      const versions = Object.keys(track.versions);
-                      if (versions.includes('1.5')) setSelectedYoutubeVersion('1.5');
-                      else if (versions.includes('1.0')) setSelectedYoutubeVersion('1.0');
-                      else setSelectedYoutubeVersion(versions[0]);
-                    }}
-                    className={`w-full p-4 border-4 border-bauhaus-black text-left transition-all ${
-                      selectedYoutubeIndex === i ? 'bg-bauhaus-yellow shadow-none translate-x-1 translate-y-1' : 'bg-bauhaus-white shadow-[4px_4px_0px_0px_rgba(26,26,26,1)] hover:bg-bauhaus-red hover:text-bauhaus-white'
+          {listenTab === 'playlist' && (
+            <div className="flex flex-col gap-6">
+              {youtubeTracks.map((track) => {
+                const versionKeys = Object.keys(track.versions);
+                const activeVer = selectedVersions[track.id] || versionKeys[0];
+                const currentId = track.versions[activeVer];
+                return (
+                  <div key={track.id} className="border-4 border-bauhaus-black p-4">
+                    <div className="flex items-center justify-between mb-3">
+                      <div>
+                        <span className="font-display font-black text-xs uppercase tracking-widest text-bauhaus-red">{track.act} · {track.scene}</span>
+                        <h3 className="font-display font-black text-lg uppercase">{track.title}</h3>
+                      </div>
+                      {versionKeys.length > 1 && (
+                        <div className="flex gap-1 flex-wrap">
+                          {versionKeys.map((v) => (
+                            <button
+                              key={v}
+                              onClick={() => setSelectedVersions(prev => ({ ...prev, [track.id]: v }))}
+                              className={`px-3 py-1 text-xs font-bold border-2 border-bauhaus-black uppercase transition-all ${
+                                activeVer === v ? 'bg-bauhaus-black text-bauhaus-white' : 'bg-bauhaus-white text-bauhaus-black hover:bg-bauhaus-yellow'
+                              }`}
+                            >
+                              v{v}
+                            </button>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                    <div className="aspect-video w-full">
+                      <iframe
+                        src={`https://www.youtube.com/embed/${currentId}`}
+                        className="w-full h-full"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        title={track.title}
+                      />
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+
+          {listenTab === 'platforms' && (
+            <div className="flex flex-col gap-8">
+              <div className="border-4 border-bauhaus-black p-4">
+                <h3 className="font-display font-black text-xl uppercase mb-3">YouTube</h3>
+                <div className="flex gap-2">
+                  <select
+                    value={selectedYoutubeLink}
+                    onChange={(e) => setSelectedYoutubeLink(e.target.value)}
+                    className="flex-1 border-4 border-bauhaus-black px-3 py-2 font-display font-bold text-sm uppercase bg-bauhaus-white"
+                  >
+                    <option value="">— Select a song —</option>
+                    {youtubeTracks.flatMap(t =>
+                      Object.entries(t.versions).map(([v, id]) => (
+                        <option key={t.id + v} value={id}>
+                          {t.act} · {t.scene} · {t.title}{Object.keys(t.versions).length > 1 ? ' (v' + v + ')' : ''}
+                        </option>
+                      ))
+                    )}
+                  </select>
+                  <a
+                    href={selectedYoutubeLink ? `https://www.youtube.com/watch?v=${selectedYoutubeLink}` : '#'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => { if (!selectedYoutubeLink) e.preventDefault(); }}
+                    className={`px-6 py-2 font-display font-black uppercase border-4 border-bauhaus-black transition-all ${
+                      selectedYoutubeLink ? 'bg-bauhaus-red text-bauhaus-white hover:bg-bauhaus-black' : 'bg-bauhaus-white text-bauhaus-black opacity-40 cursor-not-allowed'
                     }`}
                   >
-                    <p className="text-[8px] font-black uppercase opacity-40 tracking-widest mb-1">{track.act} - {track.scene}</p>
-                    <p className="text-sm font-display font-black uppercase leading-tight">{track.title}</p>
-                  </button>
-                ))}
-              </div>
-              
-              {/* Video Player Area */}
-              <div className="w-full md:w-2/3 space-y-6 overflow-y-auto custom-scrollbar">
-                <div className="aspect-video border-4 border-bauhaus-black bg-bauhaus-black relative overflow-hidden shadow-[12px_12px_0px_0px_var(--bauhaus-red)]">
-                  <iframe
-                    width="100%"
-                    height="100%"
-                    src={`https://www.youtube.com/embed/${youtubeTracks[selectedYoutubeIndex].versions[selectedYoutubeVersion as keyof typeof youtubeTracks[0]['versions']]}`}
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-
-                <div className="p-6 border-4 border-bauhaus-black bg-bauhaus-white shadow-[8px_8px_0px_0px_var(--bauhaus-black)]">
-                  <div className="flex flex-col gap-4">
-                    <div className="flex items-center justify-between">
-                      <h4 className="text-xs font-display font-black uppercase tracking-widest opacity-40">Version Selection</h4>
-                      <span className="text-[10px] font-black uppercase bg-bauhaus-black text-bauhaus-white px-2 py-1">
-                        Current: {selectedYoutubeVersion}
-                      </span>
-                    </div>
-                    <div className="flex flex-wrap gap-4">
-                      {/* Version Selection */}
-                      {Object.keys(youtubeTracks[selectedYoutubeIndex].versions).map((v) => (
-                        <button
-                          key={v}
-                          onClick={() => setSelectedYoutubeVersion(v)}
-                          className={`px-6 py-2 border-2 border-bauhaus-black font-display font-bold uppercase transition-all ${
-                            selectedYoutubeVersion === v ? 'bg-bauhaus-black text-bauhaus-white' : 'bg-bauhaus-white text-bauhaus-black hover:bg-bauhaus-yellow'
-                          }`}
-                        >
-                          {v}
-                        </button>
-                      ))}
-                    </div>
-                  </div>
+                    Go
+                  </a>
                 </div>
               </div>
-            </div>
-          ) : (
-            <div className="space-y-12">
-              {/* Suno Dropdown */}
-              <div className="p-8 border-4 border-bauhaus-black bg-bauhaus-white shadow-[12px_12px_0px_0px_var(--bauhaus-yellow)]">
-                <div className="flex flex-col gap-6">
-                  <div className="flex items-center gap-4">
-                    <div className="w-10 h-10 bg-bauhaus-yellow border-2 border-bauhaus-black flex items-center justify-center">
-                      <Music size={20} />
-                    </div>
-                    <h4 className="text-xl font-display font-black uppercase tracking-widest">Suno Links</h4>
-                  </div>
-                  <div className="flex flex-col md:flex-row gap-4">
-                    <select 
-                      value={selectedSunoId}
-                      onChange={(e) => setSelectedSunoId(e.target.value)}
-                      className="flex-1 p-4 border-4 border-bauhaus-black font-display font-bold uppercase bg-bauhaus-white focus:outline-none"
-                    >
-                      <option value="">-- SELECT SUNO TRACK --</option>
-                      {sunoTracks.map((track) => (
-                        <option key={track.id} value={track.id}>{track.title} ({track.version})</option>
-                      ))}
-                    </select>
-                    <BauhausButton 
-                      onClick={() => selectedSunoId && window.open(`https://suno.com/song/${selectedSunoId}`, '_blank')}
-                      variant="yellow"
-                      className="md:w-32"
-                    >
-                      GO
-                    </BauhausButton>
-                  </div>
+              <div className="border-4 border-bauhaus-black p-4">
+                <h3 className="font-display font-black text-xl uppercase mb-3">Suno</h3>
+                <div className="flex gap-2">
+                  <select
+                    value={selectedSunoLink}
+                    onChange={(e) => setSelectedSunoLink(e.target.value)}
+                    className="flex-1 border-4 border-bauhaus-black px-3 py-2 font-display font-bold text-sm uppercase bg-bauhaus-white"
+                  >
+                    <option value="">— Select a song —</option>
+                    {sunoTracks.map((t, i) => (
+                      <option key={i} value={t.id}>
+                        {t.act} · {t.scene} · {t.title} ({t.version})
+                      </option>
+                    ))}
+                  </select>
+                  <a
+                    href={selectedSunoLink ? `https://suno.com/s/${selectedSunoLink}` : '#'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => { if (!selectedSunoLink) e.preventDefault(); }}
+                    className={`px-6 py-2 font-display font-black uppercase border-4 border-bauhaus-black transition-all ${
+                      selectedSunoLink ? 'bg-bauhaus-red text-bauhaus-white hover:bg-bauhaus-black' : 'bg-bauhaus-white text-bauhaus-black opacity-40 cursor-not-allowed'
+                    }`}
+                  >
+                    Go
+                  </a>
                 </div>
               </div>
-
-              {/* TikTok Dropdown */}
-              <div className="p-8 border-4 border-bauhaus-black bg-bauhaus-white shadow-[12px_12px_0px_0px_var(--bauhaus-red)]">
-                <div className="flex flex-col gap-6">
-                  <div className="flex items-center gap-4">
-                    <div className="w-10 h-10 bg-bauhaus-red border-2 border-bauhaus-black text-bauhaus-white flex items-center justify-center">
-                      <Video size={20} />
-                    </div>
-                    <h4 className="text-xl font-display font-black uppercase tracking-widest">TikTok Links</h4>
-                  </div>
-                  <div className="flex flex-col md:flex-row gap-4">
-                    <select 
-                      value={selectedTiktokId}
-                      onChange={(e) => setSelectedTiktokId(e.target.value)}
-                      className="flex-1 p-4 border-4 border-bauhaus-black font-display font-bold uppercase bg-bauhaus-white focus:outline-none"
-                    >
-                      <option value="">-- SELECT TIKTOK VIDEO --</option>
-                      {tiktokTracks.map((track) => (
-                        <option key={track.id} value={track.id}>{track.title}</option>
-                      ))}
-                    </select>
-                    <BauhausButton 
-                      onClick={() => selectedTiktokId && window.open(`https://www.tiktok.com/video/${selectedTiktokId}`, '_blank')}
-                      variant="red"
-                      className="md:w-32"
-                    >
-                      GO
-                    </BauhausButton>
-                  </div>
-                </div>
-              </div>
-
-              {/* YouTube Links Dropdown */}
-              <div className="p-8 border-4 border-bauhaus-black bg-bauhaus-white shadow-[12px_12px_0px_0px_var(--bauhaus-blue)]">
-                <div className="flex flex-col gap-6">
-                  <div className="flex items-center gap-4">
-                    <div className="w-10 h-10 bg-bauhaus-blue border-2 border-bauhaus-black text-bauhaus-white flex items-center justify-center">
-                      <Youtube size={20} />
-                    </div>
-                    <h4 className="text-xl font-display font-black uppercase tracking-widest">YouTube Links</h4>
-                  </div>
-                  <div className="flex flex-col md:flex-row gap-4">
-                    <select 
-                      value={selectedYoutubeLinkId}
-                      onChange={(e) => setSelectedYoutubeLinkId(e.target.value)}
-                      className="flex-1 p-4 border-4 border-bauhaus-black font-display font-bold uppercase bg-bauhaus-white focus:outline-none"
-                    >
-                      <option value="">-- SELECT YOUTUBE VIDEO --</option>
-                      <optgroup label="ACT 1">
-                        {youtubeTracks.filter(t => t.act === 'Act 1').map((track) => (
-                          <option key={track.id} value={track.id}>{track.title}</option>
-                        ))}
-                      </optgroup>
-                      <optgroup label="ACT 2">
-                        {youtubeTracks.filter(t => t.act === 'Act 2').map((track) => (
-                          <option key={track.id} value={track.id}>{track.title}</option>
-                        ))}
-                      </optgroup>
-                    </select>
-                    <BauhausButton 
-                      onClick={() => selectedYoutubeLinkId && window.open(`https://www.youtube.com/watch?v=${selectedYoutubeLinkId}`, '_blank')}
-                      variant="blue"
-                      className="md:w-32"
-                    >
-                      GO
-                    </BauhausButton>
-                  </div>
+              <div className="border-4 border-bauhaus-black p-4">
+                <h3 className="font-display font-black text-xl uppercase mb-3">TikTok</h3>
+                <div className="flex gap-2">
+                  <select
+                    value={selectedTiktokLink}
+                    onChange={(e) => setSelectedTiktokLink(e.target.value)}
+                    className="flex-1 border-4 border-bauhaus-black px-3 py-2 font-display font-bold text-sm uppercase bg-bauhaus-white"
+                  >
+                    <option value="">— Select a song —</option>
+                    {tiktokTracks.map((t, i) => (
+                      <option key={i} value={t.id}>
+                        {t.act} · {t.scene} · {t.title} ({t.version})
+                      </option>
+                    ))}
+                  </select>
+                  <a
+                    href={selectedTiktokLink ? `https://www.tiktok.com/@b_floore/video/${selectedTiktokLink}` : '#'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => { if (!selectedTiktokLink) e.preventDefault(); }}
+                    className={`px-6 py-2 font-display font-black uppercase border-4 border-bauhaus-black transition-all ${
+                      selectedTiktokLink ? 'bg-bauhaus-red text-bauhaus-white hover:bg-bauhaus-black' : 'bg-bauhaus-white text-bauhaus-black opacity-40 cursor-not-allowed'
+                    }`}
+                  >
+                    Go
+                  </a>
                 </div>
               </div>
             </div>
