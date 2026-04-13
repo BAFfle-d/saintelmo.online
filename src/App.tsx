@@ -133,7 +133,6 @@ export default function App() {
   const [selectedSunoLink, setSelectedSunoLink] = useState('');
   const [selectedTiktokLink, setSelectedTiktokLink] = useState('');
   const [selectedInstagramLink, setSelectedInstagramLink] = useState('');
-  const [selectedInstagramLink, setSelectedInstagramLink] = useState('');
   const [selectedYoutubeVersion, setSelectedYoutubeVersion] = useState('1.5');
   const [selectedSunoId, setSelectedSunoId] = useState('');
   const [selectedTiktokId, setSelectedTiktokId] = useState('');
@@ -295,7 +294,6 @@ const instagramTracks = [
   { id: 'DW2wDCYiUpm', version: 'v2.01', act: 'Act 1', scene: 'Scene 3', title: 'Only Boys' },
   { id: 'DWkSyiDjTzq', version: 'v1.0', act: 'Act 2', scene: 'Scene 11', title: 'Good For Us' },
   { id: 'DXBC9kRDfDQ', version: 'v1.0', act: 'Act 2', scene: 'Scene 9', title: 'Just Like Them, Just Like Me' },
-];
 ];
 
   const nextTrack = () => {
