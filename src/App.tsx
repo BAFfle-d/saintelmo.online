@@ -132,6 +132,8 @@ export default function App() {
   const [selectedYoutubeLink, setSelectedYoutubeLink] = useState('');
   const [selectedSunoLink, setSelectedSunoLink] = useState('');
   const [selectedTiktokLink, setSelectedTiktokLink] = useState('');
+  const [selectedInstagramLink, setSelectedInstagramLink] = useState('');
+  const [selectedInstagramLink, setSelectedInstagramLink] = useState('');
   const [selectedYoutubeVersion, setSelectedYoutubeVersion] = useState('1.5');
   const [selectedSunoId, setSelectedSunoId] = useState('');
   const [selectedTiktokId, setSelectedTiktokId] = useState('');
@@ -209,17 +211,17 @@ export default function App() {
   };
 
   const youtubeTracks = [
-  { id: 'ETAlfgJZKY', act: 'Act 1', scene: 'Intro', title: 'Allegedly', versions: { '1.0': 'ETAlfgJZKY' } },
+  { id: 'ETAllfgJZKY', act: 'Act 1', scene: 'Intro', title: 'Allegedly', versions: { '1.0': 'ETAllfgJZKY' } },
   { id: 'ysue5dEzxjI', act: 'Act 1', scene: 'Scene 1', title: 'Sweetheart Deal', versions: { '1.0': 'ysue5dEzxjI' } },
   { id: '_lhwSoj4ilk', act: 'Act 1', scene: 'Scene 2', title: 'Who Was That (PrePrise 1)', versions: { '1.0': '_lhwSoj4ilk' } },
-  { id: 'BThrcKexGvA', act: 'Act 1', scene: 'Scene 3', title: 'They Were Only Boys', versions: { '1.0': 'BThrcKexGvA', '2.0': 'KMlSbNJIEgI' } },
+  { id: 'BThrCKexGvA', act: 'Act 1', scene: 'Scene 3', title: 'They Were Only Boys', versions: { '1.0': 'BThrCKexGvA', '2.0': 'KMlSbNJIEgI', '2.01': 'Ktey6JsAyP4' } },
   { id: 'Qg-SA255BA4', act: 'Act 1', scene: 'Scene 4', title: 'Reasonable Man', versions: { '1.0': 'Qg-SA255BA4' } },
   { id: 'RcVaEHwWUyo', act: 'Act 1', scene: 'Scene 5', title: 'Questions & Answers', versions: { '1.0': 'RcVaEHwWUyo' } },
   { id: '8yOpukgj600', act: 'Act 1', scene: 'Scene 6', title: 'Little Secrets', versions: { '1.0': '8yOpukgj600' } },
   { id: 'zT0aXnfWyIM', act: 'Act 1', scene: 'Scene 7', title: "Welcome to Lil'Elmo", versions: { '1.0': 'zT0aXnfWyIM' } },
   { id: 'wnLDgj_xywo', act: 'Act 1', scene: 'Scene 11', title: 'I Know What Happened on That Island', versions: { '1.0': 'wnLDgj_xywo' } },
   { id: 'Y35kzg4vQBQ', act: 'Act 1', scene: 'Scene 12', title: 'Who Was That, Part 2', versions: { '1.0': 'Y35kzg4vQBQ' } },
-  { id: 'wg2brKqY6x0', act: 'Act 1', scene: 'Scene 14', title: 'The Arrest', versions: { '1.0': 'wg2brKqY6x0' } },
+  { id: 'wg2brKqY6x0', act: 'Act 1', scene: 'Scene 14', title: 'The Arrest', versions: { '1.0': 'wg2brKqY6x0', '2.0': 'XZeok9OG-D0' } },
   { id: 'YBeARM-INeo', act: 'Act 1', scene: 'Finale', title: 'Standard Procedure', versions: { '1.0': 'YBeARM-INeo' } },
   { id: 'YmZRKBgGhaw', act: 'Act 2', scene: 'Intro', title: 'Who Was That?', versions: { '1.0': 'YmZRKBgGhaw' } },
   { id: 'bdb6xQDCGZU', act: 'Act 2', scene: 'Scene 4', title: 'In Transit', versions: { '1.0': 'bdb6xQDCGZU', '2.0': '4VD1OXasPsI' } },
@@ -229,7 +231,7 @@ export default function App() {
   { id: 'QqsgRN2zKkM', act: 'Act 2', scene: 'Scene 11', title: 'Good for Us', versions: { '1.0': 'QqsgRN2zKkM' } },
   { id: 'Jk3R5NF6eqs', act: 'Act 2', scene: 'Scene 12', title: 'I Need to Walk', versions: { '1.0': 'Jk3R5NF6eqs' } },
   { id: 'j1IVwTeycPQ', act: 'Act 2', scene: 'Scene 13', title: 'Not Unreasonably', versions: { '1.0': 'j1IVwTeycPQ' } },
-  { id: 'cSVe6MhYpC0', act: 'Act 2', scene: 'Scene 14', title: 'We the People', versions: { '1.0': 'cSVe6MhYpC0' } },
+  { id: 'cSVe6MhYpC0', act: 'Act 2', scene: 'Scene 14', title: 'We the People', versions: { '1.0': 'cSVe6MhYpC0', '1.5': 'jn5eWZ_CzZM' } },
   { id: 'GuEb_Erov3s', act: 'Act 2', scene: 'Scene 15', title: 'A Reasonable Version of Events', versions: { '2.0': 'GuEb_Erov3s' } },
   { id: 'dv-ZFkmz_Bk', act: 'Act 2', scene: 'Finale', title: 'If You Only Knew', versions: { '1.0': 'dv-ZFkmz_Bk', '2.0': '8NaFydqCrDA', '2.0.2': 'UR5I3MQjw2o' } },
 ];
@@ -239,7 +241,7 @@ const sunoTracks = [
   { id: 'pqI8dQiFwApnxxaX', version: 'v1.0', act: 'Act 1', scene: 'Scene 1', title: 'Sweetheart Deal' },
   { id: 'fEIPDMV1SUP1xAe5', version: 'v1.0', act: 'Act 1', scene: 'Scene 2', title: 'Who Was That (PrePrise 1)' },
   { id: 'uK9ghMGSfYgAKXdO', version: 'v1.0', act: 'Act 1', scene: 'Scene 3', title: 'They Were Only Boys' },
-  { id: 'uvUPVRMZEwHZ3xuI', version: 'v2.1', act: 'Act 1', scene: 'Scene 3', title: 'They Were Only Boys' },
+  { id: 'uvUPVRMZEwHZ3xul', version: 'v2.1', act: 'Act 1', scene: 'Scene 3', title: 'They Were Only Boys' },
   { id: 'ACLv76ZONDEEa3dR', version: 'v2.0', act: 'Act 1', scene: 'Scene 3', title: 'They Were Only Boys' },
   { id: 'Nww4HkZosyvmRyf8', version: 'v1.0', act: 'Act 1', scene: 'Scene 4', title: 'Reasonable Man' },
   { id: 'RhZ3OAlIJk2liK88', version: 'v1.5', act: 'Act 1', scene: 'Scene 4', title: 'Reasonable Man' },
@@ -260,7 +262,7 @@ const sunoTracks = [
   { id: 'PJHx1rVRWRIYSS28', version: 'v2.0', act: 'Act 2', scene: 'Scene 7', title: 'What Did You Do' },
   { id: '3GB5eAZiLDeV8oDJ', version: 'v1.0', act: 'Act 2', scene: 'Scene 9', title: 'Just Like Them, Just Like Me' },
   { id: 'lwur092qzAdQGKfa', version: 'v1.0', act: 'Act 2', scene: 'Scene 11', title: 'Good For Us' },
-  { id: 'TQgI3U311J0ffrP', version: 'v1.0', act: 'Act 2', scene: 'Scene 12', title: 'I Need to Walk' },
+  { id: 'TQgI3U311Jj0ffrP', version: 'v1.0', act: 'Act 2', scene: 'Scene 12', title: 'I Need to Walk' },
   { id: 'dWWqqLz3Ie5aPR7w', version: 'v1.0', act: 'Act 2', scene: 'Scene 14', title: 'We the People' },
   { id: 'vUXOUgfpehjCXpe6', version: 'v2.0', act: 'Act 2', scene: 'Scene 15', title: 'A Reasonable Version of Events' },
   { id: 'pfaY6ZDN5Ynan4UJ', version: 'v1.0', act: 'Act 2', scene: 'Scene 17', title: 'If You Only Knew' },
@@ -282,6 +284,18 @@ const tiktokTracks = [
   { id: '7618319120685108510', version: 'v1.0', act: 'Act 1', scene: 'Finale', title: 'Standard Procedure' },
   { id: '7618817621542194463', version: 'v1.0', act: 'Act 2', scene: 'Scene 5', title: 'Snowstorm & a Witch Hunt' },
   { id: '7622361670010096927', version: 'v2.0.2', act: 'Act 2', scene: 'Finale', title: 'If You Only Knew' },
+  { id: '7627598501937024270', version: 'v1.5', act: 'Act 2', scene: 'Scene 13', title: 'We the People' },
+  { id: '7627596244491291918', version: 'v1.0', act: 'Act 1', scene: 'Scene 7', title: 'Questions' },
+  { id: '7627503710586932494', version: 'v2.01', act: 'Act 2', scene: 'Scene 8', title: 'What Did You Do' },
+  { id: '7627427818896510221', version: 'v2.0', act: 'Act 2', scene: 'Finale', title: 'If You Only Knew' },
+  { id: '7627336007343426830', version: 'v1.0', act: 'Act 1', scene: 'Scene 11', title: 'I Know What Happened on That Island' },
+];
+
+const instagramTracks = [
+  { id: 'DW2wDCYiUpm', version: 'v2.01', act: 'Act 1', scene: 'Scene 3', title: 'Only Boys' },
+  { id: 'DWkSyiDjTzq', version: 'v1.0', act: 'Act 2', scene: 'Scene 11', title: 'Good For Us' },
+  { id: 'DXBC9kRDfDQ', version: 'v1.0', act: 'Act 2', scene: 'Scene 9', title: 'Just Like Them, Just Like Me' },
+];
 ];
 
   const nextTrack = () => {
@@ -735,7 +749,7 @@ const tiktokTracks = [
       summary: "A haunting number about the vulnerability of those caught in the web.", 
       characters: "Survivor, Ensemble",
       hasMusic: true,
-      youtubeId: "BThrcKexGvA",
+      youtubeId: "BThrCKexGvA",
       lyric: "THEY WERE JUST BOYS\nWith dreams of a life they'd never see.\nTHEY WERE JUST BOYS\nCaught in a web of luxury.\nNow the silence is the only sound\nIn a world where justice can't be found.",
       script: [
         { type: 'dialogue', speaker: `MAXIE`, text: `I had doubts.` },
@@ -4441,6 +4455,17 @@ const tiktokTracks = [
                   </a>
                 </div>
               </div>
+                <div className="mt-2">
+                  <a
+                    href="https://suno.com/playlist/e9c8de65-b6aa-438f-a268-8cb46fbba324"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-4 py-1 font-display font-bold text-sm uppercase border-2 border-bauhaus-black bg-bauhaus-yellow text-bauhaus-black hover:bg-bauhaus-black hover:text-bauhaus-white transition-all"
+                  >
+                    ▶ Full Suno Playlist
+                  </a>
+                </div>
+              </div>
               <div className="border-4 border-bauhaus-black p-4">
                 <h3 className="font-display font-black text-xl uppercase mb-3">TikTok</h3>
                 <div className="flex gap-2">
@@ -4463,6 +4488,34 @@ const tiktokTracks = [
                     onClick={(e) => { if (!selectedTiktokLink) e.preventDefault(); }}
                     className={`px-6 py-2 font-display font-black uppercase border-4 border-bauhaus-black transition-all ${
                       selectedTiktokLink ? 'bg-bauhaus-red text-bauhaus-white hover:bg-bauhaus-black' : 'bg-bauhaus-white text-bauhaus-black opacity-40 cursor-not-allowed'
+                    }`}
+                  >
+                    Go
+                  </a>
+                </div>
+              </div>
+              <div className="border-4 border-bauhaus-black p-4">
+                <h3 className="font-display font-black text-xl uppercase mb-3">Instagram</h3>
+                <div className="flex gap-2">
+                  <select
+                    value={selectedInstagramLink}
+                    onChange={(e) => setSelectedInstagramLink(e.target.value)}
+                    className="flex-1 border-4 border-bauhaus-black px-3 py-2 font-display font-bold text-sm uppercase bg-bauhaus-white"
+                  >
+                    <option value="">▼ Select a post ▼</option>
+                    {instagramTracks.map((t, i) => (
+                      <option key={i} value={t.id}>
+                        {t.act} · {t.scene} · {t.title} ({t.version})
+                      </option>
+                    ))}
+                  </select>
+                  <a
+                    href={selectedInstagramLink ? `https://www.instagram.com/p/${selectedInstagramLink}/` : '#'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => { if (!selectedInstagramLink) e.preventDefault(); }}
+                    className={`px-6 py-2 font-display font-black uppercase border-4 border-bauhaus-black transition-all ${
+                      selectedInstagramLink ? 'bg-bauhaus-red text-bauhaus-white hover:bg-bauhaus-black' : 'bg-bauhaus-white text-bauhaus-black opacity-40 cursor-not-allowed'
                     }`}
                   >
                     Go
