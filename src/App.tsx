@@ -4463,7 +4463,6 @@ const instagramTracks = [
                     ▶ Full Suno Playlist
                   </a>
                 </div>
-              </div>
               <div className="border-4 border-bauhaus-black p-4">
                 <h3 className="font-display font-black text-xl uppercase mb-3">TikTok</h3>
                 <div className="flex gap-2">
